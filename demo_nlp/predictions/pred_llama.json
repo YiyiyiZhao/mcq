@@ -1,0 +1,6378 @@
+[
+  {
+    "response": "55.40",
+    "gt": "54.20",
+    "input": "Server\nReceip\nFourthStreetMill\n2I24 BONITAAVENUE\nLAVERNE CA SI7SO\n7909759-1564\nSubt\nSale\nDine In\nServer. Chris D\nSep>29,201>\nTota\nReceipt-4/>\n58PM\nTable?P5\nAm\nItemls\nLamb Burger\n$1300\nT\n- No Goat cheese\n- NO Bread\n-Medium\nSauce On Side\nKids Grilled Cheese\n500\nKids Fries\n$300\nSweet Potato Frles\nKids Cheeseburger\n$700\n- No Eetchup\n- No bun\nSub sourdough\nBeef Burger\n$10.00\n- Medium Rare\nSides\n4350\nBacon 27 slices\nSubtota\n$49.50\nSales Tax7uncl.9.57]\n$4.70\nTotal\n$54.20\n"
+  },
+  {
+    "response": "11.90",
+    "gt": "10.0",
+    "input": "JAL ISC\n2.Hi\n512-25-10  525-0\nCheck g\nTable 6\nNOEHI\n5z\nGuests 1\nater\n.oo\nCaldo de Camaron\n..0g\nStbtota]\nSales Tax\n...\nProcessing Fee\n..27\nTTAL\n10.0\nBALANCEE DUE\n10.00\nProcessing fee wil be removed\nif the check is paid in cash\n"
+  },
+  {
+    "response": "A large refrigerateur is towards the front, extending almost from the left side tothe center of the image.",
+    "gt": "A large refrigerator is present across the entire scene, extending from the far left to the far right and almost reaching the top of your field of view. It dominates the space in front of you.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "refrigerator",
+        "coordinate": [
+          [
+            1,
+            0
+          ],
+          [
+            1280,
+            712
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a laptop spans a large portion of the image, with its left edge touching the lower edge of your view. Near the center, slightly to your left, there is a second apple, closer to you than the laptop. Above and slightly left of this central apple lies another, smaller, appearing side by side with it. Farther right and above this group of apples isa cup placed towards the top right corner. Surrounding the objects are variously sized fruit, suggesting a messy yet organized space for eating or working.",
+    "gt": "Two apples are present, one at your front slightly to the right, and the other more to the left and a bit closer. Farther to the right, there's a laptop with a keyboard directly in front of it. Slightly above the left apple, you'll notice a cup positioned center and somewhat towards you. The space is neatly organized with objects clear of each other.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "apple",
+        "coordinate": [
+          [
+            648,
+            290
+          ],
+          [
+            716,
+            367
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "laptop",
+        "coordinate": [
+          [
+            922,
+            324
+          ],
+          [
+            1279,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            585,
+            325
+          ],
+          [
+            659,
+            403
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cup",
+        "coordinate": [
+          [
+            758,
+            123
+          ],
+          [
+            949,
+            336
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "keyboard",
+        "coordinate": [
+          [
+            1044,
+            553
+          ],
+          [
+            1277,
+            714
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a laptop spans a large portion of the screen, with its edge touching the far right. Directly in front of you rises a cup, slightly to your left. A cell phone is resting tothe right side, located almost at the center but closer to you than the laptop. Below the lunchroom area, there is a bottle near the left edge. Two apples are clustered together, one towards the top left and another more towardsthe top center, both seemingly out of reach for a touch. Near the bottom left, another apple has been placed, indicating an exploration of sensory interaction.",
+    "gt": "To your right, a laptop is on the far side, with a keyboard just below it in the center. Nearby, a cell phone is resting to the right of the laptop. In front of you, there's a cup slightly to your left. An apple is near the left edge, with another apple just to its left. Off to your far left, a bottle stands. The objects are placed in a semicircle from your left to your right, giving you easy access.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "laptop",
+        "coordinate": [
+          [
+            892,
+            294
+          ],
+          [
+            1279,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "apple",
+        "coordinate": [
+          [
+            602,
+            291
+          ],
+          [
+            670,
+            370
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            537,
+            328
+          ],
+          [
+            614,
+            411
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "keyboard",
+        "coordinate": [
+          [
+            1007,
+            533
+          ],
+          [
+            1280,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "bottle",
+        "coordinate": [
+          [
+            381,
+            71
+          ],
+          [
+            573,
+            357
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "cup",
+        "coordinate": [
+          [
+            712,
+            105
+          ],
+          [
+            897,
+            329
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "cell phone",
+        "coordinate": [
+          [
+            885,
+            237
+          ],
+          [
+            1198,
+            514
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a laptop spans a large portion of the image. Slightly to their left, there are two apples close to each other, the first one slightly above and tothe left ofthe laptop. A bottle sits even further to your left; it\u2019s closer than the laptop and neighbors among the objects in your frontal view.",
+    "gt": "A laptop is situated on the far right. To the left of the laptop, there are two apples close to each other towards the center; one is slightly lower and to the left of the other. On the far left, there's a bottle standing upright. All objects are placed on the same surface, likely a table, with the bottle and apples closer to you and the laptop more distant.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "laptop",
+        "coordinate": [
+          [
+            843,
+            290
+          ],
+          [
+            1279,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "apple",
+        "coordinate": [
+          [
+            504,
+            328
+          ],
+          [
+            576,
+            412
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            435,
+            377
+          ],
+          [
+            519,
+            463
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            228,
+            105
+          ],
+          [
+            472,
+            404
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a laptop spans a large area, with its edge touching the far right. Directly in front of you, there are two apples overlapping inward, indicating their position by the center. A bottle stands to your far left, resting near the edge. On your left side, cell phone occupies the foreground, extending towards the central area. Surrounding the objects are keys on a surface, best identified as a keyboard by its tactile nature and position closer to you.",
+    "gt": "A laptop is placed towards your far right, with a keyboard just in front of it, likely positioned for use. To the center and slightly to the left, there are two apples, with one seemingly in front of the other. Farther to your left, there's a bottle standing upright. Lastly, your extreme left holds a cell phone, positioned vertically. There appears to be no direct interaction between a person and any objects in this scene.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "laptop",
+        "coordinate": [
+          [
+            813,
+            274
+          ],
+          [
+            1279,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "apple",
+        "coordinate": [
+          [
+            442,
+            351
+          ],
+          [
+            522,
+            438
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            375,
+            406
+          ],
+          [
+            462,
+            495
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            126,
+            130
+          ],
+          [
+            412,
+            438
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cell phone",
+        "coordinate": [
+          [
+            0,
+            183
+          ],
+          [
+            307,
+            568
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "keyboard",
+        "coordinate": [
+          [
+            904,
+            529
+          ],
+          [
+            1272,
+            711
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, there'squally a laptop on the surface, with its upper edge facing towards you. Directly in front of you, near the center, are two apples overlapping with each other, the top apple overlying the bottom one. A person is positioned to your left, slightly behind the apps, their hand possibly touching the lower apple. There'sa cup sitting towards the left front, above the ground level, which could be interpreted as a shelf. Lastly, an cell phone is placed straight ahead, in your far left side, resting at a lower height than the cup.",
+    "gt": "To your right, there's a laptop open on the surface. Near the center, slightly to your left, are two apples close to each other, one slightly above and to the left of the other. In your immediate vicinity, a person is standing with their hand possibly touching the lower apple. A cup is positioned above the middle of the scene, more towards you. Far to the left, there's a cell phone resting vertically.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "laptop",
+        "coordinate": [
+          [
+            782,
+            274
+          ],
+          [
+            1280,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "apple",
+        "coordinate": [
+          [
+            328,
+            408
+          ],
+          [
+            423,
+            504
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            398,
+            349
+          ],
+          [
+            484,
+            441
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "person",
+        "coordinate": [
+          [
+            251,
+            514
+          ],
+          [
+            433,
+            718
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cup",
+        "coordinate": [
+          [
+            521,
+            115
+          ],
+          [
+            706,
+            358
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "cell phone",
+        "coordinate": [
+          [
+            0,
+            215
+          ],
+          [
+            255,
+            587
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands to your left, stretching from the middle to near the edge of the image. Directly in front of you and slightly to their right, a laptop is open, occupying a large portion of this area. Above and to our left; a cup sits,indicating that someone has their hand touching it. Further toyour right and behind the laptop, another object overlaps, possibly a keyboard given its position. The scene is set with objects in your immediate space, allowing you to navigate and interact with your environment using touch.",
+    "gt": "A person stands to the far left, reaching towards the center. Directly ahead, at about a 10 o'clock direction, there's a cup on a higher surface, possibly a table. To the right side of the scene, occupying the majority of the width, is a laptop, open and facing slightly leftwards. Just below the laptop, slightly to the left, lies a keyboard. The person's hand appears to be close to the laptop, possibly touching it.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            1,
+            388
+          ],
+          [
+            376,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "laptop",
+        "coordinate": [
+          [
+            667,
+            244
+          ],
+          [
+            1278,
+            709
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "cup",
+        "coordinate": [
+          [
+            414,
+            125
+          ],
+          [
+            607,
+            381
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "keyboard",
+        "coordinate": [
+          [
+            803,
+            541
+          ],
+          [
+            1147,
+            716
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands to your left, occupying a significant portion of the space. Directly ahead, at the far right, are a laptop and a television, withthe laptop slightly overlapping with these TV. The television appears tobe in front of you, more to their right.",
+    "gt": "There is a person centered towards the left side, from the middle to near the bottom of the scene. A laptop and a television are present on the far right, with the laptop set at a slightly lower position than the TV. It looks as though the person could be reaching out, with their hand possibly touching the laptop since the coordinates overlap.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            1,
+            418
+          ],
+          [
+            358,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "laptop",
+        "coordinate": [
+          [
+            706,
+            282
+          ],
+          [
+            1279,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "tv",
+        "coordinate": [
+          [
+            785,
+            298
+          ],
+          [
+            1280,
+            709
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, there is a laptop spanning almost halfway across the image, with another laptop near the far right edge, overlapping with it. In front of you, a person is present, slightly to your left side. Directly in front and slightly below,there'squere an apple. The person'smiddle is touching the central laptop, indicating their hand is interacting with that computer.",
+    "gt": "On your far right, there is a laptop spanning almost halfway across the scene. Another laptop is located further to your right, partially overlapping with the first laptop. To your far left, near the edge, there is a person. Directly in front of you and slightly to the left, there is an apple. The person's hand appears to be in contact with the apple, possibly holding or touching it.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "laptop",
+        "coordinate": [
+          [
+            601,
+            254
+          ],
+          [
+            1278,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            0,
+            343
+          ],
+          [
+            251,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "laptop",
+        "coordinate": [
+          [
+            743,
+            318
+          ],
+          [
+            1278,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "apple",
+        "coordinate": [
+          [
+            221,
+            480
+          ],
+          [
+            328,
+            586
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a chair is situated with another one directly in front of you, slightly ahead. A dining area expands before you reach the edge of the image, with objects like a bottle and apples on or near the table. To your left, another apple rests there, while a TV is mounted high to your far left. Directly ahead, at a lower level, is a small computer mouse, possibly touched by your hand. Two more chairs are placed forward, one almost directly behind the one you're touching. Lastly, on the far right side, yet another chair faces towards you.",
+    "gt": "A dining table spans across the room, with various chairs surrounding it. To your immediate left, a chair sits close to the table. There's a mouse atop the table left of center, and an apple close to your right hand. Another apple lies towards your 2 o'clock. On the far left, another chair is present, and directly in front, a TV is mounted with a second TV situated to the far right. Near the back and to your right, a chair is tucked under the table. To the extreme right, another chair faces the table, while a bottle stands nearly at the edge, to your far right. There's no indication of a person's hand touching any objects.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "mouse",
+        "coordinate": [
+          [
+            216,
+            457
+          ],
+          [
+            302,
+            521
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            34,
+            262
+          ],
+          [
+            203,
+            396
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            695,
+            324
+          ],
+          [
+            769,
+            466
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "mouse",
+        "coordinate": [
+          [
+            94,
+            392
+          ],
+          [
+            159,
+            441
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            913,
+            513
+          ],
+          [
+            1139,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            220,
+            220
+          ],
+          [
+            304,
+            280
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "tv",
+        "coordinate": [
+          [
+            580,
+            0
+          ],
+          [
+            808,
+            131
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "dining table",
+        "coordinate": [
+          [
+            1,
+            158
+          ],
+          [
+            986,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "apple",
+        "coordinate": [
+          [
+            433,
+            400
+          ],
+          [
+            488,
+            460
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "tv",
+        "coordinate": [
+          [
+            950,
+            0
+          ],
+          [
+            1279,
+            321
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "chair",
+        "coordinate": [
+          [
+            28,
+            165
+          ],
+          [
+            212,
+            280
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "chair",
+        "coordinate": [
+          [
+            867,
+            216
+          ],
+          [
+            1081,
+            409
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "chair",
+        "coordinate": [
+          [
+            1,
+            127
+          ],
+          [
+            139,
+            228
+          ]
+        ]
+      },
+      {
+        "idx": 13,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            127
+          ],
+          [
+            136,
+            356
+          ]
+        ]
+      },
+      {
+        "idx": 14,
+        "object": "apple",
+        "coordinate": [
+          [
+            483,
+            414
+          ],
+          [
+            543,
+            468
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a chair is situated with its rear end almost near the edge of your vision. Straight ahead, another chair lies exposed with their front edge almost touching the dining Table, which extends from your front to slightly to your left. A bottle stands just to their right. Further toyour left, an apple rests near a TV that spans almost from wall to wall on that side. Directly ahead at a lower height is a small table, likely a end table. Far in front and tothe right dominates a large chair, while another big chair sits closer to you, almost overlapping with it. Lastly, two more small chairs are placed closer, one almost directly in line with your position and the other slightly left of center. The space feels crowded yet organized with so many objects close to each other.",
+    "gt": "In front of you is a room with an arrangement of chairs scattered around. To your immediate left, a chair sits near the corner. Slightly to the right of it and farther away, a dining table spans a large portion of the area directly ahead. On the table, you might sense an apple at your 10 o'clock direction. To the far left, a TV is mounted high, out of reach. Another chair is tucked under the table, close to the edge. Farther to the right, near the perimeter, a second TV can be found high up as well. Near the table's edge, at your 1 o'clock, are two chairs close together, possibly indicating a more intimate setting. Across the way, at your 3 o'clock, yet another chair is placed, with a bottle to the far right, which might suggest someone was or is enjoying a beverage. In this spacious setting, the presence of multiple mouses suggests a work or study area. No person is detected, ensuring the space feels open for navigation or seating.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            30,
+            261
+          ],
+          [
+            199,
+            394
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "bottle",
+        "coordinate": [
+          [
+            693,
+            324
+          ],
+          [
+            767,
+            466
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "mouse",
+        "coordinate": [
+          [
+            210,
+            457
+          ],
+          [
+            297,
+            523
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            910,
+            513
+          ],
+          [
+            1136,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "tv",
+        "coordinate": [
+          [
+            576,
+            0
+          ],
+          [
+            802,
+            129
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "dining table",
+        "coordinate": [
+          [
+            1,
+            158
+          ],
+          [
+            981,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            217,
+            218
+          ],
+          [
+            300,
+            278
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "mouse",
+        "coordinate": [
+          [
+            88,
+            393
+          ],
+          [
+            155,
+            442
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "apple",
+        "coordinate": [
+          [
+            430,
+            400
+          ],
+          [
+            485,
+            459
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "chair",
+        "coordinate": [
+          [
+            838,
+            216
+          ],
+          [
+            1077,
+            411
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            125
+          ],
+          [
+            133,
+            344
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "chair",
+        "coordinate": [
+          [
+            835,
+            217
+          ],
+          [
+            1007,
+            409
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "chair",
+        "coordinate": [
+          [
+            1,
+            125
+          ],
+          [
+            133,
+            226
+          ]
+        ]
+      },
+      {
+        "idx": 13,
+        "object": "tv",
+        "coordinate": [
+          [
+            948,
+            1
+          ],
+          [
+            1279,
+            323
+          ]
+        ]
+      },
+      {
+        "idx": 14,
+        "object": "chair",
+        "coordinate": [
+          [
+            23,
+            161
+          ],
+          [
+            212,
+            276
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands centrally in front of you, stretching from the middle to near the left edge. Directly infront of their right hand, a bottle rests nearly halfway down the center. To the far left, two chairs are side by side. One is almost directly in line with your position, while the other is more towards the front. There, also to your left but closer, are two donuts placed close together, appearing almost overlapped under one chair. At thefar end, spanning almost the entire width on the floor is a dining Table. Near the table'smidst, on its right, another chair sits, seemingly tucked in. On higher ground, at about  noon to slightly right of center, TV is mounted. Slightly above TV, but more toward the top, there'sf hand holding a mouse, indicating that a hand is interacting with these objects.",
+    "gt": "A person stands in the center, stretching from the middle to the right edge, possibly with hands on a bottle at the center right. There's a mouse on the left and a pair of donuts just to the right of it, appearing to be on the dining table that dominates the foreground. A chair is placed to the far left, close to you, while another is further away to the right. Also, there's a chair on the right but closer to the middle. Slightly above the table in the background is a TV. A handbag sits on the right side of the table. A remote control is near the center of the table, and another chair is found to the upper right corner of the scene.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "mouse",
+        "coordinate": [
+          [
+            142,
+            528
+          ],
+          [
+            248,
+            620
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            617,
+            458
+          ],
+          [
+            1276,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            704,
+            335
+          ],
+          [
+            780,
+            479
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            133,
+            236
+          ],
+          [
+            231,
+            308
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "donut",
+        "coordinate": [
+          [
+            469,
+            455
+          ],
+          [
+            536,
+            517
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "donut",
+        "coordinate": [
+          [
+            407,
+            442
+          ],
+          [
+            471,
+            509
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            833,
+            199
+          ],
+          [
+            1038,
+            407
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "dining table",
+        "coordinate": [
+          [
+            0,
+            162
+          ],
+          [
+            1008,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            674,
+            166
+          ],
+          [
+            730,
+            250
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "remote",
+        "coordinate": [
+          [
+            615,
+            313
+          ],
+          [
+            676,
+            465
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "handbag",
+        "coordinate": [
+          [
+            858,
+            399
+          ],
+          [
+            1069,
+            571
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "tv",
+        "coordinate": [
+          [
+            513,
+            1
+          ],
+          [
+            749,
+            129
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands centrally with their hand possibly touching a mouse located towards the lower left corner. A bottle is directly in front of the person'sakright side, slightly overlapping. Two chairs are situated with one on the far right and another more central but slightly lower. Another chair is at the top right corner, while a TV lies almost atthe top edge, out of sight from the front. To the left and slightly front, a dining Table extends, and near this table, another chair sits closer. Further left, there is a handbag resting. The scene is well defined, with objects clearly arranged in a spacious room.",
+    "gt": "A mouse sits to the left midway across the room, while a person stands far to the right, likely touching a remote. A bottle is positioned slightly to the right of center. Close by, there's a chair, straight ahead and another chair is directly in front, slightly to the right. A TV hangs above, centrally placed near the top wall. A dining table occupies the front central space, surrounded by chairs, with one directly to the left and another close in front towards the left. A book lies on a surface towards the left, with a handbag further to the right.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "mouse",
+        "coordinate": [
+          [
+            138,
+            541
+          ],
+          [
+            244,
+            632
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            620,
+            463
+          ],
+          [
+            1278,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            703,
+            342
+          ],
+          [
+            779,
+            499
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            129,
+            243
+          ],
+          [
+            227,
+            318
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            828,
+            206
+          ],
+          [
+            1033,
+            407
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "tv",
+        "coordinate": [
+          [
+            510,
+            1
+          ],
+          [
+            742,
+            128
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            671,
+            170
+          ],
+          [
+            727,
+            255
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "remote",
+        "coordinate": [
+          [
+            615,
+            322
+          ],
+          [
+            674,
+            470
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "dining table",
+        "coordinate": [
+          [
+            0,
+            166
+          ],
+          [
+            1011,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "chair",
+        "coordinate": [
+          [
+            231,
+            1
+          ],
+          [
+            342,
+            239
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "chair",
+        "coordinate": [
+          [
+            283,
+            158
+          ],
+          [
+            343,
+            223
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "book",
+        "coordinate": [
+          [
+            296,
+            262
+          ],
+          [
+            424,
+            319
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "handbag",
+        "coordinate": [
+          [
+            857,
+            401
+          ],
+          [
+            1068,
+            574
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands far to your right, likely seated, with their hand touching an apple located to their immediate right. To the far left, there'squally a mouse positioned above a remote control, both resting on a dining Table that extends from the left side to almost the center of the image. Directly ahead and occupying the top edge is a TV, while another TV is situated to its left and slightly lower. Near the bottom left corner, a chair sits alone. Another chair is partially behind the TV on theleft side. Two apples are found close to each other, but separated by a small distance tothe right of this individual'smidsection, potentially indicating a hand interaction.",
+    "gt": "A person is standing on the right side, central in the scene and appears to be reaching towards a remote situated directly in front of them. To their left, there is a mouse positioned well to the side. A large TV is mounted on the far right wall above them, and another smaller TV is on the right wall closer to the center. A chair is located to the left beside the mouse, with another to its right immediately beyond the person's perimeter. Directly in front of the person is an apple, and another is partially overlapping with the first. An expansive dining table occupies the space in front, stretching from the left to the central area.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            627,
+            348
+          ],
+          [
+            1277,
+            709
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "mouse",
+        "coordinate": [
+          [
+            134,
+            543
+          ],
+          [
+            244,
+            632
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "remote",
+        "coordinate": [
+          [
+            614,
+            323
+          ],
+          [
+            672,
+            473
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "tv",
+        "coordinate": [
+          [
+            897,
+            1
+          ],
+          [
+            1279,
+            320
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            128,
+            244
+          ],
+          [
+            227,
+            319
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "apple",
+        "coordinate": [
+          [
+            402,
+            453
+          ],
+          [
+            466,
+            518
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "tv",
+        "coordinate": [
+          [
+            511,
+            1
+          ],
+          [
+            739,
+            132
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            231,
+            0
+          ],
+          [
+            343,
+            240
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "dining table",
+        "coordinate": [
+          [
+            1,
+            167
+          ],
+          [
+            1019,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "apple",
+        "coordinate": [
+          [
+            402,
+            453
+          ],
+          [
+            528,
+            521
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands with their hand possibly touching a nearby apple. Directly center-front, there'squally a bottle, while an applemore to your left, overlapped by a personal backpack resting against the far right edge. A chair sits near the background center. Farther back on the same horizontal plane,a TV can be found. Two adjacent apples, one almost directly in front and the other slightly left and front, may be confused for a single object since they overlap.",
+    "gt": "In the center of the room stands a person, whose hand appears to be touching a bottle located to their front-right. To the person's far left is a chair, and just above it is a television mounted on the wall. Directly in front of the person lies an apple, with a nearly identical fruit next to it, potentially another apple, hinting at a small grouping of apples on a surface. There is also an orange placed close to these apples. Far to the person's right side, there's a backpack resting against the rightmost edge of the scene.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            438,
+            470
+          ],
+          [
+            911,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "bottle",
+        "coordinate": [
+          [
+            756,
+            152
+          ],
+          [
+            891,
+            427
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "apple",
+        "coordinate": [
+          [
+            253,
+            295
+          ],
+          [
+            365,
+            406
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            14,
+            136
+          ],
+          [
+            173,
+            190
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "orange",
+        "coordinate": [
+          [
+            359,
+            319
+          ],
+          [
+            477,
+            425
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "tv",
+        "coordinate": [
+          [
+            543,
+            0
+          ],
+          [
+            785,
+            134
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "apple",
+        "coordinate": [
+          [
+            361,
+            319
+          ],
+          [
+            476,
+            425
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "backpack",
+        "coordinate": [
+          [
+            995,
+            312
+          ],
+          [
+            1280,
+            554
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "In the center of the room, a large dining Table extends across much of your left side, with chairs situated on all sides but the far left. To your immediate front and slightly to their left, two chaires flank the table. One chair is directly in front of you, while the other seems almost touching it from the left at a slightly lower height. Anchoring your right side is another chair, this time higher up and somewhat to your rear. Behind and above the Table, television is mounted near thefar right periphery. Lastly, over on the extreme left corner, there'sin a backpack, resting at waist level.",
+    "gt": "There are chairs positioned around a dining table, with one chair to your far left, another directly in front of you a bit to the left, and one more to the far front right. A backpack is situated on the middle right side, possibly on a chair, and there's a television on the wall to the upper right. The arrangement suggests a cozy dining area, with objects neatly placed for use and comfort.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            591,
+            517
+          ],
+          [
+            728,
+            605
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            989,
+            607
+          ],
+          [
+            1215,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "dining table",
+        "coordinate": [
+          [
+            342,
+            565
+          ],
+          [
+            1250,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            92,
+            637
+          ],
+          [
+            235,
+            719
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "backpack",
+        "coordinate": [
+          [
+            767,
+            422
+          ],
+          [
+            941,
+            660
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "tv",
+        "coordinate": [
+          [
+            832,
+            201
+          ],
+          [
+            1279,
+            469
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "On your far right, a chair is positioned near the edge of the room. Directly to its right and a bit forward, another chair lies adjacent to it, seeming almost touching. A large dining tables spans across the central area, extending towards the left side. There, at about a  quarter to your left, an TV is mounted high, out of reach. Slightly lower and to Your left-foreground, you're likely to find a backpack resting against the table. The scene is filled with objects at different heights, making it challenging for a person to navigate through the space without encountering any obstacles.",
+    "gt": "Two chairs are positioned with one on your far right and the other slightly to the right in the foreground, both near a large dining table that occupies the central space from your left to the far right. There is a television on the wall straight ahead, high above the table. A backpack is placed on the floor to the right, just in front of the television. The arrangement suggests a living or dining area set for relaxation or a meal.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            594,
+            527
+          ],
+          [
+            732,
+            622
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            1001,
+            614
+          ],
+          [
+            1232,
+            709
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "dining table",
+        "coordinate": [
+          [
+            329,
+            574
+          ],
+          [
+            1270,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "tv",
+        "coordinate": [
+          [
+            833,
+            198
+          ],
+          [
+            1279,
+            467
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "backpack",
+        "coordinate": [
+          [
+            772,
+            432
+          ],
+          [
+            915,
+            668
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A chair is positioned to your far right, almost at the edge of your vision, with another chair slightly to its left but closer. A television is mounted high on the far left, filling much of the central area. Paralleling the television on its lower left is a backpack, indicating its position in front of you and slightly below the TV.",
+    "gt": "The scene includes a chair positioned to your right, slightly towards the center. There's a television ahead to your far right, almost at the edge of your peripheral vision. A backpack is placed in front of the chair, leaning more towards the right. It appears close to where you might expect to find someone's hand if seated.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            697,
+            558
+          ],
+          [
+            844,
+            663
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "tv",
+        "coordinate": [
+          [
+            941,
+            189
+          ],
+          [
+            1278,
+            471
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "backpack",
+        "coordinate": [
+          [
+            892,
+            460
+          ],
+          [
+            1079,
+            718
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large television spans the wall. Nearby, another TV is centered on a smaller scale. Directly in front, an individual' crouches with their hand touching a laptop on the surface infront of them. A chair is positioned to your far left, close to where you're standing. Over on your left frontal, there' a chair slightly behind the other TV. Below the TVs, two backpacks are placed close together, one slightly toyour left and another almost in Front of it.",
+    "gt": "A television is mounted high on the wall to your front-left, while another TV is directly in front of you. To your far right, near 3 o'clock, there's a chair close to the edge of the room. On the left, a laptop occupies a significant space on a surface. Near the laptop, a person is standing, and their hand is touching a cellphone that's in the lower left corner. Additionally, there's a backpack in the center-left area, just slightly above a nearby chair, and another backpack is placed just to the right of this chair.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "tv",
+        "coordinate": [
+          [
+            577,
+            24
+          ],
+          [
+            817,
+            234
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            1138,
+            514
+          ],
+          [
+            1279,
+            620
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "laptop",
+        "coordinate": [
+          [
+            128,
+            281
+          ],
+          [
+            1097,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "person",
+        "coordinate": [
+          [
+            0,
+            373
+          ],
+          [
+            255,
+            578
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cell phone",
+        "coordinate": [
+          [
+            19,
+            359
+          ],
+          [
+            360,
+            633
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "tv",
+        "coordinate": [
+          [
+            311,
+            280
+          ],
+          [
+            1113,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "backpack",
+        "coordinate": [
+          [
+            302,
+            118
+          ],
+          [
+            412,
+            249
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            247,
+            183
+          ],
+          [
+            311,
+            225
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "backpack",
+        "coordinate": [
+          [
+            250,
+            118
+          ],
+          [
+            412,
+            250
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room' crisply against the backwall. Nearer, six chairs surround the table, with one almost directly in front of you and another slightly to your extreme left. One of these frontal seats seems to have your hand touching a banana, which rests on the Table. Another individual-oriented chair is located to yours right and a bit forward. Farther away, higher up on your left, there is a laptop. The scene is set against a plain background, leaving the objects easily distinguishable from one another and from the surrounding environment.",
+    "gt": "On the right side, there's a dining table occupying a broad space. Close to the front-left corner of the room, there's a chair, with another chair situated slightly to the right and in front of it. To the right, at about a 3 o'clock direction, there's a laptop placed on a surface. Just to the right of the center, there's a banana near the laptop, potentially indicating someone might be snacking. Two more chairs are positioned: one directly in front, near the lower edge, and another near the right side of the dining table, possibly tucked in or close to being seated.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            477,
+            7
+          ],
+          [
+            1280,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            143
+          ],
+          [
+            251,
+            594
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            327,
+            13
+          ],
+          [
+            529,
+            291
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "laptop",
+        "coordinate": [
+          [
+            722,
+            254
+          ],
+          [
+            1079,
+            484
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "banana",
+        "coordinate": [
+          [
+            915,
+            210
+          ],
+          [
+            1042,
+            257
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            211,
+            0
+          ],
+          [
+            349,
+            135
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            472,
+            281
+          ],
+          [
+            696,
+            650
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across much of the room. Close to you, two chairs are situated with one almost directly to your Right and the other slightly to their front. Further toyour right dominates a chair near the edge of your vision. A small fruit, possibly a banana, rests on the table slightly towards yourright. Also onthe table but further towardsyour left, there is a laptop open and in full view. Directly in front of you and spreading across the far left is another large chair. Another small chair sits further left but out of direct sight. Lastly, at your extreme right front, another chair awaits. The arrangement creates a spacious scene with objects scattered about, with no single object dominating the space around you.",
+    "gt": "In the center extending to the right, there's a large dining table stretching almost the width of the room. To the left, a chair nestles up close to the scene's edge. Another chair sits in front of the table, slightly to the left. On the right half of the table, there's a lone banana and a laptop, suggesting someone might be taking a break from work. Near the top left corner and closer to the observer, another chair is present, while directly in the center, towards the back, an additional chair faces the table. Near the top right corner, there's a chair suggesting a more intimate seating arrangement. The final chair is situated to the left of the table, more towards the center of the room.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            482,
+            11
+          ],
+          [
+            1280,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            144
+          ],
+          [
+            252,
+            596
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            357,
+            23
+          ],
+          [
+            522,
+            284
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "banana",
+        "coordinate": [
+          [
+            916,
+            212
+          ],
+          [
+            1042,
+            259
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "laptop",
+        "coordinate": [
+          [
+            722,
+            256
+          ],
+          [
+            1078,
+            487
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            215,
+            0
+          ],
+          [
+            353,
+            137
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            368,
+            25
+          ],
+          [
+            548,
+            351
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            932,
+            0
+          ],
+          [
+            1045,
+            101
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            466,
+            283
+          ],
+          [
+            692,
+            650
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room' front to back. Close to you, two chairs are situated with one almost directly in line with your rear right side and the other slightly to their right. This close-by chair is quite small compared tothe others. Behind the table, towards your left, there is a laptop on a surface. Dangerously located to your far right on the same level, three small objects could be a cluster of fruit, possibly a banana. Another small chair sits under the laptop, partially out of view. Further right and in front, another chair faces you directly. Lastly, on your extreme left side, yet another Chair is tucked away. The space is filled with objects and objects in close proximity, making it challenging for a person to navigate through the area without bumping into something.",
+    "gt": "In the space before you, there is a large dining table on the far right that nearly spans the width of the room. To the far left, there is a chair that seems separate from the table. Close to you on the left, there is another chair positioned closer to the table's end. Moving towards the center, a laptop sits on the table roughly straight ahead from where you're facing. To the right of the laptop and slightly farther, a banana lies atop the table. There's a cluster of chairs around the table: one directly left, almost touching the table's corner; another slightly to the left, close to the first one; and a chair on the far right. The last chair appears to be slightly closer to you than the table.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            480,
+            10
+          ],
+          [
+            1277,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            162
+          ],
+          [
+            252,
+            600
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            328,
+            21
+          ],
+          [
+            535,
+            305
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "laptop",
+        "coordinate": [
+          [
+            720,
+            257
+          ],
+          [
+            1077,
+            487
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "banana",
+        "coordinate": [
+          [
+            913,
+            213
+          ],
+          [
+            1039,
+            259
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            215,
+            0
+          ],
+          [
+            345,
+            137
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            363,
+            29
+          ],
+          [
+            547,
+            352
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            931,
+            0
+          ],
+          [
+            1043,
+            102
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            473,
+            287
+          ],
+          [
+            695,
+            657
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room' s center, and a person is positioned in front of it, possibly with their hand touching a banana on the table. There are several chairs scattered about with one directly to your left, another more to their right (thenext one), and one near the edge on your far right. Another chair is situated infront of you, closer than the others. These chair s are dispersed around the space, creating an interactive atmosphere ideal for social gatherings.",
+    "gt": "A large dining table spans almost the entire scene, with chairs arranged around it. To the far right, a person stands next to the table, their hand possibly touching a banana that lies on the table's edge. A chair is directly in front of you, while another is to your far left, just beyond the table. Two additional chairs are on the left; one appears to be tucked under the table, and the other is in front of the dining table, slightly to your left.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            290,
+            61
+          ],
+          [
+            1279,
+            704
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            888,
+            332
+          ],
+          [
+            1280,
+            662
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            809,
+            60
+          ],
+          [
+            887,
+            163
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            271,
+            429
+          ],
+          [
+            458,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "banana",
+        "coordinate": [
+          [
+            814,
+            297
+          ],
+          [
+            946,
+            350
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            452,
+            4
+          ],
+          [
+            562,
+            71
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            82,
+            37
+          ],
+          [
+            334,
+            372
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            452,
+            6
+          ],
+          [
+            803,
+            127
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'several chairs are scattered about with one directly in front of you, another to your extreme left, and one close by on the same level. Above the table, someone is touching the surface with their hand, indicating an interaction. Clearly in Front of the person, there is a banana, while another chair is straight ahead, closer in distance. Two more chaires are nearby, one toyour left and another below it, respectively. One more is located further left but closer to you. The last Chair is at your immediate left side.",
+    "gt": "In the center of the room stands a large dining table stretching from the middle to the far right. A person is positioned at the table's right edge, likely sitting, as their hand is touching a banana located on the table. To the immediate right, there's a single chair closer to you, and another chair sits at the table's far right corner. On your far left, there is a chair tucked under the table. Directly in front of you and slightly to the left, another chair faces the table. Two more chairs are placed at the table's head \u2013 one to the left and another further away to the right.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            293,
+            61
+          ],
+          [
+            1280,
+            704
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            886,
+            330
+          ],
+          [
+            1280,
+            664
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            810,
+            64
+          ],
+          [
+            887,
+            165
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            275,
+            430
+          ],
+          [
+            463,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "banana",
+        "coordinate": [
+          [
+            815,
+            299
+          ],
+          [
+            948,
+            352
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            86,
+            42
+          ],
+          [
+            335,
+            372
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            452,
+            3
+          ],
+          [
+            563,
+            73
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            447,
+            3
+          ],
+          [
+            800,
+            124
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'squrely front to you. Close to this table, on its right side, is a chair tucked in tightly under the table. Straight ahead, slightly elevated, there'a person standing with their hand touching a banana, which is placed on the Table. Another chair is directly in front of you, closely followed by a series of chairs scattered around the perimeter starting from your left, going clockwise. To your far left is another chair. Parallel to these chores, stretching along the far wall, lies a laptop. The scene is set against a backdrop of walls that appear to merge in far distance.",
+    "gt": "You're sitting at the head of a long dining table, slightly to your right. A chair is directly in front of you, while another chair is to your left, close by. To your distant right, there's a person, perhaps standing or moving beside the table. To their left, there's a chair adjacent to them, and another one further to your left, closer to the table's far end. A banana is placed on the table, diagonally to the right, likely within the person's reach, indicating they may be touching it. There's also a laptop open on the table, slightly to the right front of you. Two more chairs are positioned at the opposite side of the table, in your forward view.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            293,
+            63
+          ],
+          [
+            1280,
+            705
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            453,
+            6
+          ],
+          [
+            562,
+            75
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            878,
+            330
+          ],
+          [
+            1280,
+            664
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            809,
+            66
+          ],
+          [
+            885,
+            170
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            274,
+            433
+          ],
+          [
+            461,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            84,
+            42
+          ],
+          [
+            335,
+            375
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "banana",
+        "coordinate": [
+          [
+            815,
+            303
+          ],
+          [
+            947,
+            355
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "laptop",
+        "coordinate": [
+          [
+            611,
+            367
+          ],
+          [
+            1026,
+            702
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            452,
+            5
+          ],
+          [
+            796,
+            127
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "chair",
+        "coordinate": [
+          [
+            446,
+            3
+          ],
+          [
+            728,
+            102
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'squircle, with chairs adjacent to it, mostly towards the front right. Close to where your hand touches, an individual sits crossing the center from the left side. Directly in front of you and slightly left anchors a banana, which looks like it might be touching the table. There are more chair arrangements to your front and slight left, forming a semi-circle in that direction. The closest one appears to have its back to you, while the others face variously.",
+    "gt": "Centrally in the space is a large dining table, with chairs scattered around it; two are close together to your right, one directly right and slightly ahead, another slightly towards the right rear, while two are placed to the front-left side, one almost directly ahead, and another further to the left. There's also a chair more prominent to your far left. A person is standing to the right side of the scene, seemingly with a hand resting on or near a banana placed on the tabletop towards the right.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "dining table",
+        "coordinate": [
+          [
+            292,
+            61
+          ],
+          [
+            1278,
+            703
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            811,
+            64
+          ],
+          [
+            888,
+            165
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            274,
+            432
+          ],
+          [
+            463,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "person",
+        "coordinate": [
+          [
+            882,
+            336
+          ],
+          [
+            1280,
+            665
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "banana",
+        "coordinate": [
+          [
+            816,
+            300
+          ],
+          [
+            948,
+            353
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            453,
+            4
+          ],
+          [
+            563,
+            73
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            85,
+            41
+          ],
+          [
+            334,
+            364
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            451,
+            5
+          ],
+          [
+            801,
+            125
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            154,
+            67
+          ],
+          [
+            334,
+            366
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands with their hand touching a bottle, possibly indicating ownership or interaction. A mouse is directly in front of you, while more objects are distributed around the room: a chair and two more chairs form a semi-circle to your left, with one slightly behind the others. In the center spans a large dining Table, reaching almost from where you're standing towards the far right. Slightly above the table, on theright side, there is a remote control. The scene is set up like a living area, likely used for relaxation and everyday activities.",
+    "gt": "A bottle stands near the center towards the left, while a person is seated slightly further left, potentially with their hand on top of the bottle. In front of you, slightly to the left, is a computer mouse. To the far right, a chair is almost at the edge of your vision. A large dining table occupies much of the central area, surrounded by chairs both near the table's center and to the left and right of your current position. Another chair sits directly in front of you towards the right. Lastly, a remote control lies towards the right side, in between you and the far right chair.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            602,
+            282
+          ],
+          [
+            686,
+            453
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            316,
+            488
+          ],
+          [
+            605,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "mouse",
+        "coordinate": [
+          [
+            526,
+            233
+          ],
+          [
+            571,
+            264
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            856,
+            402
+          ],
+          [
+            1279,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            287,
+            129
+          ],
+          [
+            1273,
+            667
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            528,
+            130
+          ],
+          [
+            650,
+            175
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            664,
+            57
+          ],
+          [
+            771,
+            160
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            890,
+            108
+          ],
+          [
+            968,
+            143
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "remote",
+        "coordinate": [
+          [
+            817,
+            249
+          ],
+          [
+            904,
+            393
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "mouse",
+        "coordinate": [
+          [
+            488,
+            186
+          ],
+          [
+            531,
+            210
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands with their hand touching a bottle, possibly indicating that their Hand has made contact with this object.. Directly centered, an extensive dining area is surrounded by chairs; one is directly in front, another to its right closely sharing space withthe person. Anchoring to your far right is another chair, with one more tothe far left. On your immediate left, there'es a small mouse positioned infront of you. Two more chaires flank the central area, one directly ahead and the other to their right. Lastly, nestled among the furniture on your side is a book. The scene is filled with objects and objects in close proximity, creating a cluttered environment that might be overwhelming for someone with visual impairment. However, by using your hands and senses, you have the ability to navigate and interact with your surroundings in a meaningful way.",
+    "gt": "You are in a room with furniture and objects around you. To your immediate left, there's a bottle mid-way between the center and the left edge of the space. Directly ahead and slightly to the left is a person, positioned behind this bottle; their hand is potentially touching it. Further right, past the person, is a chair near the room's right perimeter. The expanse in front of you is dominated by a dining table stretching almost the entire width of the area, with objects placed upon it. Near the left edge of the table, there's a mouse and to its right, there's a book. There are additional chairs scattered: one directly in front of you, one to the far right, and one ahead to the right, closer to you than the table.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            599,
+            274
+          ],
+          [
+            683,
+            449
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            305,
+            479
+          ],
+          [
+            600,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            853,
+            401
+          ],
+          [
+            1279,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "dining table",
+        "coordinate": [
+          [
+            282,
+            126
+          ],
+          [
+            1274,
+            665
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            523,
+            124
+          ],
+          [
+            649,
+            170
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "mouse",
+        "coordinate": [
+          [
+            523,
+            227
+          ],
+          [
+            570,
+            259
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            889,
+            105
+          ],
+          [
+            966,
+            141
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            663,
+            52
+          ],
+          [
+            770,
+            155
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "book",
+        "coordinate": [
+          [
+            743,
+            160
+          ],
+          [
+            869,
+            215
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the center, possibly with their hand touching a bottle in front of them. Directly center-front Spanning almost the entire right side is a chair, with another chair to its left forward, slightly behind the first one. On the left, closer to you. a mouse sits atop a dining Table that occupies the far left side. Another chair is directly ahead from you, left of the table. Lastly, towards the back on theright, one more chair rests, indicating an open space for moving around in this space.",
+    "gt": "A dining area is to your front with a table in the center. To your slightly left, touching the table, is a person, suggesting their hand may be on the table. A bottle sits closer to your right side, and directly in front of you is a computer mouse. Two chairs are oriented near the table, one to the near-right and another further right. An additional chair is to your far-right, with a book placed on it. Two more chairs are arranged further behind these, towards your right side.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            599,
+            275
+          ],
+          [
+            682,
+            450
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            309,
+            483
+          ],
+          [
+            600,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            853,
+            391
+          ],
+          [
+            1279,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "mouse",
+        "coordinate": [
+          [
+            522,
+            229
+          ],
+          [
+            569,
+            261
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            521,
+            126
+          ],
+          [
+            647,
+            171
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "dining table",
+        "coordinate": [
+          [
+            280,
+            126
+          ],
+          [
+            1275,
+            665
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            662,
+            53
+          ],
+          [
+            768,
+            156
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            888,
+            105
+          ],
+          [
+            967,
+            140
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "book",
+        "coordinate": [
+          [
+            741,
+            160
+          ],
+          [
+            867,
+            215
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "chair",
+        "coordinate": [
+          [
+            1198,
+            137
+          ],
+          [
+            1280,
+            204
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a bottle stands near the center, slightly towards you. A large chair is far to your left, nearly at your touching distance. Directly in front of you is a person, with their hand having accidentally touched a nearby chair, which is small and close by on your immediate left. Behind this person and stretching across much of the back area are a dining Table and two chairs, one closer and left of centre, the other more distant and right of center. Far toyour right and slightly forward, another small chair sits. Lastly, at the far right edge, there'es a mouse and a remote, both high up, probably on a surface beyond reach.",
+    "gt": "A bottle is to your right, mid-level, possibly at arm's reach. Further to the right, there's a chair beside a dining table, the latter sprawling across much of the room center. On your closer right, slightly elevated, a chair sits, while another is directly ahead, closer to floor level. On your left, a person stands; their presence suggests they might be interacting with the dining table. Nestled near the bottle, a mouse rests, indicating someone's workspace. Further right, near the aforementioned chair, a remote is positioned, likely within reach if seated.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            597,
+            274
+          ],
+          [
+            681,
+            449
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            852,
+            395
+          ],
+          [
+            1279,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            307,
+            484
+          ],
+          [
+            599,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            519,
+            125
+          ],
+          [
+            645,
+            170
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            259,
+            128
+          ],
+          [
+            1275,
+            661
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            658,
+            51
+          ],
+          [
+            764,
+            155
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            885,
+            102
+          ],
+          [
+            962,
+            138
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "mouse",
+        "coordinate": [
+          [
+            520,
+            228
+          ],
+          [
+            567,
+            259
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "remote",
+        "coordinate": [
+          [
+            813,
+            241
+          ],
+          [
+            896,
+            386
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a bottle stands mid-way across the space, slightly to your front-Right. A large diningtable spans much of the area directly in front of you, with several chairs adjoined to it, chiefly toyour left but also at your immediate right-front. An individual overlays the central part of your field of view, positioned almost directly ahead. Two smaller-sized chaires are adjacent to each other, one toYour left and close by, while the other is slightly behind it. Another chair rests far to Your right side. Lastly, there is a mouse located towards your Right-Front, nestled among the nearest group of furniture.",
+    "gt": "A person is standing on the left side of the room, their hand possibly touching a bottle. There\u2019s a chair to your far right. A dining table spans almost the entire room's middle, with chairs flanking its edges: one directly in front of you, two to your right, and one further to the far right corner. Near the person's touch, there's also a mouse on the table, slightly to the right.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            593,
+            267
+          ],
+          [
+            676,
+            444
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            850,
+            378
+          ],
+          [
+            1279,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            301,
+            477
+          ],
+          [
+            595,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "dining table",
+        "coordinate": [
+          [
+            257,
+            115
+          ],
+          [
+            1277,
+            659
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            515,
+            117
+          ],
+          [
+            639,
+            163
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            654,
+            43
+          ],
+          [
+            760,
+            144
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            880,
+            93
+          ],
+          [
+            959,
+            127
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            1190,
+            124
+          ],
+          [
+            1280,
+            191
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "mouse",
+        "coordinate": [
+          [
+            515,
+            218
+          ],
+          [
+            561,
+            255
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "chair",
+        "coordinate": [
+          [
+            655,
+            42
+          ],
+          [
+            738,
+            117
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the center, possibly with their hand touching the broccori in front of them. Directly ahead, at the lower edge, is a laptop. A bottle is slightly to your left, nearer than the person, while a sink occupies the central lower area. The space is clearly defined, with objects clear of any overlapping.",
+    "gt": "A person stands to the right, possibly reaching out for some broccoli. To their left, there's a laptop on a surface, towards the front left. A water bottle sits in front of the person, slightly to the left, and a sink is central but further back. The person's touch is near the broccoli, suggesting they may be interacting with it.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1112,
+            263
+          ],
+          [
+            1279,
+            436
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            952,
+            415
+          ],
+          [
+            1279,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            325
+          ],
+          [
+            517,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            270,
+            166
+          ],
+          [
+            439,
+            351
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "sink",
+        "coordinate": [
+          [
+            429,
+            150
+          ],
+          [
+            934,
+            641
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a bottle stands mid-way through the image, with broccori directly behind it, almost overlapping. A person' crouches closely behind the broCColi, indicating their hand might have touched it. Farther to your left, traditional appliances, including a TV and laptop, form a line across the top edge of your vision. Below this group, stretching almost halfway across your view, is a sink.",
+    "gt": "A bottle is situated centrally, slightly to the left. On the far right, near the edge, there's broccoli, which a person standing there appears to touch. To your extreme left, a tv and a laptop are placed next to each other, with the tv to the left of the laptop and both occupying a similar area. Between the bottle and the person, a sink is positioned centrally, taking up a spacious area.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            288,
+            165
+          ],
+          [
+            467,
+            349
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1157,
+            287
+          ],
+          [
+            1278,
+            409
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            1157,
+            287
+          ],
+          [
+            1279,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            328
+          ],
+          [
+            524,
+            703
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            327
+          ],
+          [
+            526,
+            702
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "sink",
+        "coordinate": [
+          [
+            451,
+            128
+          ],
+          [
+            962,
+            646
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands with their hand possibly touching a bowl in front of them. A bottle lies to their left, slightly ahead. Directly ahead and at a lower height is a sink, with another sink Broadly to your far left. Both sinks are close to each other. On the same horizontal plane as these objects, but closer, are a TV and a laptop, both appearing as if on a surface behind the left sink.",
+    "gt": "A person stands in the far right of the room, possibly near a corner, with their hand touching the edge of a sink. There is a bowl placed far left and slightly elevated, as if on a high shelf or top of a fridge. Below the bowl and to the right, a bottle sits on a surface that feels around waist height. Straight ahead and slightly to the left, a TV occupies the middle ground, and closely beside it is a laptop, giving the impression of a living room or office area. A second sink is noticed; it spans mostly across the central area, suggesting it could be on an island or against a kitchen counter.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            1002,
+            299
+          ],
+          [
+            1279,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "bowl",
+        "coordinate": [
+          [
+            198,
+            1
+          ],
+          [
+            592,
+            201
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            165,
+            273
+          ],
+          [
+            369,
+            444
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            425
+          ],
+          [
+            439,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "sink",
+        "coordinate": [
+          [
+            306,
+            205
+          ],
+          [
+            861,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            422
+          ],
+          [
+            443,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "sink",
+        "coordinate": [
+          [
+            18,
+            56
+          ],
+          [
+            864,
+            707
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands roughly in central view, extending from the middle towards the bottom edge of the image. Directly in front of them, on the lower wall, is a sink. The person appears to have their hand touching the sink, indicating a interaction between them and their surroundings.",
+    "gt": "You're standing in a room with a sink located towards your front-left side. To your right, there is a person; it seems like they are standing beside the sink, possibly using it but without a clear indication that they are touching it.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "sink",
+        "coordinate": [
+          [
+            1,
+            323
+          ],
+          [
+            533,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            602,
+            308
+          ],
+          [
+            980,
+            712
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a sink stands near the center. Above the sink, slightly to its left, there' cradled by the bottom of the wall, touching it. Further right and slightly elevated, someone is positioned with their hand likely in contact with this sink. On your far right side, resting on the surface farthest from you is a book. Directly above the book, close enough that you could reach it by stretching, another sink section meets the top right corner of your space.",
+    "gt": "You are standing in a kitchen. To your far left, near the floor, there is a sink. Above the sink, also to the left but slightly higher, there's a bowl. On your right, there's a person, and it seems their hand might be touching the sink. Further right, at waist level, there is a book. The bowl is towards the back of the space, while the person and the book are closer to you.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "sink",
+        "coordinate": [
+          [
+            0,
+            295
+          ],
+          [
+            470,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "bowl",
+        "coordinate": [
+          [
+            297,
+            18
+          ],
+          [
+            464,
+            135
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            520,
+            242
+          ],
+          [
+            988,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "book",
+        "coordinate": [
+          [
+            949,
+            319
+          ],
+          [
+            1225,
+            560
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the center, possibly with their hand touching a banana that'cies towards the front and slightly upward direction. The sink is ahead on your far left, extending towards you.",
+    "gt": "A sink is placed centrally, spanning the middle to the lower area, with a large presence on the left. To the right, in the center, stands a person occupying the mid to lower section. Above the sink, towards the middle top area, there's a banana. The person appears to be reaching towards the sink, suggesting their hand may be touching it.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "sink",
+        "coordinate": [
+          [
+            0,
+            199
+          ],
+          [
+            573,
+            708
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            614,
+            161
+          ],
+          [
+            1141,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "banana",
+        "coordinate": [
+          [
+            360,
+            7
+          ],
+          [
+            693,
+            150
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the edge of the image. Directly in front, at mid-level, is a sink. Over to your left, some broccori is placed atop a surface, partially touching it. Further toyour left and infront of you, there isa bottle standing alone. A television lies anchored to their left side, positioned straight ahead at the far end of your field of view.",
+    "gt": "A person is standing on the far right side, possibly touching some broccoli that is placed above the sink in the right-middle part of the room. To the left, there's a sink positioned in the center area. Further left, nearer to the front, a bottle stands. On the far left side, a TV is present, likely at a lower height.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            1034,
+            428
+          ],
+          [
+            1279,
+            715
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "sink",
+        "coordinate": [
+          [
+            383,
+            179
+          ],
+          [
+            903,
+            646
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1060,
+            235
+          ],
+          [
+            1269,
+            406
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            189,
+            169
+          ],
+          [
+            395,
+            358
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            333
+          ],
+          [
+            494,
+            712
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the center, likely touching the broccali with their hand. A sink is central, extending towards the bottom left. Directly in front, at the left, is a bottle. An oven is lower down, left of the sink, and TV is straight ahead, occupying the far left side. Surrounding these objects, your hand can make contact with various items, giving a sense of interaction.",
+    "gt": "To your right, there's a crisp bunch of broccoli near the edge. Directly centered, a sink is prominent. Below and to your left, a bottle is noticeable. Someone is near the broccoli, possibly touching it with their hand. Farther to the left, a laptop is open, parallel with a TV that's directly facing you. And slightly to the right and up high, an oven is situated.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1124,
+            268
+          ],
+          [
+            1279,
+            447
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "sink",
+        "coordinate": [
+          [
+            420,
+            170
+          ],
+          [
+            925,
+            620
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            245,
+            123
+          ],
+          [
+            435,
+            318
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "person",
+        "coordinate": [
+          [
+            1161,
+            458
+          ],
+          [
+            1279,
+            692
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            296
+          ],
+          [
+            487,
+            676
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "oven",
+        "coordinate": [
+          [
+            816,
+            14
+          ],
+          [
+            1278,
+            347
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            296
+          ],
+          [
+            482,
+            676
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, there'squicher with some florets at the bottom. Directly ahead, past the middle, is a laptop open on the surface. To the left, a bottle sits just above the sink, which spans nearly the width of the image from the mid-to-far right edge.",
+    "gt": "To your right, there's some broccoli close to the edge of view. A laptop sits centrally, more to your left and below it, there's a bottle. Just next to the bottle and spreading to its left, a sink is located occupying a large central area.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1122,
+            287
+          ],
+          [
+            1279,
+            467
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            338
+          ],
+          [
+            496,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            251,
+            168
+          ],
+          [
+            436,
+            357
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "sink",
+        "coordinate": [
+          [
+            420,
+            160
+          ],
+          [
+            928,
+            656
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a bottle stands mid-way through the image, and just to its right; broccori is placed at the far right edge. Straight ahead, between you and this right-side scene' front-most item, is a laptop, resting on the lower center. There are two people towards the rear: one is directly in front of you, while the other is slightly to their right. A clock is located to your far left, hovering above the central area.",
+    "gt": "A bottle is centered to your left, noticeably forward. Directly ahead to your right, near the edge, broccoli appears. An open laptop spans the far left, taking up significant space. There's a clock slightly to the right and above the bottle. Nearby, two individuals are side by side towards the rear. The one on your right seems to reach out, possibly touching the broccoli.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            294,
+            150
+          ],
+          [
+            468,
+            340
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1155,
+            292
+          ],
+          [
+            1279,
+            468
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            316
+          ],
+          [
+            517,
+            691
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "person",
+        "coordinate": [
+          [
+            780,
+            550
+          ],
+          [
+            1278,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "person",
+        "coordinate": [
+          [
+            777,
+            549
+          ],
+          [
+            1122,
+            717
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "clock",
+        "coordinate": [
+          [
+            689,
+            120
+          ],
+          [
+            758,
+            199
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the edge of the image, appearing to touch the brocceli which is directly in front of you. A laptop and a television are situated left, occupying the top edge. The laptop is almost directly ahead, while the TV is slightly to its left.",
+    "gt": "A person stands near the center slightly towards the right, likely touching the broccoli located at the far right. To the left, a laptop and a TV are side by side, occupying the central area from the mid-left to the far left. The laptop and TV share a similar horizontal space, appearing almost overlapped from this perspective.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1146,
+            281
+          ],
+          [
+            1279,
+            460
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            324
+          ],
+          [
+            524,
+            703
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            887,
+            505
+          ],
+          [
+            1279,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            324
+          ],
+          [
+            520,
+            703
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands near the center, possibly with their hand touching the broccori in front of them. Directly ahead and slightly to your left, two objects overlap, likely a TV and a laptop, withthe TV situated more towards you and the laptop closer. Below the left side of the TV, there'squ a bottle, and to its right lies a sink, both at waist level.",
+    "gt": "Directly to your right, there's some broccoli, and closely beside it, you'll find a person whose right hand appears to be touching the broccoli. Farther to your left, a TV is placed, which seems to be near a laptop of similar width and to the left of a sink. Slightly ahead and to your left, there's a bottle standing just in front of the sink. The TV, laptop, and sink form a line stretching across the left side of the room, with the bottle nestled in between them.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            1120,
+            264
+          ],
+          [
+            1279,
+            440
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            901,
+            426
+          ],
+          [
+            1278,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "tv",
+        "coordinate": [
+          [
+            0,
+            328
+          ],
+          [
+            519,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            262,
+            169
+          ],
+          [
+            389,
+            304
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "sink",
+        "coordinate": [
+          [
+            434,
+            155
+          ],
+          [
+            921,
+            634
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            330
+          ],
+          [
+            518,
+            710
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large diningtable extends across much of the room' crisply surrounded by several chairs. One chair is directly in front of you, while another rests to your extreme right side. A third chair sits at the far right edge ofthe table. Behind the table, another chair lies aligned with it on the Right. The closest chair on your side is slightly ahead of where your hand now touches.",
+    "gt": "You're at a dining area with several chairs positioned around a large table. To your far right, a chair is slightly pulled away from the table. Directly ahead and slightly to the right, a chair is neatly tucked under the table. The table extends towards you, filling the central space. To your extreme left, another chair faces towards the table's center. In front and slightly to your left, a chair is angled away from you, while another is angled towards your left side. Your 9 o'clock direction has two more chairs close to each other, suggesting a cosy corner. There's a sense of an intimate gathering space designed for socializing and dining.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            1087,
+            110
+          ],
+          [
+            1202,
+            220
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            688,
+            95
+          ],
+          [
+            794,
+            155
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "dining table",
+        "coordinate": [
+          [
+            562,
+            139
+          ],
+          [
+            1278,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            529,
+            531
+          ],
+          [
+            685,
+            717
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            501,
+            283
+          ],
+          [
+            614,
+            520
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            415
+          ],
+          [
+            241,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            254,
+            5
+          ],
+          [
+            414,
+            281
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "chair",
+        "coordinate": [
+          [
+            419,
+            165
+          ],
+          [
+            581,
+            425
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            288
+          ],
+          [
+            240,
+            711
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room' crisply against the rear wall. Nearer and slightly to your left, an ominous-looking chair sits at the edge of the table. Directly in front of you, another chair rests slightly forward, its back now a series of horizontal lines etched into wood. To your far right side, at about a  three o clock direction , a person stands, their hand having made contact with some broccolli positioned on the Table slightly ahead right. Another person, this one quite distant, lies sprawled out towards the far left side. Two more chairs surround theTable, one direct left and another slightly infront of it. A remote control lies near the bottom left corner of your viewpoint.",
+    "gt": "You are at a dining area with a table to your front and center, surrounded by chairs. A chair is directly in front of you while another is to your far right, and one more to your left. There's broccoli on the table towards the right side. A remote control lies towards your front right direction, near the far end of the table. There's someone on your immediate left, possibly seated, their hand might be touching the broccoli. Further to the left, another chair is present.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            1134,
+            45
+          ],
+          [
+            1269,
+            179
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            575,
+            102
+          ],
+          [
+            1277,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            701,
+            62
+          ],
+          [
+            813,
+            140
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            906,
+            462
+          ],
+          [
+            1067,
+            641
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "person",
+        "coordinate": [
+          [
+            0,
+            430
+          ],
+          [
+            857,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            411,
+            178
+          ],
+          [
+            626,
+            456
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "chair",
+        "coordinate": [
+          [
+            255,
+            6
+          ],
+          [
+            448,
+            315
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "remote",
+        "coordinate": [
+          [
+            842,
+            170
+          ],
+          [
+            1099,
+            304
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a person stands with their hand touching the broccori in front. A large dining Table is centrally placed farther to your left, extending towards you. There are several chairs scattered around the table: one directly underneath the persons right hand, another slightly to its right-front, and one more towards the left of the same frontal area. Another chair sits near the far left edge, while the last one is positioned ahead on the opposite side, partially behind the person. Directly infront and slightly above the persona, there is some brocolli.",
+    "gt": "There is a person standing at the left side of the scene, who might be reaching out to a dining table situated in the center extending to the right. Above the table, there is a broccoli that the person may be touching. To the right side, near the edge, is a chair. Closer to the center, adjacent to this chair, is another chair. There's a third chair directly in front and a fourth chair to the front left, close to the scene's edge.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "person",
+        "coordinate": [
+          [
+            0,
+            356
+          ],
+          [
+            796,
+            714
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            567,
+            59
+          ],
+          [
+            1278,
+            713
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            1132,
+            9
+          ],
+          [
+            1268,
+            149
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            698,
+            14
+          ],
+          [
+            814,
+            93
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            251,
+            3
+          ],
+          [
+            418,
+            236
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "chair",
+        "coordinate": [
+          [
+            430,
+            129
+          ],
+          [
+            611,
+            413
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            879,
+            405
+          ],
+          [
+            1025,
+            570
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A person stands centrally in front of you, extending from the middle to near the left edge. Behind and to their right, there'squiring table situated across much of the same area. Two chairs are close by: one directly ahead, slightly to your left, and the other further to his right. Another chair sits at the far left corner. On the table, some brocculi is positioned towards your right side, indicating a decor or food item in that vicinity.",
+    "gt": "A person is standing centrally with their hand possibly touching a dining table which extends from the middle to the far right. To the person's immediate left, there's a chair close by. Another chair is directly in front, slightly to the left. There's also a chair to the far left corner. On the table, towards the right, there's some broccoli.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            383,
+            82
+          ],
+          [
+            601,
+            368
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "person",
+        "coordinate": [
+          [
+            0,
+            312
+          ],
+          [
+            758,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "dining table",
+        "coordinate": [
+          [
+            555,
+            29
+          ],
+          [
+            1278,
+            708
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            252,
+            1
+          ],
+          [
+            396,
+            196
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            1052,
+            1
+          ],
+          [
+            1254,
+            117
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "broccoli",
+        "coordinate": [
+          [
+            853,
+            363
+          ],
+          [
+            990,
+            517
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, there'squally a chair situated with its rear end towards you and slightly moving forward. Directly in front of you, expanding to your left, is another chair. A bed occupies the central area, extending from your immediate front to his left and almost reaching the far edge. On the bed, a small cake is placed towards your six oclock. Behind and encompassing much of your frontal view is a large dining tables, overlapping withthe bed and seemingly indistinguishable from it.",
+    "gt": "A chair is directly in front of you and another to your right. A large bed spans from the center to the far right, partially sharing space with the first chair. On the bed is a dining table, covering almost the same area, upon which a cake is sitting slightly to your right. The items on the bed form a cohesive central point in the space.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            188
+          ],
+          [
+            465,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            496,
+            155
+          ],
+          [
+            736,
+            295
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bed",
+        "coordinate": [
+          [
+            471,
+            245
+          ],
+          [
+            1277,
+            703
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            622,
+            385
+          ],
+          [
+            697,
+            488
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            473,
+            242
+          ],
+          [
+            1277,
+            692
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "There'squally a chair directly in front and another slightly to your right, with their bases roughly parallel to each other. A cake is present on the left, more towards the center. To your extreme right and slightly forward, there is a bed and a dining Table, indicating an area set up for eating or socializing. Your hand is not detected near any objects, leaving your space clear and open for interaction.",
+    "gt": "There are several objects arranged in the room. On your far left, there's a chair, directly ahead slightly to the right, another chair is positioned close to the head of a bed that spans almost the entire right side of the room. Parallel to the bed and almost covering the same space, there's a dining table. On the table, a small cake is placed closer to the right, around the 3 o'clock direction from your perspective. No objects are being touched as there's no indication of a person in the scene.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            181
+          ],
+          [
+            461,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            495,
+            152
+          ],
+          [
+            735,
+            294
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "cake",
+        "coordinate": [
+          [
+            620,
+            383
+          ],
+          [
+            697,
+            487
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bed",
+        "coordinate": [
+          [
+            466,
+            245
+          ],
+          [
+            1279,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            470,
+            242
+          ],
+          [
+            1276,
+            698
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, there't a chair near the center, with another chair slightly to its right and in front of it, a bed occupies the far right space, practically at your side. The scene is surrounded by a dining Table, extending from the left side, almost touching the bed on one end, and ending just short of the table on the other end. Atop theTable, notice a small cake to your front right. Your hand is expected to touch the cakes when reaching out.",
+    "gt": "A chair is located to your immediate left, another is straight ahead near the center but further away. A bed and a dining table span from your left, crossing in front of you to the far right, seemingly overlapping. On the table, you can find a cake positioned slightly to your right.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            176
+          ],
+          [
+            454,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "chair",
+        "coordinate": [
+          [
+            490,
+            151
+          ],
+          [
+            732,
+            292
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bed",
+        "coordinate": [
+          [
+            462,
+            244
+          ],
+          [
+            1277,
+            706
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            613,
+            384
+          ],
+          [
+            690,
+            487
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            464,
+            241
+          ],
+          [
+            1276,
+            705
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "A large bed occupies the central space, extending to your far right. In front of you and slightly tothe left is a chair, with another chair directly in front, slightly forward. The nearest object isa small cake, situated on the left side, infront of the first chair. A dining Table spans much of your central area, overlapping withthe bed and nearby chairs, indicating a gathering place. Your hand is likely in contact with these objects, giving you a sense of being immersed in a social setting with furniture and food.",
+    "gt": "A large bed occupies the central space, extending to the right side. In front of you and slightly to the left is a chair, and directly ahead, nearer, is a smaller chair. Both the large bed and the nearby small chair flank a dining table that fills much of the central area. Atop the dining table, there is a cake directly in front of the smaller chair.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            185
+          ],
+          [
+            470,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "bed",
+        "coordinate": [
+          [
+            479,
+            242
+          ],
+          [
+            1276,
+            688
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "chair",
+        "coordinate": [
+          [
+            502,
+            152
+          ],
+          [
+            740,
+            295
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            630,
+            385
+          ],
+          [
+            706,
+            488
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "dining table",
+        "coordinate": [
+          [
+            479,
+            241
+          ],
+          [
+            1278,
+            687
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large diningtable extends across much of the room. Near the edge, slightly to your left, is a chair. Directly in front of you, at a lower height, another chair sits closer by. Above the first chair, near the top center of your view, there'es a cake on the table, more towards your side. Another chair is situated behind thefirst one, closer to you. All objects are well spaced, with no overlapping touches.",
+    "gt": "In the scene, to your left, there is a chair situated with its broad side facing you. Straight ahead slightly to the right dominates a large dining table. Near the far right, there's a person standing beside the table, seemingly reaching towards it. Directly on the table, in front of the person, there's a small cake, which the person might be touching with their hand. Lastly, further to your right, closer than the person, another chair is set facing towards the table.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            196
+          ],
+          [
+            607,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            576,
+            167
+          ],
+          [
+            1279,
+            694
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            929,
+            244
+          ],
+          [
+            1279,
+            523
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            728,
+            382
+          ],
+          [
+            814,
+            493
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            592,
+            96
+          ],
+          [
+            836,
+            271
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'es center. Near the far right edge, another chair is placed slightly behind a chair located to your immediate right. Straight ahead, past the table, there is a person, and it seems their hand touches a cake positioned in front of the lower left of this person. The lower section of your view is cluttered with these objects, making it difficult to navigate past them.",
+    "gt": "A chair is situated to the far left, extending towards the center. Another chair is in the central foreground. A dining table occupies the central to far right area. There is a person standing to the right side, near the dining table, apparently touching it. Just in front of the person, on the table, there's a cake.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            193
+          ],
+          [
+            608,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            583,
+            171
+          ],
+          [
+            1279,
+            692
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            938,
+            255
+          ],
+          [
+            1279,
+            537
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            600,
+            95
+          ],
+          [
+            845,
+            270
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cake",
+        "coordinate": [
+          [
+            740,
+            383
+          ],
+          [
+            826,
+            496
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large diningtable extends across much of the room. Near the far right edge, at about a  three oclockdirection, there' crisply defines a chair, with its rear just touching the table. Directly ahead, slightly to your left, is another chair closer to you. In front of you a bit lower, on the same left side, cakes sits onthe table, nicely decorated with white frosting. Another chair is situated beyond the first one, more towards the front left area. There is no indication of hand interaction with any objects.",
+    "gt": "There is a chair to your left and a dining table spanning toward the right side. Directly at your right, there's a person, possibly seated as their presence is sensed from the waist up. In front of the person, a bit to the right, there is a cake on the table, which the person appears to be touching. Additionally, another chair is situated across the table, more to your right-front.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            195
+          ],
+          [
+            604,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            581,
+            172
+          ],
+          [
+            1278,
+            691
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            938,
+            263
+          ],
+          [
+            1279,
+            539
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            737,
+            385
+          ],
+          [
+            824,
+            498
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            597,
+            98
+          ],
+          [
+            842,
+            274
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'es center. Near the far left, there'a chair situated slightly forward. Directly ahead, another chair is positioned further forward- left. On the table, you'd expect to find a cake directly in front of you, which appears to have a hand touching it, most likely a person standing on thefar right. The person is not far from the coda, and their hand is interacting with it.",
+    "gt": "A dining table is situated across the center extending to the right, with chairs adjacent to it. To your far right, there's a person, possibly seated at the table's end. On your near right, a chair stands alone, and there's a cake directly in front of the seated person, likely within reach on the table. The scene suggests a gathering or a meal in progress.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            195
+          ],
+          [
+            612,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            584,
+            170
+          ],
+          [
+            1279,
+            691
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            940,
+            292
+          ],
+          [
+            1279,
+            536
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            603,
+            96
+          ],
+          [
+            847,
+            272
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cake",
+        "coordinate": [
+          [
+            740,
+            384
+          ],
+          [
+            826,
+            496
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room' front to back. Close to you, on the far left, is a chair. Straight ahead a bit lower in height, another chair sits closer to your waist level. On the table, you will find a cake directly between the two chairs, more towards your upper right. Your hand is near the cakeside, possibly touching it.",
+    "gt": "A chair is positioned to your extreme left, with a dining table spanning across the center towards the right side of the room. On your right, there's a person, likely standing at the end of the table. Another chair is in front of you, slightly to the right, likely accompanying the dining table. There's a cake, which the person standing on the right seems to have touched, suggesting it is placed on the table in front of them.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            195
+          ],
+          [
+            608,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            579,
+            168
+          ],
+          [
+            1278,
+            693
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            935,
+            244
+          ],
+          [
+            1279,
+            535
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "chair",
+        "coordinate": [
+          [
+            596,
+            95
+          ],
+          [
+            839,
+            268
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "cake",
+        "coordinate": [
+          [
+            733,
+            382
+          ],
+          [
+            819,
+            493
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a large dining Table extends across the room'es center. Near the far left, there'a chair situated halfway between you and the table. Directly in front, another chair is positioned to your immediate right. Above the first-mentioned table, near the top right corner, s a small cake. There, too, closer to you, is a person'ss hand touching the cakescently, suggesting they might be interacting with it. The last object is the second chair, close to where your hand would expect to touch nothing but air.",
+    "gt": "There is a chair to your far left and a dining table towards the right, spanning across the room's center. A person is on the right, partially in front of the table. Near the person's right hand, on the table, there's a cake. There's another chair, closer than the first, slightly left of the person and in front of the table. The person's hand seems to be near or in contact with the cake.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "chair",
+        "coordinate": [
+          [
+            0,
+            195
+          ],
+          [
+            607,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "dining table",
+        "coordinate": [
+          [
+            578,
+            169
+          ],
+          [
+            1278,
+            693
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "person",
+        "coordinate": [
+          [
+            937,
+            265
+          ],
+          [
+            1279,
+            532
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "cake",
+        "coordinate": [
+          [
+            731,
+            384
+          ],
+          [
+            817,
+            495
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "chair",
+        "coordinate": [
+          [
+            595,
+            98
+          ],
+          [
+            839,
+            269
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, a carrot lies toward the center, while cups and bottles cluster around the perimeter, with one directly in front and others to its left and behind it. An oven anchors to your far left, indicating a large appliance. A laptop is open near the edge on your left. More bottLES are clustered above and slightly left of the central bottle, creating a cluster that could be perceived as a single object from certain angles.",
+    "gt": "A cluster of bottles is gathered to your right, with one directly at 3 o'clock, seemingly touched by someone's hand as it overlaps with others. A lone cup resides to your far left, slightly ahead of you. A bowl sits in front of you slightly to the right. Farther to the left, a laptop is open and accessible, positioned further away from your reach. Directly in front, an oven anchors the scene's center, while a single carrot lies towards the right front, resting near the grouping of bottles.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            910,
+            205
+          ],
+          [
+            1000,
+            401
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "cup",
+        "coordinate": [
+          [
+            85,
+            333
+          ],
+          [
+            278,
+            516
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            882,
+            155
+          ],
+          [
+            941,
+            339
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            972,
+            309
+          ],
+          [
+            1062,
+            469
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "bottle",
+        "coordinate": [
+          [
+            985,
+            174
+          ],
+          [
+            1051,
+            346
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "bowl",
+        "coordinate": [
+          [
+            617,
+            221
+          ],
+          [
+            764,
+            364
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            469
+          ],
+          [
+            589,
+            712
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1010,
+            308
+          ],
+          [
+            1061,
+            429
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1032,
+            181
+          ],
+          [
+            1089,
+            328
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1039,
+            185
+          ],
+          [
+            1108,
+            408
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "bottle",
+        "coordinate": [
+          [
+            895,
+            157
+          ],
+          [
+            943,
+            280
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1044,
+            189
+          ],
+          [
+            1123,
+            327
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "carrot",
+        "coordinate": [
+          [
+            935,
+            495
+          ],
+          [
+            1113,
+            548
+          ]
+        ]
+      },
+      {
+        "idx": 13,
+        "object": "bottle",
+        "coordinate": [
+          [
+            949,
+            329
+          ],
+          [
+            1007,
+            421
+          ]
+        ]
+      },
+      {
+        "idx": 14,
+        "object": "oven",
+        "coordinate": [
+          [
+            335,
+            284
+          ],
+          [
+            816,
+            478
+          ]
+        ]
+      },
+      {
+        "idx": 15,
+        "object": "bottle",
+        "coordinate": [
+          [
+            884,
+            185
+          ],
+          [
+            933,
+            338
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, several bottles are scattered across the area, with one directly at three o\u2019clock position and another slightly to their right. Above this group, a cup sits further to yourright. Further forward and slightlyto your left is a carrot, while a bowl is located slightly behind and tothe left of the oven. On your far left, another bottle is near the edge. The laptop is positioned directly in front of you, taking up a significant space center stage. ",
+    "gt": "Close to you on the left, there's a cup, and further to the left sits a laptop, partially extended halfway across the wall. Straight ahead to the right, multiple bottles are clustered, appearing like a collection or a grouping. Among them, near the center, a person's hand is touching a bottle, hinting at an interaction. To the right of the bottles, a bowl is sitting on the surface, slightly to the right rear. An oven anchors the space in the middle, towards the back. Directly in front of you, a carrot lies horizontally across.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            899,
+            203
+          ],
+          [
+            990,
+            400
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "cup",
+        "coordinate": [
+          [
+            75,
+            339
+          ],
+          [
+            272,
+            524
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            964,
+            331
+          ],
+          [
+            1046,
+            466
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            878,
+            154
+          ],
+          [
+            934,
+            343
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            470
+          ],
+          [
+            588,
+            710
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "bottle",
+        "coordinate": [
+          [
+            975,
+            190
+          ],
+          [
+            1043,
+            343
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1020,
+            189
+          ],
+          [
+            1109,
+            401
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "bottle",
+        "coordinate": [
+          [
+            941,
+            328
+          ],
+          [
+            995,
+            418
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "carrot",
+        "coordinate": [
+          [
+            923,
+            497
+          ],
+          [
+            1113,
+            550
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "bottle",
+        "coordinate": [
+          [
+            875,
+            177
+          ],
+          [
+            921,
+            341
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "bottle",
+        "coordinate": [
+          [
+            875,
+            213
+          ],
+          [
+            916,
+            340
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "bowl",
+        "coordinate": [
+          [
+            611,
+            222
+          ],
+          [
+            756,
+            368
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1040,
+            188
+          ],
+          [
+            1110,
+            323
+          ]
+        ]
+      },
+      {
+        "idx": 13,
+        "object": "bowl",
+        "coordinate": [
+          [
+            759,
+            176
+          ],
+          [
+            897,
+            304
+          ]
+        ]
+      },
+      {
+        "idx": 14,
+        "object": "oven",
+        "coordinate": [
+          [
+            327,
+            292
+          ],
+          [
+            813,
+            483
+          ]
+        ]
+      },
+      {
+        "idx": 15,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1004,
+            305
+          ],
+          [
+            1048,
+            391
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "response": "To your right, several bottles are scattered across the surface with one directly in front and another slightly to their right. Above this group, near the center, a cup sits conspicuously. Farther to your left, an oven anchors the corner, with another object ( possibly a bowl) nestled close to it. High up and slightly towards the left front, there is a laptop spanning the width. Directly below and a bit infront of you, the space is almost filled by a carrot lying horizontally. The objects are neatly arranged without overlapping, allowing for easy navigation past them.",
+    "gt": "A cluster of bottles is to your right, with one noticeably at your 3 o'clock, while others are scattered slightly to the front and behind it. A cup sits alone to the extreme left. Below the cluster of bottles on the right, there's a carrot. More centrally located but slightly to the left, you'll find a laptop on a surface. Above this laptop to the right is an oven, with a bowl situated on its left. The objects are not touching, so it appears no one's hand is in contact with any item.",
+    "input": [
+      {
+        "idx": 0,
+        "object": "bottle",
+        "coordinate": [
+          [
+            882,
+            203
+          ],
+          [
+            968,
+            399
+          ]
+        ]
+      },
+      {
+        "idx": 1,
+        "object": "cup",
+        "coordinate": [
+          [
+            35,
+            346
+          ],
+          [
+            247,
+            535
+          ]
+        ]
+      },
+      {
+        "idx": 2,
+        "object": "bottle",
+        "coordinate": [
+          [
+            945,
+            305
+          ],
+          [
+            1029,
+            461
+          ]
+        ]
+      },
+      {
+        "idx": 3,
+        "object": "bottle",
+        "coordinate": [
+          [
+            854,
+            153
+          ],
+          [
+            912,
+            336
+          ]
+        ]
+      },
+      {
+        "idx": 4,
+        "object": "bottle",
+        "coordinate": [
+          [
+            955,
+            174
+          ],
+          [
+            1016,
+            341
+          ]
+        ]
+      },
+      {
+        "idx": 5,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1001,
+            185
+          ],
+          [
+            1082,
+            401
+          ]
+        ]
+      },
+      {
+        "idx": 6,
+        "object": "carrot",
+        "coordinate": [
+          [
+            902,
+            491
+          ],
+          [
+            1088,
+            546
+          ]
+        ]
+      },
+      {
+        "idx": 7,
+        "object": "bottle",
+        "coordinate": [
+          [
+            864,
+            154
+          ],
+          [
+            910,
+            279
+          ]
+        ]
+      },
+      {
+        "idx": 8,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1005,
+            185
+          ],
+          [
+            1083,
+            331
+          ]
+        ]
+      },
+      {
+        "idx": 9,
+        "object": "bottle",
+        "coordinate": [
+          [
+            1006,
+            201
+          ],
+          [
+            1068,
+            408
+          ]
+        ]
+      },
+      {
+        "idx": 10,
+        "object": "laptop",
+        "coordinate": [
+          [
+            0,
+            474
+          ],
+          [
+            573,
+            711
+          ]
+        ]
+      },
+      {
+        "idx": 11,
+        "object": "oven",
+        "coordinate": [
+          [
+            306,
+            287
+          ],
+          [
+            795,
+            489
+          ]
+        ]
+      },
+      {
+        "idx": 12,
+        "object": "bowl",
+        "coordinate": [
+          [
+            587,
+            222
+          ],
+          [
+            738,
+            367
+          ]
+        ]
+      },
+      {
+        "idx": 13,
+        "object": "bottle",
+        "coordinate": [
+          [
+            857,
+            248
+          ],
+          [
+            889,
+            336
+          ]
+        ]
+      }
+    ]
+  }
+]
