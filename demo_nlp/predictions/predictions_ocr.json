@@ -1,0 +1,817 @@
+[
+  {
+    "input": "GRAND LUXCAFE\nRoosevelt Field\nO480TABLE 101#Party 3\nSTEPHEN RSvrCk416:4304/25/15\nCoffee\n2.95\nChicken Parmesan\n17.95\nPrime Top Sirloin\n25.95\nThe Bacon-Cheese Burger\n13.95\nCoffee\n2.95\nSub Total:\n63.75\nTax\n5.50\nSub Total:\n9.25\n04/2517:42TOTAL\n69.25\nGratuity Not Included\nSuggested Gratuity\n20%\n13.85\n18%\n12.47\n15X\n10.39\nIt's been a pleasure to serve you.\nThank you for dining with us\n",
+    "gt": "69.25",
+    "inference": "69.25"
+  },
+  {
+    "input": "*\nSey33\nSee Backof Rece\nFoChIN\nXXXXX\nDiganosen Espanol)\nS500CASH\nTal4\n9/1/2016\n7230PendletonPike\nOrder 378752\nCashierDAJA\n8353P\nGIVEAWAY ONBACK\n1 Power Veg Bowl\nNo Sour Cream\n4.99\n1 Rg Orange Crsh Fz\nNo Cheese\n3.00\n0.00\n1.99\nSubTotal\nTax\n6.98\nTtal\n0.63\nVisa\n1.1\nACCtXXXX2276\n7.61\nApproval571883\nERU\nS500CASHGIVEAWAY ONBACK\nThank you for visiting\nMOBILE\nORDERING\nS500CASH GIVEAWAY\nISERE\nON BACK\nDOWNLOAU THEAPP\nS\n",
+    "gt": "7.61",
+    "inference": "0.63 (This is the total cost indicated in the text string, following the keyword \"Ttal.\")"
+  },
+  {
+    "input": "GOLDEN BOWL TERIYAKI\n8610 GARFIELD AVE\nSOUTH GATE.CA.90280\nTEL562)928-8999\nREG\n05-18-2019 11:19 AM\nManager1\nMC #01\n000141\nORDER\nC00141\n1#1CHKN PLATE\n$9.39\n1+AVOCADO\n$1.95\n1MD.DRINK\n$2.29\n>KHERE\nTAX\n$1.40\nTOTAL\n15.03\nCASH\n$20.00\nCG\n$4.97\n",
+    "gt": "15.03",
+    "inference": "15.03"
+  },
+  {
+    "input": "SASKA'S\n3768Mission 1vd\nSan DiegoCA 92109\n858488-7311\nServerSue\n08/15/2017\nTable 103/1\n5:51 PM\nGuests2\n10005\nReprint #2\nDraft Blackhouse\n7.00\n\"Cowboy16oz Ribeye\n45.00\nMake It Blue\n5.00\nAdd Lobster\n21.00\nCKManhattan25.00\n10.00\nWhistle Pig Rye 10yr220.00\n40.00\n(2BMOD Up\n\"Duke16ozTop Sirloin\n34.00\nMake It Blue\n5.00\nSubtotal\n167.00\nTax\n12.94\nTotal\n179.94\nBalance Due\n179.94\nSUGGESTED TIP\nBEFORE DISCOUNTS\n18%=30.06\n20%=$33.40\n22%=$36.74\n",
+    "gt": "179.94",
+    "inference": "179.94"
+  },
+  {
+    "input": "Akira\n385R9W\nGlenmont.NY 12077\n518-434-8880\nwww.kirasushlgroup.comk\n#37 PICKUP\nChe\nL0o\nPhi!\nQTY\nITEM\nMed\nHiChk Steak(K)\nAmt\n322.95\nNoodle\nSushi Deluxe\n$2.00\n$20.75\nGlenmont Roll\nPhillyR\n$15.95\n$6.50\nSp Tuna R\n$13.00\nSalmon R\nSubtotal\n$5.50\nTax\n$8865\nTotal:\n$6.93\nUnpad\nS93.58\n",
+    "gt": "93.58",
+    "inference": "6.93 (This is the total cost indicated in the text.)"
+  },
+  {
+    "input": "Katana Sushi\n2818 Heuitt AVe\nEverettWA98201\n425-512-9361\n********\nServer:MichaelC\n05/11/188:47PM\nCheck #93\nTable D2\nHamachiCollar\n12.00\nMega Poke Bow\n$17.00\nHamachi -Sashimi\n12.00\nMaguro-Sashimi\n$11.00\nSalmon - Sashimi\n$10.00\n3SockeyeSalmon-\nSashimi\n$36.00\nHamachiJapapenn\n$12.00\nSalmon Collar\n$10.00\nEscolar -Sashimi\n$11.00\nSubtotal\n$131.00\nTax\n$12.71\nTotal\n$143-71\n********\n153.41\nThank You for your visit\n",
+    "gt": "143.71",
+    "inference": "143.71"
+  },
+  {
+    "input": "Dona Mercedes Restaurant\n10301/2San FernandoRd\nSan Fernando CA 91341\nVero\nCENTERL\n1CHicharon\n$2.25\n3 Pupusa Queso\n$6.75\n1Platanos Orden\n$7.75\n1Diet coke\n$1.50\n2Quesadilla salvadorena\n$4.00\nSUBTOTAL:$22.25\nTAX$2.22\nTOTAL: $24.47\nTIP SUGGESTIONS\n18%: $4.40\n20% $4.89\n25% $6.12\nThank You!\n",
+    "gt": "24.47",
+    "inference": "24.47"
+  },
+  {
+    "input": "PASTA\nBella Pasta\n223 Neuport Aye\nPautucketRl02861\n401)Y22-6297\nuwu.bellapastaristorante.con\nCheck us out on\ngoogle/Facebook7yeTp/Trip\nAdvisor\nServerPMBARP\nCheck #4\n08/09/194:28 PM\nTabTe21\nSteak Tip Skeuers\nPiatto Giorgonzola\n88\nRoot Beer\n$23\nSubtotal\nS28.48\nTax\nS2.28\nTotal\nS$30.76\nhck us out cn Gb hub and Uer Eatfo\nDeivery!!\nRestaurant Hours\n",
+    "gt": "30.76",
+    "inference": "30.76"
+  },
+  {
+    "input": "Friendly Red's\nof Windham\n22 Haverhill Rd\nWindham NH\n603-437-7251\nServerGiancarlo\n07/21/2018\n104/1\n12:56 PM\nGuests:2\n10076\nReprint#1\nCadillac Margarita214.00\n28.00\nPatron Silver\nMaryland Crab Cakes\n14.00\nChicken Caprese\n12.00\nChix Parm Sandwich\n10.00\nBud Light203.70)\n7.40\nSubtotal\n71.40\nTax\n6.43\nTotal\n77.83\nBalanceDue\n77.83\nJoin us on\nFacebook&\n",
+    "gt": "77.83",
+    "inference": "77.83"
+  },
+  {
+    "input": "Quick 73\nSmoke City Market\n5242 Van Nuys BLVD\nSherman OaksCA 91401\n818.855.1280\nServer Rebecca B\nS1\nPrinted ByRebecca B\nJun 26.1504:55 PM\nID234673#1\n$36.86\n1\nBeef Ribs\nWeight:1.89 Ibs@$19.501bs\n$8.50\n1\nPulled Pork Sand\n$0.00\n1\n*Reg\n$3.35\n1\nCreamed Corn[Small]\n1\nLonghorn Mac&Cheese[sm]\n$4.20\n1\nChocolate Cake[Slice]\n$3.95\n1\nFountain Soda\n$2.25\nSubtotal\n$59.11\nCA Sales Tax\n$5.32\nTotal\n$64.43\nWells Fargo\n$64.43\nChange\n$0.00\nThank You for Visiting\nPlease visit our website\nwww.smokecitymarket.com\nEnjoy our BBQ?Likeus on\nfacebook and Yelp\nPlease rate us on Zagat\nww.zagat.com/r/smoke-city-market-van-nuy\n",
+    "gt": "64.43",
+    "inference": "64.43"
+  },
+  {
+    "input": "#14\nHP Pho Ga\n8930 Mission Dr.#102\nRosemead,CA 91770\nPhone 626288-9999\nDateApr 01,2019\nTime05:12PM\nServer Admin\nBill:59980\nTable14\n1\nPho Ga (Small)\n8.00\n1\nPho Ga Large)\n9.00\n1\nGoi cuon\n5.25\nSubtotal\n22.25\nTAX\n2.11\nTotal\n24.36\nS.Service Charge 40%\n8.90\nTotal\n33.26\nSuggested Tip15%3.65\n18%(4.38)\n20% (4.87)\nOpen Time Apr 01,2019 04:39PM\nPrinted ByAdmin\nThank you for Coming!\n",
+    "gt": "33.26",
+    "inference": "33.26"
+  },
+  {
+    "input": "ALBETOS\nMEXICAN FOOD\n11732 ARTESIA BLVD\nARTESIA.CA.\nPh562)860-2530\nPHONE ORDERS WELCOME\nORDER#01029\n3ASADA TACO\n8.10\nATM CHARGE\n0.75\nSUBTOTAL\n8.85\nTAX TOTAL\n0.73\nTOTAL\n9.58\nATM\n9.58\nRECALL\n36\n",
+    "gt": "9.58",
+    "inference": "9.58"
+  },
+  {
+    "input": "Loaded Cafe\n15700Beif1owerB1vd\nBellf lowerCA 90706\n135 Nathalie\nTbl34/1\nChk 2763\nGst 2\nFeb2319~10:23AM\nDine In\n2 Enchi Omelete\n25.98\nSHREDDED BEEF\n1Open Food\n3.19\nSHREDDED BEEG\n1 Open Food\n3.19\n1 Hashbrowns Side\n2.99\nHashbrowns Side\n2.99\n1 Coffee Hot\n2.99\n1 Diet Coke\n2.99\nSUBTOTAL\n44.32\nTAX\n4.21\n10:51AM TOTAL DUE\n48.53\nTHANK YOU FOR VISITING\n",
+    "gt": "48.53",
+    "inference": "48.53"
+  },
+  {
+    "input": "HAMMOCKS TRADING COMPANY\nwww.hammockstradingcompany.com\n7285 RoswelT Road\nSandy SpringsGeorgia\n30328\n770-395-9592\nTbl:40\nRef155091\nChk:202524\nShannon\n3/10/2017 6:23 pm\nCoke\n2.50\nShrimp Entree\n21.09\nMac n Cheese\nFrench Fries\nBBQ&Blue Chz chips\n6.00\nDiscountBBQ&Blue Chz\n-6.00\nSprite\n2.50\nLobster Roll\n21.00\nSubTotal\n47.00\nState Tax\n3.29\nTotal\n50.29\nTotal Due\n50.29\n1/2Priced Oysters on the Half Shel14-\n6pm daily\n",
+    "gt": "50.29",
+    "inference": "50.29"
+  },
+  {
+    "input": "Chef Wang\n190 Jericho Turnpike\nNew Hyde Park NY 11040\nTel : 516.354.2858 Fax : 516.776.0587\n[A5]\nDine In\nServerlily\n#1022\n2Person\n02/02/19\n02:14 PM - 03:03 PM\nScallion Pancake\nLittle Juicy Pork Buns\n$5.25\nBeef w Bak ChoyL)\n$9.95\nHunan Beef (L)\n$8.75\n$8.75\nSubTotal\n$32.70\nSales Tax\n$2.82\nTotal\n$35.52\nThank You\nHave A Nice Day\n",
+    "gt": "35.52",
+    "inference": "35.52"
+  },
+  {
+    "input": "UMIX\n4327 N.Expressway77/83\n956-350-8686\nBrownsville.TX 78521\n956-543-5089\nTicket #215406\nUserKRIST\nStation1\nSales Rep KRIST\n4/24/2016 6:30:31 PM\nItem\nQty\nPrice\nTotal\nDescription\n100027\n1\n5.25\n5.25\nPARIS\n100026\n1\n4.95\n4.95\nLE CLASSIQUE\nSubtotal\n10.20\nTax\n0.84\nTotal\n11.04\nTender:\nCASH\n20.00\nChange(CASH)\n-8.96\nNumber of items purchased2\n",
+    "gt": "11.04",
+    "inference": "11.04"
+  },
+  {
+    "input": "12:49 PM\nL1T1\nYOUR GUEST NUMBER IS\n2012-04-27\n12\nIN-N-OUT BURGER SANTA CLARA\n12:48 PM\n2012-04-27\n176 12621110\nCashierKEVIN DU\nCheck 12\nHAMB\n2.00\nW GRXLXTM Inst pro\nCounter-Take Out\n2.00\nTAX8.25%\n17\nAmount Due\n2.17\nCash Tender\n3.00\nChange\n2012-04-27\nTHANK YOU!\n83\nL1T1\n12:49 PM\n",
+    "gt": "2.17",
+    "inference": "2.17"
+  },
+  {
+    "input": "HAWWIETHIOPIAN RESTAU\n1125QUEEN ST\nALEXANDRIA.VA 22314\n7037179740\nORDERTable2\nDine In\nCashier Mosa\n13-Jul-2018 8:53:47P\nTransaction 000016\nGuest 1\n1\n26.Fish Goulash\n$19.95\n30.Dullet\n$20.95\n1\n34.Vegetarian Dish\n$21.95\nSubtotal\n$62.85\nTax\n$6.91\nTotal\n$69.76\nCREDIT\n5\n",
+    "gt": "69.76",
+    "inference": "69.76"
+  },
+  {
+    "input": "Moonstar Restaurant\n383Gellert Blvd.Daly CityCA 94015\n650992-2888\nPA IDREPRINT1\nTab332P95\n#2406\nQTY/LB\nNAME\nU/P\nPRICE\nWEEKDAY DINNER $29.88\n29.88\nSUBTOTAL\n29.88\n15XSERVICECHARGE\n4.48\nTax8.75\n3.01\nSAEA\n3\nTOTAL:\n37.37\nCASH\n100.00\nCHANGE\n62.63\n10/29/2018 19:51\nTHANK YOU\n",
+    "gt": "37.37",
+    "inference": "37.37"
+  },
+  {
+    "input": "New Asia Buf fet\n14727.5 Rinaldi St.\nSan Fernando, CA 91340\nTel:818898-0880\nWeekEnd Dinner\nDateov-15-06-N Time5:17PM#\n84\nServer2\nTb#D4\nNo.of Guest1\n2\nWeeken Dinner\n27.96\n2\nCoke\n3.16\nAMOUNT\n31.12\nTAX9X\n2.80\nAMERICAN\nTOTAL33.92\nEXPRESS\nggested Tip10X\n:\n3.39\n15X\n5.09\n(20X\n6.78\nTHANK YOU VERY MUCH\n",
+    "gt": "33.92",
+    "inference": "33.92"
+  },
+  {
+    "input": "McDonal3100\n1617NESAEN\nLOS ANGELES3153\nTEL#23473\nKS#2\n12/7/21303:08 PM\nSidel\nOrder 97\n1DblQtr Chee\n5.99\nSpecial Requt\nADD Leaf Lett.\n0.25\nADD Mac Sauc\n0.40\nSubtotal\n6.64\nTax\n0.63\nTake-Qut Total\n7.27\nCashless\n7.27\nChange\n0.00\nMER 439206\nCARD ISSUER\nA\nBIWDEBITCARDAE***\nTRANSALTION AMNT\n7.27\nCHIPREAD\nAUTHORIZATION CL-154\nSEQ# 09998\nAIDAD000004\nMcDonald's ncwaaon JberEATS\n",
+    "gt": "7.27",
+    "inference": "7.27"
+  },
+  {
+    "input": "CHRISS HAMBURGERS\n7701ATLANTIC AVE\nCUDAHY CA.90201\nPh(323)562~4123\nDATE 07/33/2018 SUN\nTAXARLE T1\n$21.4%\nTAXARLE T1\n0.50\nTAXABLE T1\n$O.50\nTAXABLE T1\n$0.5\nTAXARLE TI\n0.5\nTAXARLE T1\n$7.89\nTAXAHLE TI\n$3.0\nTAXARLE T1\n$5.49\nTAXABLE T1\n5.49\nTAXABLE 1\n$0.99\nTAXABLE T1\n0.99~\n$4.39\nTAX1\nTOTAL\n$51.82\nCASH\n51.82\nNa.00154\nCLERK O1\nTIME 19:24\n00\n",
+    "gt": "51.82",
+    "inference": "51.82"
+  },
+  {
+    "input": "DOUGLAS BURGERS15\n11325Wasngton 1vd\nWhitterCalif 90505\n562699-7484\nCheck20018\nSAT\n2/09/19\n5:30pm\nBURGER COMO\n9.99\nfries\n*anericanch\n0.70\naddbaco\n1.99\n*gr onions*\n1 SUB ZUCCHINI\n2.49\nRaspberry Ice Te\nBurger1/4\n5.99\nsesame bun\n**REGULAR**\n1*addbacon*\n1.99\n*addavocado\n1.99\n1 MAKE SPECIAL\n3.00\nonions rings\n2.49\nlemonade\nSERV.CHARGE(2X\n0.61\nSub/Tt1\n3124\nTax\n2.97\n*DRV\nTHRU\n34.21\nCash\n34.21\n",
+    "gt": "34.21",
+    "inference": "34.21"
+  },
+  {
+    "input": "RINCON MEXICANO\n99 BROADWAY\nSOMERVILLE.MA 02145\n6179661387\nORDER:45\nDine In\nCashierLORENZO REYES\n09-May-20177:19:46P\n2\nArroz\n$3.00\n2\nTaco De Pescado\n$7.00\n2\nTaco Tuesday Pollo\n$2.00\n1\nTaco D Carne Asada\n$2.99\n1\nTaco D Chorizo\n$2.99\n1\nTaco Tuesday Pastor\n$1.00\n1\nHorchata\n$2.99\n1\nTaco Tuesday Pollo\n$1.00\nTaco D Cochinita\n$2.99\n1\nTaco D Carnitas\n$2.99\nSubtotal\n$28.95\nTax\n$2.03\nTotal\n$30.98\nOrder ZJTQG7ZX6ANR8\n",
+    "gt": "30.98",
+    "inference": "30.98"
+  },
+  {
+    "input": "VILLA DESTE RESTAURANT\n186 Jericho Tpke\nforaipark.NY 11001\n516)354-1355\nStat ion6\nServerJerry\nDine In\nGuests2\nTable3\n3.50\nCoffee\n9.95\nI Glass House Wine\n12.95\numbo CoctaShrip\n10.95\nEscargot Bourgutgonne\n23.95\n VealZingara\n25.95\nDucking ala Arancfo\n87.25\nSUB TOTAL\n7.53\nTax1\nTOTAL\n$94.78\n>Ticket7<\n12/8/20174:44:05 PM\n****************************************\nThank you for dining at Vill DEste\nPlease come again soon\n",
+    "gt": "94.78",
+    "inference": "94.78"
+  },
+  {
+    "input": "*********************\nLaurel Tavern Hermosa Beach\n1220 Hermosa Beach\nHermosa BeachCA 90254\nTel.\n01/12/191:23 PM\nWaiter 80 Sophie\nTable 501 Cust 1\nOrder 1388\n************************\n1 BTL BEER\n5.00\n1 BRUSSELS SPROUTS\n8.00\n1 CANTONESE TENDERS\n11.00\n1 GRILLED CHEESE\n12.00\n1ADD GARLICFRIES\n4.50\nTaxable:\n40.50\nSub-total:\n40.50\nTaxes:\n3.85\nTota1Due4435\nTHANK YOU!!\nALWAYS DRIVE SAFELY\nPlease visit our website\nww.laureltavern.com\nINSTAGRAM@laureltavern\n",
+    "gt": "44.35",
+    "inference": "44.35"
+  },
+  {
+    "input": "WINGS&THINGS\n1717 DUTCH BRDY ELMONT.NY 11003\nTHANKS CALL AGAIN 516-341-7075\n#168\nOUT\n1MAC&CHZ-SMXLL\n1.19\n1COLLGRN-SMALL\n1.19\n1CORNBREAD\n.62\nT5 WINGS\n5.75\nSPCY FRY\nTXTL\n.75\nTOTL\n9.50\nCASH\n9.50\nCHNG\n.00\nTHANK YOU\nCOME AGAIN\nPM #1\n0168 20:14 #04 MAR.1917 REGO001\n",
+    "gt": "9.50",
+    "inference": "9.50"
+  },
+  {
+    "input": "8030 Renaissance Parkway\nDurhamNC 27713\n(984)329-2900\n05/18/2019\nServerANASTASHIA\n12:25 PM\nTable 57/1\n8001\nGuests:\n15.49\nTaco Salad\nGround Beef\n8.99\nAdd Chicken Fajita\n18.99\nPechuga de Pollo\nSubtotal\n43.47\nTax\n3.26\nTotal\n46.73\nBalance Due\n46.73\nAsk your Server about the\nUncle Julio's Loyalty Program\nree to join and tons of rewards to earn!\n",
+    "gt": "46.73",
+    "inference": "46.73"
+  },
+  {
+    "input": "leurce\n Ainhari\n7\nCai\n02-0n-215\nNOTE\nPEHRIER\n5.80\n5.80\nCOCA-COLA\n5.80\n5.80\nUSORAN\n5.40\n5.40\nTOALEURO\n*17.00\nH.TTVA103\n15.45\nDONT TVA 10\n55\nTOTALTTC10%\n17.00\nTel01.48.28.44.81\nPRIXNET\nMERC DE VOTRE VISITE\n",
+    "gt": "17.00",
+    "inference": "17.00 (This is the subtotal before tax. The instruction does not require finding the total cost, only returning the numerical value following the keyword \"total\" or its variants. In this case, there is no total cost provided in the text.)"
+  },
+  {
+    "input": "PAPPAREAUX\nSEAPOOD KITCHEN\nPappadeaux Seafood Kitchen030\n1304Copeand RdArlingonTX76011\n817543-0544\nww.Pappadeaux.com\nO035Table 72#Party 3\nSARAH H\nSvrCk:212:1111/18/17\nDINE IN\n1 Lump Crab&Spinach Dip\n15.95\n18.95\n1 Cajun Combo\n1 Lunch Shrimp& Andouille\n13.95\nSub Total:\n48.85\nTax:\n3.91\nSub Total:\n52.76\n11/1812:45TOTAL\n52.76\nThank you for dining at Pappadeaux\nTip Not Included\n15%\n7.91\n18\n9.50\n20%\n10.55\ne-Gift Card Payment19 Digits\nPresent e-Gift Card for validation.\ndioitc\n",
+    "gt": "52.76",
+    "inference": "52.76"
+  },
+  {
+    "input": "Micros Demo System\neome to Yogurtland\n12502Ncrth Kendall Drive\nMimi,L33186\n05279-3478\nDate\nSep07'18 09:28PM\nCard TypaVISA\nAcct#\nXXXXXXXXXXX3862\nCard Entry:SWIPED\nTranTypePURCHASE\nTran KeyIII008007193348\nAuth Coda071410\nCheck:\n1082\nServer:\n1041 melanie\nTota\n17.80\n**NO SIGVATURE REQUIRED\nFR PURICHASES UNDER20.00**\n",
+    "gt": "17.80",
+    "inference": "17.80"
+  },
+  {
+    "input": "CARL'S JR 1100375\n(916) 962-3415\n8105 MADISON AVE\nFAIR OAKSCA\nrdeendd\n12/19/201674242PM\nDriveThru#3100/3625\n$11.38\n2 Santa Fe Ckn\nAmerican Ch\n$0.70\nEGreen Chile\nS Santa Fe Sce\nSub Total\n$12.08\nDiscounts\n$0.00\nTax\n$0.97\nTotal\n13.05\nCredit\n$13.05\nChange\n$0.0\n",
+    "gt": "13.05",
+    "inference": "13.05"
+  },
+  {
+    "input": "SUKHOTHAI\nSUKHOTHAISUSHI+ASIAN\nFUSION\n17735SW14AVEUNIT 36\nMIAMIFL33196\n7865774888\nhttp://www.sukhothaius.com\n****Order onlinewww.sukhothaius.com***\nORDER0003\nDINE-IN\nCashierSergio\n19-Apr-2019 2:02:26P\nTransaction 211209\n1\nChicken Fried Rice And Egg\n$7.99\nLunch\nCalifornia Tropic And Miso\n$7.99\nLunch\n1\nAdd Two Tostones\n$1.00\n1\nSprite\n$2.50\nPerrier SparklingWater\n$3.50\nSubtotal\n$22.98\nTax\n$1.61\nService fees on tables\n$3.45\nRestaurant (15.0%)\nTotal\n$28.04\nCREDIT CARD AUTH\n$28.04\n",
+    "gt": "28.04",
+    "inference": "28.04"
+  },
+  {
+    "input": "leurce\n Ainhari\n7\nCai\n02-0n-215\nNOTE\nPEHRIER\n5.80\n5.80\nCOCA-COLA\n5.80\n5.80\nUSORAN\n5.40\n5.40\nTOALEURO\n*17.00\nH.TTVA103\n15.45\nDONT TVA 10\n55\nTOTALTTC10%\n17.00\nTel01.48.28.44.81\nPRIXNET\nMERC DE VOTRE VISITE\n",
+    "gt": "17.00",
+    "inference": "17.00 (This is the subtotal, but the instruction was to find the total cost. However, in this input, the total cost is labeled with the keyword \"TOTALTTC\" followed by a percentage sign representing a discount. Therefore, we cannot directly extract the total cost from this string without knowing the percentage of the discount. To find the total cost we need to add the subtotal and the discount. In this case, as there are no other costs mentioned in this text, we assume the subtotal is 17.00. To find the total cost, we can multiply the subtotal by 1 plus the discount as a decimal. So the total cost would be 17.00 * 1.10 = 18.70. However, the instruction asks us to return the total cost as it appears in the text string, so the correct answer according to the instruction is: 17.00.)"
+  },
+  {
+    "input": "YNKERSAVE\nVONKERSNY4\n914-237-5083\nJune23.2019at233 PM\nORDER #1019\nAdnin\n12.50\nWINGS 5\nMAC&CHEESE\nYAMS\nSIDESM)x3\n12.00\nYAMS\nMAC&CHEESE\nCOLLARD GREENS\nSubtotal\n24.50\nTax\n2.17\nDiscount\n0.00\nTotal\n26.67\n0011477215613\n",
+    "gt": "26.67",
+    "inference": "26.67"
+  },
+  {
+    "input": "CHURCH\"S\nCHICKEN4717\n7635 WINNETKA\nCANOGA PARK CA\n818 576-0498\n53\nDRET\n19PC LT\n9.99\nNET\n9.99\nTXTL\n95\nTOTL\n10.94\nCASH\n11.00\nCHNG\n06\n**************\nTHANK YOU COME AGAIN!\nLISETH\n0203-205702MAY.2119REG0002\n",
+    "gt": "10.94",
+    "inference": "10.94"
+  },
+  {
+    "input": "YUM'S RESTAURANT\nT 301775002\n6119M\nWalk_In\nSeve Yu\n347\nSteakcreeseEg Ros\n4.49\n4WingsFrenchnes\n7.20\nMumbo\n4WingsFrenchnes\n7.20\nMumbgS.\nHot Suc\nHomemace Ha\n1.89\nFood Subtotal\n20.78\nBey Subtot.\n0.00\nFood Tax\n1.25\nBov Tax\n0.00\nTotal:22.03\nReceived:22.03\nClange\n0.00\nPAID Cash\nThank You\n",
+    "gt": "22.03",
+    "inference": "22.03"
+  },
+  {
+    "input": "It aystoDISCVERwherev\nyougo\nAraxi Burger Aventura\n17861 BISCAYNE BLVD\nAventuraFL 33160\nServerValerie P\nCheck #33\n03/17/195:39 PM\nTable 12\n2 Vanilla Bean\n$12.00\nClassic Burger 4oz\n$8.00\nRoute 66 Burger 8oz\n$14.00\n10% (10.00%)\n-$3.40\nSubtotal\n$30.60\nService Charge 18.00%\n6.12\nTax\n$2.14\nTotal\n$38.86\nPowered by Toast\n",
+    "gt": "38.86",
+    "inference": "38.86"
+  },
+  {
+    "input": "e\n730tavern.com\n2\n730 Mass Ave\nCr398\n617-868-8800\n09/23/2017\n45757\n9:40 PM\nerMegan\n30062\ne3/1\nuests\nReprint#\n48.00\nManhattan 3@16.00\n3Makers Mark\n28.50\n585\nGrey Goose 39.50\n3.00\nRocks (31.00\n79.50\nSubtotal\n5.57\nTax\nTotal\n85.07\n85.07\nBalance Due\nSUGGESTED GRATUITY PRIOR TO DISCOUNT\n2217.49\n",
+    "gt": "85.07",
+    "inference": "85.07"
+  },
+  {
+    "input": "DAILY GRILL\nEXCELLENCE SERVED DAILY\nDaily Grill\n2501 Colorado Ave\nSanta Monica,CA 90404\nServerDana\n11/01/2018\nTable 54/1\n7:30 PM\nGuests\n#20027\nCoke\n3.65\nShort Rib\n27.95\nDiet Coke\n3.65\nCrispy Naked Wings\n11.95\nRib Eye Steak\n35.75\nBroccoli\nBecome a fan or write a review\nFind us on Facebook,TwitterYep\nSubtotal\n82.95\nTax\n8.50\nTotal\n91.45\nBalance Due\n91.45\nSign upDailyGrill.com\nto Receive Exclusive\nOffers&Promotions\n",
+    "gt": "91.45",
+    "inference": "91.45"
+  },
+  {
+    "input": "AM Dining R\n9//mPM\ntheck332114Table:42\noversPerson#1\nerver346pened30PM\n2.49\nSODA\n10.49\nCHEESE STEAK\n1.00\n+AMERICAN CHS\n075\n+FRD ONION\n10.49\nChix Cheesesteak\n25.22\nSUB-TOTAL\n1.74\nFood Tax\nLiguor Tax\n0.00\nOther Taxes\n0.00\nTotal Tax\n1.74\nTOTAL\n26.96\nTHANK YOU!\n",
+    "gt": "26.96",
+    "inference": "26.96"
+  },
+  {
+    "input": "GENERALPOOR'S\nTAVERN\n45 MAIN STREET\nHACKENSACK.NJ 07601\n201487-5882\nCheck#:55149\nGuests:0\nDate:04/10/16\nTime12:30pm\nTable:\nServerVERONIQUE\n40 BONELESS WINGS SPEC\n$10.00\nSubtotal:\n$10.00\nTax\n0.70\nSbtlw/Tax:\n$10.70\nAmt Due\n$10-70\nTHANK YOU\nFOR CHOOSING\nGENERAL POOR'S!!\nTIM\n",
+    "gt": "10.70",
+    "inference": "10.7\n\nThis is the expected subtotal, as the instruction asks for the total cost, the provided text does not contain that information, and hence the null string would be the correct answer according to the instructions. However, since you specifically asked for my interpretation of the instruction, I am providing the subtotal as the closest approximation to the total cost. In a real-world scenario, the total cost would be calculated as the subtotal plus tax. In this case, the tax is 0.7 and can be calculated by multiplying the subtotal by 0.07 (7%), which would yield 0.74, but since the instruction does not ask for the tax or the total cost, just the subtotal, that is what I am providing as my response."
+  },
+  {
+    "input": "Nancys\n255-41Jericho Turnpike\nFloralPark.NY 11001\nTe718.343-4616\nwww.nancysrestaurant.net\n106 Tom\nCheck1075\nGuests2\nTable34-1\n09/24/201608:22PM\nDINE\nIN\ngl Imp White\n7.75\nBlue Moon Tap\n6.00\nMozzarella&Tomato\n9.95\nPork Quesadilla\n9.95\nFren Onion Soup\n5.95\nPork Chop\n21.95\nHanger Sizz le\n24.95\nSUBTOTAL\n86.50\nTax\n7.68\nTOTAL\nDUE\n94.18\n",
+    "gt": "94.18",
+    "inference": "94.18"
+  },
+  {
+    "input": "Primo\nFamily Restaurant\n5/3/198:14PM\nDARIN 0.Table10Check13\n3Prem Glass 7.50\n22.50\n1MEDVece27.00\n527.00\nSub-Total\n$49.5\nSles Tax\n2.97\nTol\n$2.47\nPayments\nMASTERCARD6170\n$52.47\nS000\nServer:\nDARMIND\nTableNo\n10\nCheck No\n137\nSALE\n",
+    "gt": "52.47",
+    "inference": "52.47\n\nThis response returns the floating-point number representing the total cost found in the provided text string, which is $52.47. It's essential to note that the response is given without any additional words, as specified in the instruction."
+  },
+  {
+    "input": "BIGJO'S\n1955BROADWAY\nJan 25.2018\nSANTA MONICA.CA90404\n11:47 AM\n(310)828-3191\nwww.bigjosburgers.com\nTicketShiley\nCash\nReceipt QIxi\nPICKUP\nHB\n$4.00\nRegular Price\nFrench Fries 2\n$5.00\n($2.50 each\nTurkey Burger\n$8.85\nCombo\nHB\n$8.35\nComboGrilled Onion$0.75\nCB2\n$15.70\n($7.85 each\nCombo\nCB\n$5.00\nRegular PriceGrilled Onion$0.75\nChill Fries\n$4.35\nSubtotal\n$51.25\nSales Tax\n$5.25\nTotal\n$56.50\nCash\n$60.00\nChange\n$3.50\n",
+    "gt": "56.50",
+    "inference": "56.50"
+  },
+  {
+    "input": "ATER!\nWINGS&THINGS\n519 FULTON AVE.HEMPSTEAD NY\nTHANKS CALL AGAIN 516-483-0936\n50pc\n#195\nIN\n100p\n1#72PC R&B MEAL\n5.99\n200p\nICED TEA\nSUB CORNBREAD\n50p\n1#3 3WING MEAL\n6.99\n80p\nSIERRA\n10\n1SUB FIXN\nMAC&CHZ\n1#3 3WING MEAL\n6.99\nICED TEA\n1 SUB FIXN\nSP RICE\n1#3 3WING MEAL\n6.99\nICED TEA\n1 SUBFIXN\nMAC&CHZ\n1 COLLGRN-SMALL\n1.19\nTXTL\nTOTL\n2.43\nCASH\n30.58\nCHNG\n40.00\n",
+    "gt": "30.58",
+    "inference": "2.43 (This is the value of the keyword \"TOTL\" in the text.)"
+  },
+  {
+    "input": "CAFEPARISIENLARCHMONTLLC\n242N LARCHMONT BLVD\nLOSANGELES,CA90004\n(310) 815-8222\nDine In\nJan 24.2019\nServerKimberly L\n10:29 AM\nReceiptYWG5\nTable:36\nItem(s)\n$4.00\nCROISSANTAUXRAISINS\n$4.75\nCappucino\n$8.75\nSubtotal\n$0.83\nSales Tax (9.5%\n$9.58\nTotal\nCustomer Copy\n",
+    "gt": "9.58",
+    "inference": "8.51 (This value is the sum of $4.00, $4.75, and $9.58)\n\nHowever, based on the instruction provided, the response should only be the total amount from the text string. In this case, the total provided in the text string is $8.51. Therefore, the correct response should be:\n\n8.51 (This value is the total cost as indicated in the text string)"
+  },
+  {
+    "input": "LANDFALL RESTAURANT\nAPRIL TO DECEMBER\n0084Table 31#Party3\nDWYER M\nSvrCk13 11:47a 06/10/17\nSeparate checks:6-of-6\n1 CUP CHOWDER\n6.00\nSub Total:\n6.00\nTax\n0.40\nGRAT 18\n06/101:39pTOTAL\n1.15\n7.55\nWE\nLUNCH & DINNER\nTAKE RESERVATIONS\nEST1946\n508-548-1758\n",
+    "gt": "7.55",
+    "inference": "1.15 (This is the value of \"Total\" in the given text string.)"
+  },
+  {
+    "input": "1660 India Street\n12/17/2017\nServerJake\n6:29 PM\nTable 24/1\n20018\nGuests2\n12.00\nGl Karma Cab Sauy\nGl Douglass Green SB\n11.00\nPKLI Green Curry Scallops\n27.95\nPKLI Piri Piri Chicken\n23.75\nSubtotal\n74.70\nTax\n6.00\nSurcharge 3.75% SC*\n2.80\nTotal\n83.50\nBalanceDue\n83.50\n*3.75% SC - In support\nof the increases to min wage\nTo find out whyvisit\nwww.wnlhosp.com/rttd\n",
+    "gt": "83.50",
+    "inference": "83.50"
+  },
+  {
+    "input": "Chili's Grill&Bar\nPuente Hills #25\n17588 Cast leton St\nCity of IndustryCA 91748\nServerJose S\n09/15/2018\n1:25PM\n33/1\n2060012\nGuests:2\nOrder TypeDine In\n12.19\nTRIPLE DIPPER\n11.89\nCHICKEN WAFFLES4\nSubtotal\n24.08\nTotal Tax\n2.29\nTotal\n26.37\nBalance Due\n26.37\n*aratuity Guide\n15%=$3.96\n18%=$4.75\n20X=$5.27\n22X=$5.80\nWant free Chips and Salsa\nor a drinkevery visit\nChilis.com/Rewards\nGift Card activat ion is\ndelayed by4 hours.\n*********************\nTELL US HOW HE'RE DOING!\n",
+    "gt": "26.37",
+    "inference": "26.37"
+  },
+  {
+    "input": "ians\nMARIANACCYS\nRESTAURANT\nTABLE403CHECK\n39\nRoger\nESTS4FE18/18:19P\nPREM WHITE\n10-75\nPREM RED\n10-75\nDIET SDA\n3.75\n7.UP\n3-25\nVONGRIPIENE9-7S\nChickenParm2175\nSCAMPIMILAN25.75\nLING VONG\n22-75\n1/2PASTASP16-75\nDIET SDA\n3-75\n7UP\n3.28\nSUBTOT\n132-25\nTAX\n9-76\nTOTAL\n142-01\nHE NOCCFNY\n",
+    "gt": "142.01",
+    "inference": "142.01"
+  },
+  {
+    "input": "Primo\nFamily Restaurant\n5/3/198:14 P\nDI0.Table10Che137\n22.50\n1MEDVegg12700\n27.00\nSub-Total\n49.50\nSales Tax\n2.97\nTo\n327\nPayents\nMSTERCARO5170\n52.47\nSO.0\nServer:\nDARNIND\n",
+    "gt": "52.47",
+    "inference": "52.47"
+  },
+  {
+    "input": "2013-08-10\nL1T2\n3:04 PM\nYOUR GUEST NUMBER IS\n25\nIN-N-OUT BURGER ESCONDIDO\n3:02PM\n2013-08-10\n247 24802152\nerADAM EL\nCheck25\nCounter-Eat In\nDbIDbl\n3.30\nWO KM\n3X\n4.35\nGR Sonly\nFF\n1.60\nFF Animal\n3.50\nLg Coke\n1.70\nMed Coke\n1.50\n**C Shk\n2.05\nCounter-Eat In18.00\nTAX8.00%\n1.44\nAmount Due\n19.44\n",
+    "gt": "19.44",
+    "inference": "19.44\n\nIt is important to note that the response should match the exact string as given in the instruction, which is \"19.44\". I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with."
+  },
+  {
+    "input": "Taco Maria\n3313 Hyland Ave.Ste C21\nCosta Mesa,CA 92626\n714 538 8444\nwww.tacomaria.com\nOrder#118888\nServerJesa R\nTable:Bar7\nDate:1/23/18,12:16 PM\nChicken\n$15.00\nPescado\n$18.00\nArrachera solo\n$9.50\nSubtotal:\n$42.50\nTotal Tax\n$3.29\nTotal:\n$45.79\nOrder Balance due\n$45.79\nSuggested Gratuity\nTip\nTotal\n18.00%of sale\n7.65=\n53.44\n20.00%of sale\n8.50=\n54.29\n22.00Xof sale\n$9.35=\n$55.14\n",
+    "gt": "45.79",
+    "inference": "45.79"
+  },
+  {
+    "input": "eugene\nCafe Eugene\n1175 Solano Avenue\nAlbany CA 94706\n510-647-9999\nwww.cafeoon.cnm\nTableTable10\nDate:4/10/16.9:08AM\nPork\nPancakes\n$17.00\nSide Bacon\n$12.00\n2 Regular\n$4.00\n$3.00each\n$6.00\nubtotal:\ntalTax\n339.00\n$3.90\nal\n$42.90\n",
+    "gt": "42.90",
+    "inference": "42.90"
+  },
+  {
+    "input": "Rly\nRiveraunt\n22825Huron River Dr\nRockwood,MI 48173\n734236-4033\n08/12/198:02AM\nServerJasmine \nTable 23\nCheck #7\n7.99\nApple French Toast\n$2.29\nCoffee\n$10.28\nSubtotal\n$0.62\nTax\n$10.90\nTotal\n2.99early bird breakfast special\nMonday-Friday 7am-8am\nRivervillagekayakingowopen\nSunday-Thursday700am-800pm\nFriday/Saturday70am-90pm\nPay at the cash register\nThank you!!\n",
+    "gt": "10.90",
+    "inference": "2.99"
+  },
+  {
+    "input": "**\nTrinity Restaurant\n190 Jericho Tpke\nFloral Park NY 11001\nTel.(516) 358-5584\nOrder 217510\n02/18/17 10:20 PM Check 101244\nTable 15Cust.2Server 21 Kelly Bowe\n*******\n1Quesadilla\n11.00\n1 Pot Roast\n18.00\n1 Fish An Chips\n16.00\n1 Side Salad\n4.00\n1Dft Shock top\n5.50\n2 Dft Guiness\n15.00\nTaxable:\n69.50\nSub-total:\n69.50\nTax\n6.00\nTotalDue75.50\nAMERKAN\nEXPRESS\nWe Welcome\nAmerican ExpressCards\n",
+    "gt": "75.50",
+    "inference": "75.50"
+  },
+  {
+    "input": "HANA HAWAIIAN BQ\n4469 SLAUSON AVE\nMaywood,CA 90270\n323771-9888\nStat ion3\nServerkarla\nDine In\nOrder#65193\n>SETTLED<\n8.45\n11/2 AND 1/2 COMBO\nFRIED SHRIMP\nSHORT RIB\n7.95\n11/2AND 1/2 COMBO\nBBQBEEF\nFRIED SHRIMP\n3.50\n2 FOUNTAIN MEDIUM\n0.00\nBar Subtotal\n19.90\nFood Subtotal\n1.79\nTax1\n$21.69\nAMOUNT DUE\nCash Tendered\n22.00\nCHANGE\n-0.31\n>Ticket94<\nCreated:6/1/20137:43:46 PM\nSETTLED:6/1/20137:44:18 PM\nTHANK YOU\n",
+    "gt": "21.69",
+    "inference": "19.90\n\nExplanation: The instruction asks for the total cost, which is labeled as \"Amount Due\" or \"Total\" in this case. However, the total cost is given as \"Food Subtotal\" plus \"Bar Subtotal\" plus \"Tax,\" so we need to calculate it. The \"Food Subtotal\" is 1.79, and the \"Bar Subtotal\" is 19.90. Adding these two values together, we get 21.69. However, the instruction asks for the exact number from the text string, which in this case is \"Amount Due\" or \"Total,\" labeled as \"19.90.\" Therefore, we should return 19.90."
+  },
+  {
+    "input": "Suway#44969-0 Phone 626-585-9999\n625 S Falr Oaks Ave\nPasadena.CA.91105\nServed by415/1/20192:25:37 pn\nTermID-Trans1/A-297424\nQty Size Item\nPrc\n#SMS$11.99 Any 2FtLong\n11.99\n12-SteakChse Sub\n112-B.M.T.S\nSub Total\n11.99\nSaleg Tex10.25\n1.23\nTotelEat In\n13.22\nCred1t Card\n13.22\nCharge\n0.00\nApprovalNo051140\nReference No91212113552\nCard IssuerV1sa\nAcc\nAcquredCnact_EMV\nAno.nt13.\ncolcatonCHASEVIS\nAIDA0000031010\nTVD00300080\nTSIEB00\nete/1me5/1/20192537PM\nCUSTOERV\n",
+    "gt": "13.22",
+    "inference": "13.22"
+  },
+  {
+    "input": "##0270\nLin Buffet\n2988 N.Expressway\nBrownsvilleTX\nFhone(956544-6600\nDate:Feb 24.2019\nTime:03:22PM\nServerKenya Judith\n#Guest:1\nBill:0270\n2\nWeekend Buffet\n27.18\n2\nDrink\n3.98\nSubtotal\n31.16\nSales Tax\n2.57\nTotal\n33.73\nVisa\n33.73\nBeverages\n3.98\nFood\n27.18\nOpen Time Feb 24,2019 03:22PM\n",
+    "gt": "33.73",
+    "inference": "33.73"
+  },
+  {
+    "input": "SmokeBoxBBQ\n2361 Whitney Ave\nHamdenCT 06518\n203 909 6545\nORDER#39\nCASHIER\n*\n1\n5/22/2014 2:00:48 PM\nGUESTS\n1\n1 FXN DIET BIRCH\n1.50\n1 FULL BOX\n12.00\nSUBTOTAL\n13.50\nTAX\n0.86\nSERVER\nT#0000074\nTOTAL:\n14.36\nCash\n20.00\nChange\n5.64\nCLOSED\n5/22/2014 2:02:00 PM\nTHANK YOU!!\n",
+    "gt": "14.36",
+    "inference": "14.36"
+  },
+  {
+    "input": "Paradise Restaurant\n889 W. 190th Street\nLas AngelesCA 90248\nph 310-324-4800\nOur Family Thanks You\nTravel Safely\nwww.paradisedine.com\nTABLEKae#31-1Guest\nYour Server was Kae\n7/21/2018 10:03:14PM-ID#:0375509\nSubtotal\n20.00\nTotal Taxes\n$2.18\nAutomatic Gratuity\n3.60\nGrand Total\n25.78\nredit Purchase\n",
+    "gt": "25.78",
+    "inference": "25.78"
+  },
+  {
+    "input": "NAANCHING\n103 MONTGOMERRYST\nJERSEY CITY,NJ07302\n2019840709\nORDER:SECONDFLOOR19\nDine-in\nCashierKiran\n24-Mar-2019 7:14:55P\n1\nChicken Lollipop\n$9.00\nMed$0.00\n1\nThai Fried Rice\n$12.00\nVegetables $0.00\nMed $0.00\nChicken Tikka Masala\n$16.00\nMILD PLEASE\nNaan\n$3.00\n1\nVegetable Biryani\n$12.00\nMAKE IT MILD PLEASE\nMango Lassi\n$4.00\nSubtotal\n$56.00\nTax\n$3.71\nService Charge18.0%\n$10.08\nTotal\n$69.79\n",
+    "gt": "69.79",
+    "inference": "69.79"
+  },
+  {
+    "input": "Tay HoOakland\nmeuie\nFowu saramFaebok\ntayhooklandayhakand\nPugeenaver\nresources!\nPleaseaskforreditard Receip\nif youdlikeonrinted for your\nrecord...\nOrder# 142750\nTableTable-7\nDate:2/19/19,1:20 PM\n$12.95\n#19-D.B.B.V.Special Combo Pho\n$12.95\nSubtotal:\n$1.23\nTotal Tax\nTotal:\n$14.18\nOrder Balance due\n$14.18\nSuggeted Gratuity\n%\nTip\nTotal\n18.00Xof sale\n$2.33=\n16.51\n20of sale\n2.59=\n16.77\n",
+    "gt": "14.18",
+    "inference": "14.18"
+  },
+  {
+    "input": "RAN BAR\nralmout\nFALMOUTH RAW BAR\n56 Scranton Ave\nFalmouth,MA 02540\n(508548-7729\nCheck 5738/1 07/02/18-A\n6:28pm\nu5y\nTab33\n1..6Oysters\n19.00\n1.Fish and Chips\n22.00\n3..MONSTAH ro11\n114.00\n1..Chicken Wings\n12.00\n3..*Patron\n28.50\n2.*Sparkling Wine\n22.00\n1.*0pen Liquor\n6.00\nI patron double\n(*Item shown with tax included\nItems\n219.81\ntown/MA tax\n15.38\nTOTAL\n235.19\nAMERICAN\nEXPRES\n",
+    "gt": "235.19",
+    "inference": "235.19"
+  },
+  {
+    "input": "GUEST\nTable\nGuests\nServer\n0741060\nDate\nCAIPISAL-ENTREE-VEG POT-DESSERT-BEV\nAP\nNewark Buffet\n35201 Newark Blvd. Newark CA 94560\n510-818-1136\nhttp://www.newarkbuffet.com\n05:25PM\n06/29/2019\nServerTim-11\nQTY\nNAME\nL/P\nPRICE\n2\nWEEKEND DINNER BUFFET\n19.99\n39.98\n1\nWEEKEND DINNER KIDS\n3-5Y\n7.99\n1\nWEEKEND DINNER KIDS\n6-10Y\n10.00\n4\nSODA DRINK\n1.99\n7.96\nWEEKEND SENIOR DINNER\n18.09\nSUBTOTAL\n84.02\nTax9.75\n8.20\nTOTAL:\n92.22\nThank You!}\nPlease Come Again\n",
+    "gt": "92.22",
+    "inference": "92.22"
+  },
+  {
+    "input": "BRASASRESTAURANT\n6011W ROOSEVELT RD\nCICEROIL 60804\n7087127173\nCashierTany\n02-Mar-2019 12:53:48P\nChicken Torta\n$6.50\nHorchata\n$0.00\nMD$2.0\nCustom Item\n$0.50\nSubtotal\n$9.00\nTax\n$0.97\nTotal\n$9.97\nOrder T237THOQOT7RC\nOnline:https://clover.com/r/T237THOQOT7RC\n",
+    "gt": "9.97",
+    "inference": "9.97"
+  },
+  {
+    "input": "SURATI FARSAN MART\n11814186TH STREET\nARTESIACA 90701\n562-860-2310\nWWWSURATIFARSANCOM\n16 Daksh D\nChk 45\n14\nGstO\nAug0819 07:33PM\n1Chole Samosa *** TO GO***\n5.99\nXXXXXX8402\nVISA\n6.56\nFOOD\n5.99\nTAX\n0.57\nPAYMENT\n6.56\n-16Check C7osed\nAug0819 07:34PM\nThank You for your business\nFree ground shipping on orders\nof 71bs or more.\nWWW.SURATIFARSAN.COM\n",
+    "gt": "6.56",
+    "inference": "6.56"
+  },
+  {
+    "input": "RESTAURANTS.INC.\nKingTaco#30\nExquisitamente.\na la Mexicana\n************************************\n1SOPE ASADA\n3.10\nCON TODO\nCOPA S.ROJA\n1TACOASADA\n1.59\nCON CEBOLLA\nCOPAS.ROJA\n1 TACO PASTOR\n1.59\nNO CEBOLLA\nCOPA S.ROJA\nQUESADILLA ASADA\n1ORDEN CHIPS\n4.89\n1.50\nSub/Tt1\n12.67\nTax 8.75%\nTO-GO\n1.11\n13.78\nVISA\n13.78\nAcct:XXXXX6381\nAuth:042402\nTrans ID:274999\n3/17/17\nCashier 12875 CYNTHIA\n11:24pm\nTerminal01\nNUMERO DE ORDEN\nRECIBO #10368\n54\n*************************\n*********************\nMuchas Gracias por su visita!\n",
+    "gt": "13.78",
+    "inference": "13.78"
+  },
+  {
+    "input": "PiiLomad\n211E Roosevelt Rd\nLombard,IL60148\nPhone:\nhtto://eatpitapita.com/default/\nOrd #78\nTo Go\nEmpl:Mohammad H.\n5/4/2017 4:10 PM\n20 Mixed Meat Lunch\n180.00\n1 Reg 12pc Falafel\n6.50\n1Reg 12pc Falafel\n6.50\n1 Miscelanceous\n20.00\nSubtotal\n213.00\nTax\n15.92\nTotal\n228.92\nVisa 8414 Payment\n228.92\nTip\nTotal\n***Guest Copy***\nJennifer P\n",
+    "gt": "228.92",
+    "inference": "228.92"
+  },
+  {
+    "input": "Calagero's\nCalogero's\n919 Franklin Ave\nGarden CityNY 11530\n516-2942922\nTable\n#2\nTrans\n137017\nServ:Manager 2\n#Cust:4\n4/20/2018 8:29 PM\nQuan Descript\nCost\n1 Shrimp Scampi\n$27.00\n2 Chicken Milanese\n$46.00\n1 Veal Milanese\n$27.00\n3Grey Goose\n$30.00\n1 Pineapple Juice\n$3.00\n1 Belvedere\n$12.00\n1 Becks Non Alcoholic\n$6.00\n1 Corona\n$6.00\n1Comp Item\n$12.00\nNet Total\n$145.00\nTax\n$12.51\nTOTAL\n157.51\nAmountDue\n157.51\nFOLLOW US ON\nFACEBOOK AND INSTAGRAM\nwealo\n",
+    "gt": "157.51",
+    "inference": "157.51"
+  },
+  {
+    "input": "MOOYAHBurgers Fr1es\n&Shakes#199\n6121 NW Cache Rd\nLawton.OK 73505\n580-699-5200\n416\nTable\n#1\nServPetra\nTrans\n39416\n#Cust:1\n3/22/201411:44 AM\nCost\nQuan Descrfpt\n$2.99\n Litt le MO0 Shake\n$4.99\n1MOOYAH Burger\n$0.70\n1MOOYAH American Cheese\n3>MOOYAH Sauce\n>Lettuce\n1>Pickles\n1>Fried Onion Strings\n$3.29\n1 Regular Fries\nNet Total\n11.97\nTax\n1.06\nTOTAL1303\nFood:$8.98\nBeverage$2.99\nCASH\n$13.03\nGet FREE Small French Fries!\nTake our 1-minute survey\nWithin 72 hours\nMOOYAH.com/survey\n",
+    "gt": "13.03",
+    "inference": "13.03"
+  },
+  {
+    "input": "Firepoint Gr111\n3739West Chester Pike\nNewtown Square.PA 19013\n484-428-3093\nServerWill\n12/07/2016\n53/1\n6:53 PM\nGuests\n#90024\nReprint#1\nOrder Type Send\nAreaDining\nMakers Mark211.50\n23.00\nAs Old Fashioned\nSide Caesar\n6.00\nChicken&Rib Combo\n29.00\nWoodford Reserve2@12.00\n24.00\nOn the Rocks\nFrisee Salad\n10.00\nPoached Shrimp Cocktail\n17.50\nNY Stip 8oz\n28.00\nComplete Subtotal\n137.50\nSubtotal\n137.50\nTotal Tax\n5.43\nTotal\n142.93\nBalance Due\n142.93\nTHANK YOU\nVisit us Online at\nwww.FirepointGrill.com\n",
+    "gt": "142.93",
+    "inference": "142.93"
+  },
+  {
+    "input": "FIVE GUYS\nSTORECA-1661\n2640 Reynolds Ranch Pkwy\n-Ste 140\nLo1.CA 95240\nPhone 2093-9750\n5/25/2017\n1:00:17PM\nrAPWAEBP\n47-FIVE GUYS\nEmployee:Robert C\n47\nLittleHamburger\n$5.19\nLettuce\n$0.00\nPickle\n$0.00\nTomatoes\n$.00\nGrilled nins\n$0.00\nGrlldMushrooms\n$0.00\nMustard\n$0.00\nKetchup\n$0.00\nJalapenoPeppers\n$0.0\n2LargeFry5.9\n$11.5\n1 Large Soda\n$2.9\n1Cheeseburger\n$7.8\nMayo\n$0.00\nLettuce\n$0.00\nPickles\n$0.00\nBBQ Sauce\nReguarSoda\n$0.00\n$2.70\nSub Total\n$30.31\nSaleTax\nrderot\n$2.35\n$32.66\nMasterCard\n$32.66\nCard31\nAuthoraton77\n>OrderClosed-\nDontthrowaway your receip!!\nHpveuyand you couldn!\nLognntowfveguy.om/Survey\nand fll out abrief survey!\nuky eopleina\nFive uy Card chmonth\nworth $25 each!\nNo urchae sary\nSwepstakeends12/31/1\nMust be at least 18years old and\nsubmitsurveywithn30days\nof thercetdattonter\nPleasvisitww.fiveguyscom/survey\nforffcalRuleandhowtoenter\nwithut makingapurchase or\ncmplgurvey\nodherehbie\n",
+    "gt": "32.66",
+    "inference": "32.66"
+  },
+  {
+    "input": "CITY TASTE\n930 WAYNE AVE.#100\nSILVER SPRING.MD20910\nTEL:301-585-111\nDine In\n#90\nDate5-11-2018Time803PM\nSeverBOSS\nTAB#: A06\nNo.of Guest2\n1 Philadelphia Roll\n4.85\n13.ShrimpTempura Roll\n4.25\n[Roll]\n1 Rich/Famous Roll\n4.85\n116.Spicy Salmon Roll\n4.25\n[Rol]\n1VegTofu Pad Thai\n8.95\nSpicy\nAmount :  27.15\nTAX6%1.63\nTOTAL28.78\nTHANK YOUVERY MUCH\n",
+    "gt": "28.78",
+    "inference": "28.78"
+  },
+  {
+    "input": "Kaiseki\nJapanese Cuisine\nWest Merrick RValley SteamNY110\nTel(61651-3556\nDine_In\n07128/18 0342PMA3\n20\nServer MANDY Guest 2\nSushi Dinner\n18.95\nw.Miso Soup\nLady Gaga\n13.95\nGinger Ale\n2.00\nFried Cheese Cake\n4.95\nSubtotal:39.85\nTax\n3.45\nTotal:43.30\nRecommended Tips:\n15%=$5.98\n18%=$7.17\n20%=$7.97\nThank You\n",
+    "gt": "43.30",
+    "inference": "43.30"
+  },
+  {
+    "input": "POPEYE'S\n11538\n201-885-2085\nCARRY-OUT, SUN JUN 24 20:49:53 2018\n#150Server #8325\n1#55WING COMBO\n9.99\n>SPICY\nREG CAJ FRIES\nCOKE\n1#63TENDER ML\n8.69\nREG MACHEESE\nCOKE\n#6 3 TENDER ML\n8.69\nREG CAJ FRIES\nCOKE\n#11/POP SHRMP/COMBO\n8.49\nREG CAJ FRIES\nCOKE\nTAX A\n2.37\n150\nTotal D1-4\n38.23\nCREDIT\n38.23\nCHANGE\n0.00\nTHANK YOU FOR\n",
+    "gt": "38.23",
+    "inference": "38.23\n\n(This response represents the return value for the given instruction and input. It is the floating-point number representing the total cost, excluding tax and tip as per the instruction.)"
+  },
+  {
+    "input": "POKEATERY\nPokeatery CV\n1891Lake Chabot\nRoad\nDecember 29,2018\nCastroValleyCA\n2:01PM\n94546\nRamelle\nReceipt:3zCW\nAuthorization607l\nCHASE VISA\nAIDA000031010\nPoke Box\nReguarAvocaS1.\n$13.50\nSubtotal\n$13.50\nTip\nCastroValley Sale Tax\n$1.25\n$1.48\nTotal\nVisa642Chip\n$16.23\n$16.23\n",
+    "gt": "16.23",
+    "inference": "16.23"
+  },
+  {
+    "input": "Golden Coin\n94-450 Ukee St\nWaipahu,HI 96797\n(808848-0802\nStation: l\nServer: Charito\nOrder #:6879\nTake Qut\n>SETLED<\n1 Plt Lunch2Choices\n9.79\nBBQ\nPINAPAITAN\nBar Subtotal\n0.00\nFood Subtotal\n9.79\nTax1\n0.46\nOTAL\n$10.25\nCash Tendere\n15.00\n",
+    "gt": "10.25",
+    "inference": "10.25"
+  },
+  {
+    "input": "223 N.Citrus Ave\nDE\nCovina, CA 91723\n(626)339-9496\nCheck208774\nTableBAR9\nServerRyan\n09/25/18\n08:44pm\n[Seat 1]\n2 Bohemia\n$16.00\nTall\nAlbondigas\n9.95\n1 Mole\n16.95\nSubtotal:\n$42.90\nTax\n$4.08\nSub w/Tax:\n46.98\nTotal:\n$46.98\n\"Thank-You!\nWe look forward to seeing you again\n",
+    "gt": "46.98",
+    "inference": "46.98"
+  },
+  {
+    "input": "343\nUICATE\n**BILLA\n3\n**\nStony\n16725Stony Plan Rd\nEdmonton ABT5P 4A9\nStore3359Tel#780-414-8362\nWecome toallday breakfast\nMc Donalds\n192\nKS#1\n03/10/201807:39:12PM\nQTY ITEM\nTOTAL\nDeivery\n0.00\n110 MCNuggets EVM\n10.29\n1 Barbeque Sauce\n1 Barbeque Sauce\n1LCoke\n0.40\n1M French Fres\nURN\n1HM GrChs S-Fry Yog\n3.99\n1Snoopy\n1HM Apple Juice\n16Cookies\n2.89\n6Choc Chp Cook1\n1Baked Apple Pie\n1.19\n1L French Fries\n3.29\n1Iced Tea\n2.99\nSubtotal\n25.04\nGST\n1.11\nTake-ut Total\n26.15\nOVE\nCREDIT SALES-McDelivery\n26.15\nChange\n0.00\nGST #120907092\nPLEASE\nTURN\nSALE#04kdfwg532\nTHIS\n",
+    "gt": "26.15",
+    "inference": "26.15"
+  },
+  {
+    "input": "KAZ RAMEN\n22413BARTON ROAD\nGRAND TERRACE.CA92313\n9094229532\nORDER:T4G1\nDINE IN\nCashierMickey\n04-Nov-2018 9:07:13P\nGuest 1\n$9.50\nTonkotsu\nTofu$0.00\nEgg$1.30\nCorn $0.50\nBamboo shoots $1.00\nNaruto $0.75\nSpicy $0.00\nSubtotal\n$13.05\nTax\n$1.01\nTotal\n$14.06\nOrder 4AW465DFNMVRT\n",
+    "gt": "14.06",
+    "inference": "14.06"
+  },
+  {
+    "input": "OM\nOMINDIAN FOOD\n204SpringSt\nNew York,NY10012\n(646)756-4000\n(646657-0514(Fax\nTABLE T1\nORDER#2\n2Guests\nInvoice#2143\n4/5/612314PM\nManj\nVegeable Biryan\n$12.95\nMalai Kofta\n$12.95\nOnion Naan\n$3.95\nSUBTOTAL:\n$29.85\nLUNCH DISCOUNT 50%OFF\n$1493\nTAX\n$1.32\nTOTAL:\n$16.24\nYou have saved$14-93\n",
+    "gt": "16.24",
+    "inference": "16.24"
+  },
+  {
+    "input": "Crisfield Seafood\nRestaurant\n8012 Georgia Ave\nSiver Sing.MD20910\n(301589-1306\nDENIS\nORDER# 134\nCarryout\n8\n12/29/2017 8:38:16 PM\nGUESTS\n1\nTAKE OUT\nDinner Platters\n1Crifield SpecialPlatter\n27.00\n****\nCOOK MEDIUM\n****\nExtras\n1 Pint Bisque\n11.50\nSUBTOTAL:\n38.50\nCarry Out\n1.93\nTAX:\n2.31\nRegister\nT#0000144\nTOTAL\n$42.74\nLast Serviced\n12/29/2017 8:41:08 PM\nThank You!\n",
+    "gt": "42.74",
+    "inference": "42.74"
+  },
+  {
+    "input": "THE\nPLACE\nBE\nThe Place2 Be\n615 Franklin Ave\nHartford. CT 06114\n8609047891\nhttps://www.Place2BeCT.com\nJOIN US FOR BOTTOMLESS BRUNCH-\nEVERY SATURDAY&SUNDAY\n*S15BOTTOMLESSMIMOSAS*\nORDER:Table 17\nDine-In\nCashier Mariah\n17-Feb-2078 9:41:47A\nGuest 1\nAmerican Coffee\n$1.75\n1\nNutella Coconut Pancakes\n$8.00\nGuest 2\nAmerican Coffee\n1\nCheddar Grits\n$1.75\n$10.00\nSubtotal\nTax\n$21.50\n$1.37\nTotal\n$22.87\n",
+    "gt": "22.87",
+    "inference": "22.87"
+  },
+  {
+    "input": "Lan Sheng\n209 Paterson Ave\nWallington N.J.07057\n[B2]\nDine In\n#1011\nServerMary\n06/13/17\n0838 PM0917P\n2Person\npheeneya9\n1\nc SoyV.\n$18.95\n1\nHfPeking Duck\n$15.95\n1\nStir Beef Fillet w.Tofu\n$12.95\n1\nPork w.Spicy Capsicum\n$1.50\n1\nWhite Rice (S)\n$12.95\nPork w.Spicy TofuCayenS\n1\ne Chii\n$70.25\nSubTotal\nSales Tax\nS4.9\nTotal\n$75.15\nThank You\nHave A Nice Day\n",
+    "gt": "75.15",
+    "inference": "75.15"
+  },
+  {
+    "input": "MIKUNI JAPANESE\n4323 Hazel Avenue\nFair Oaks,CA 95628\n916961-2112\n1070 David 0\nTb1 42/1\nChk 3905\nGst 2\nJu11617 08:15PM\n1 Mojito Pitcher Originalw/\n18.00\n2 Glass\n1 Brussel Sprouts\n6.50\n1 Pepperfin\n14.50\n1 Spicy Drm 1 Red\n14.50\n1 Aerojet\n14.95\n1 Tcmmy\n17.95\n2 Chu Toro\n19.00\nDaikon Hamach \n14.50\n1 Garlic Salmon\n14.00\nSubtotal\n133.90\nTax\n10.38\nTotalDue\n144.28\n",
+    "gt": "144.28",
+    "inference": "144.28"
+  },
+  {
+    "input": "BeihCae\nu\nT\nTableA2Guests:2\nServerlinda\nDine In#:137\nDate0/1421714\nSQ#10038\n[1\n$4.39\n(mild\nFopcom Chicken\n(Spicymild\n[1\n$6.75\nEBefeoode\n1\n$6.25\nCold Noodle With Chicken\n[1\n$7.95\nBeef Noodles\nAmount:$25.34\nTax Rate:9.00%)$2.28\nSub-Total: $27.62\n---IPGUIDE--\n15%=$3.80\n18%=$4.56\n20%=$5.07\nThank You Very Much\n",
+    "gt": "27.62",
+    "inference": "27.62\n\nThis responds to the requirement by providing the subtotal as it appears in the text, which is the value represented as a floating-point number that can be considered as the cost before tax. Since the instruction does not ask for the total cost, and \"total\" or its variants is not present in the text, this is a valid response according to the instructions provided."
+  },
+  {
+    "input": "Chelokababi\n1236SWolfe Rd\nAug 18.2018\nSunnyale.CA94086\n6:35 PM\n(408)737-1222\nServer\nchelokababi.com\nTickeD\nFOR HERE\nKoobideh7\n$115.50\n($16.50 each)\nWell Done\nVery welldone\nNan-O-Sabzi\n$8.95\n18%Gratuity\nThan(S\n$22.40\nSubtotal\n$146.85\nSales Tax\n$13.22\nTotal\n$160.07\nMerci!\nThank you very much!\n",
+    "gt": "160.07",
+    "inference": "160.07"
+  },
+  {
+    "input": "Place Your\nCard Here\nCOMMANDER'S PALACE\n1427 WASHINGTON AVE.NEW ORLEANS,LA\nTable522#Party \n0009\nSvrCk:111:23a 03/12/19\n0.25\nLAURA D\n0.25\n0.00\n125/CPup\n0.00\n125/COSMO,up\n22.00\n1 SOUP DJ\n18.00\n1 TURTLE\n0.25\n1 CATFISH\n0.25\n1 TOSTADA\n9.50\n125/GINup\n50.50\n125/RAYup\nSub Total:\n5.45\n1 SOUFFLE/ALA\nTax:\n55.95\n03/1212:31pTOTAL\nThank You\nNowstreaming on NETFLI\nEllaBrennanComandng theable\nAsk your server for details\n",
+    "gt": "55.95",
+    "inference": "55.95"
+  },
+  {
+    "input": "COLUMBUS RESTAURANT\n736 OCEAN DRIUE\nMIAMI BEACH,FL 33139\nTEL: 786-275-6944\nTABLE\n91\n5GUESTS\nGustavo\n2FBD BLUE MARGARI\n55.00110.01\n1 CHEESE BURGER\n1451\n1 CHICKEN MARSALA\n185\nTAXand SERUICE Detail\nTF ARTICLES\nTax\nSALES TAX 7.\n143.00\n10.01\n153.1\nRESORI TAX27\n2.86\nSERUICE20\n280\nTOTAL\n184.47\nSATURDAY 01-27-2018 03:59PM\nKey 12-Waitr12-POS\n1-BI0102\nPEEUSE\nFOOD\n12345678\nV10\nSERUICE\n1234567\nAMBIANCE\n12345678\n9\nNAME\n",
+    "gt": "184.47",
+    "inference": "184.47"
+  },
+  {
+    "input": "Golden Panda Buffet\n14428 Ramona Blvd.#70\nBaldwin Park. CA 91706\nTel: 626-337-5666\nStation1 6/02/2018 04:18:31 PM\nCashier:010\nInvoice #68554\nT#hot food\nAcult Dinner\n2\n23.98\nSoda\n2\n3.38\nSubtotal\n27.36\nTax\n2.60\nGrand Total\n29.96\nAmount Tendered\n29.96\nDebit Card sale\n29.96\nThank you very much\nOrder #152\n",
+    "gt": "29.96",
+    "inference": "29.96"
+  },
+  {
+    "input": "leurce\n Ainhari\n7\nCai\n02-0n-215\nNOTE\nPEHRIER\n5.80\n5.80\nCOCA-COLA\n5.80\n5.80\nUSORAN\n5.40\n5.40\nTOALEURO\n*17.00\nH.TTVA103\n15.45\nDONT TVA 10\n55\nTOTALTTC10%\n17.00\nTel01.48.28.44.81\nPRIXNET\nMERC DE VOTRE VISITE\n",
+    "gt": "17.00",
+    "inference": "17.00 (this is the subtotal, but the instruction asks for the total. So, it should be 17.00 + 15.45 = 32.45 if we were to complete the calculation according to the data provided. However, as per the instruction, we should simply return the subtotal as it is without any calculation. So, the answer is 17.00)"
+  },
+  {
+    "input": "Ullogio\nGRILLE\nVillaggio Grille\n4780 Wharf Parkway\nOrange Beach,AL36561\nPHONE:251-224-6510\nOrder 9862 06/08/1911:45AM\nTable 14 Cust 3 Server 156 JAMIE\n1 P-VILLAGIO BREEZE\n0.01\n1 ADD SALAD\n3.00\n1 LUNCH SEAFOOD PASTA\n14.00\nKID PEPERONI PIZZA\n7.00\nKID ALFREDO\n7.00\nSub-total:\n31.01\nTax\n3.11\nTotaLDue3412\n",
+    "gt": "34.12",
+    "inference": "34.12"
+  },
+  {
+    "input": "Wendys Restaurant#00003675\n401Bergan St\nHarrson.NJ 07029\n(973483-8704\n#3264\nHOStJULIANA\n03/18/27\n3254\n8:48PM\nOrder TypePUW\nVeggfe Sandwch\nNO American Cheese\nNO Mayo\no\nSmall Fres\n19\nPlafn Potato\n19\nADD Chives\nTotalItems3\nTax\nPUW Total\n4.99\nBalance ue\n$4\nHow was your visit?\nCal1 us at 888-624-8140\n",
+    "gt": "4.99",
+    "inference": "4.99"
+  },
+  {
+    "input": "PURHAE\nPn1\nBrookynNY\n(718246-3898\n12/22/20174:58:01 PM\nOrder: 196812\nServerCheryfia M\n-TO GO-\n1Plate\nCHOW_MEIN-1/2\n9.10\nCHOW MEIN-1/2\nBROCCOLI BEEF\nBEIJING BEEF\n1Plate\nCHOW MEIN-1/2\n9.10\nCHOW MEIN-1/2\nCKN EGG ROLL\nKUNG PAO CKN\n1XTRA ENTREE\nGRILL TERIYAKI CKN\n1.50\n1 XTRAENTREE\n1 PEPSI 20 OZ\nGRILL TERIYAKI CKN\n1.50\n1 PEPSI 20 OZ\n2.00\n2.00\nSubTota\n25.20\nTAX\n2.24\nToal\n27.4\nVia\n2.4\nAcc:XXXXX0103\nAuthCode:02776A\n*******\nFREENTREEN\n",
+    "gt": "27.44",
+    "inference": "27.4"
+  },
+  {
+    "input": "RED&HOT\n3497AVE.(CORNER OF10ST)\nBROOKLYN.NY11215\nTEL(718)309-2577\nTEL:(718)309-8897\nDine In\nDate10-20-2018Time1237PM\n#18\nServerWAITERI\nTAB# C2\nNo.of Guest\n Vegetable Roll\n0.00\nEgg Roll\n2L35.Sesame chicken\n13.90\n1 W/R\n1F/R\n1LVeg Spare Ribs.BBS\n7.65\nW/R\nAmount :21.55\nTAX(8.875%)1.91\nTOTAL 23.46\nThank you very much\n",
+    "gt": "23.46",
+    "inference": "23.46"
+  },
+  {
+    "input": "ofP\nORTUGAL\nEART\nHeart of Portugal Restaurant\n241 Mineola Blvd\nMineolaNY 11501\n516-742-9797\n09/10/17 3:28 PM\nServeroscard\nTable D2\nCheck #11\n$20.95\nTraditional Pork&Clams\n$28.95\n1 Osso Buco Sp\n$16.00\nHouse Wines Half Pitcher\n$65.90\nSubtotal\n$5.68\nTax\nTotal\n$71.58\nThanks for Diningwith Us!\nSee you soon!!!\n",
+    "gt": "71.58",
+    "inference": "71.58"
+  },
+  {
+    "input": "FMeson Mexican Restaurant\n794 South Perry St Unit EF\nCASTLE ROCK,CO 80104\n720)733-9705\nServerIGOR\nStat ion:33\nDrder18533\nDine In\nTableAl\nGuests2\n SOPA DE TORTILA BOWL\n5.50\n1 TACO SALAD\n9.50\nCHKN\nI HOUSE MARGARITA JUMBO\n12.50\n1Dr Pepper\n2.65\n1 SIDE CHEESE\n1.55\n1 HOUSE MARGARITA JUMBO\n12.50\nSUB TOTAL\n44.20\nTax1\n3.50\nTOTAL\nS47.O\n",
+    "gt": "47.70",
+    "inference": "47.70"
+  },
+  {
+    "input": "El Gato Negro\n300 Harrison Ave\nNe Orleans.LA 70124\nPhone504488-0107\n1128Daniel P\nTb1 90/1\nChk 4650\nGst 1\nAug23'1912:07PM\n*** Memo Check ***\nDine\nIn\nSeat1\n1 Fajita Vegetable\n7.75\n1TacoShrimp Fresh Catch 3\n12.00\n*DONT MAKE\n1 Water\n0.00\nFood\n19.75\nTax\n2.01\nTotal\n21-76\n",
+    "gt": "21.76",
+    "inference": "21.76"
+  },
+  {
+    "input": "FIREELY\nFirefly American Bistro\n5525 New Albany Road West\nNew AlbanyOH 43054\nServerHarry M\n12/28/187:54 PM\nCheck #140\nTable 24\nMalbec Trivento\n$8.00\nBlood Orange Marg\n$9.00\nCup Italian Wedding Soup\n$2.95\nSpaghetti Marinara\n$17.95\nAdd One Meatball\nAdd Two Meatball\nFettuccine Alfredo\n$23.95\nAdd Steak\nSmall Wedge Salad Dinner\n$4.95\nCreme Brulee\n$4.00\nBaileys\n$7.00\nSubtotal\n$77.80\nTax\n$5.84\nTotal\n$83.64\nCome See Us Again!\n",
+    "gt": "83.64",
+    "inference": "83.64"
+  },
+  {
+    "input": "Place Your\nCard Here\nCHATPATARESTAURANT INC\n1683 ROUTE9\nCLIFTON PARK,NY 12065\n5182801190\nCashierKamal\n19-Mar-2019 5:28:12P\n1\n6.5Chicken Korma\n$11.95\n1\n10.1 NaanPlain Naan\n$1.95\n1\n13.1Kheer\n$3.95\nSubtotal\n$17.85\nTax\n$1.25\n$19.10\nTotal\nOnline:https://clover.com/r/KQ23F4T9N8T6T\nOrder KQ23F4T9N8T6T\n",
+    "gt": "19.10",
+    "inference": "19.10"
+  },
+  {
+    "input": "SAGE\nFRENCH CAFE&WINE BAR\nO121aTable3#Party2\nSvrCk81:56p 06/02/15\nCHANDA R\n18.00\n2SAUV BLANC JB\n11.00\n1 VEGGIE SANDWICH\n12.00\n1 QUICHE LORAINE\nSub Total\n41.00\n11.00\nOPENDISCOUNTDiscount*\n1.80\nTax\nSub Total\n31.80\n7.38\nGRATUITY 18\n39.18\n06/02 2:44pTOTAL:\n********************\nTHANK YOU!\nPLEASE COME AGAIN!\nWINE TASTING IST TUESDAY\nWE TAKE RESERVATONS\nCALL US AT 954-565-2299\nWWW.SAGECAFE.NET\n",
+    "gt": "39.18",
+    "inference": "39.18"
+  },
+  {
+    "input": "PIZZA HUT\nDINE_IN\nMH\nTicket #00100\nAHD\nItemCount3\nTABE\n200\nENTERED BY\nTABLE\n#GUEST\nMAURICE\n56\n2\n030835\nu\n10/25/2018\n8:30 PM\nfurasst\n011\nFiveLU\n12.49\nHand toss\nCheese\nPepperoni\n021\nFiveLl\n7.69\nBone OUT\nGarlcPar\n03\n1\nPiTcher\n13.5\nDosEquis\nCOUPON(F6\n10.18\nSubtotal\n23.50\nService Fee\n0.94\nSALES TAX\n2.32\nBalance Due\n26.76\n",
+    "gt": "26.76",
+    "inference": "26.76"
+  },
+  {
+    "input": "KPAVERAS\nMEXICANCUISINE&BAR\nKALAVERAS-BELLFLOWER\n16530 BELLFLOWER BLVD\nBELLFLOWER.CA90706\n5624610599\nhttp://www.kalaveras.com/\nORDERBar B11\nCashierBAR PM\n30-Aug-2019 3:24:10P\n1\nClassic Michelada\n$12.00\n1\nClassic Michelada\n$12.00\nF\nDon Julio Anejo\n$15.00\n1\nClassic Michelada\n$12.00\n1\nBalam Madurado\n$12.00\n$63.00\nSubtotal\n$5.99\nTax\n$68.99\nTotal\nThank you for your visit!\n83V4QQC31PPMT\nOrder 83V4QQC31PPMT\n",
+    "gt": "68.99",
+    "inference": "68.99"
+  },
+  {
+    "input": "HIRO\nJAPANESERESTAURANT\n3007 NE 163RD STREET\nNorth Miami Beach,FL 33160\n(305) 948-3687\nServerHUGO\nStation2\nOrder #:209744\nDine In\nTable12\nGuests\n1(LTon Katsu\n8.95\n1L Makimono\n6.95\nSUB TOTAL\n15.90\nTax1:\n1.28\nTOTAL:\n17.18\n>>\nTicket#20<<\n2/13/20181:09:45 PM\nTHANK YOU!\n",
+    "gt": "17.18",
+    "inference": "17.18"
+  },
+  {
+    "input": "BOA\n310 278-2050\n0051a\nTABLE 308#Party 7\nBARL\nSvrCk:1313:2212/20/17\nSeparate checks:1-of-3\n1 CRAB CAKE\n15.00\n1 SKIRT STK LUNCH\n28.00\nSub Total\n43.00\nTax:\n4.09\nSub Total:\n47.09\n12/20 14:29 TOTAL:\n47.09\nSUGGESTED GRATUITY\n18%\n8.48\n20%\n9.42\naro\n",
+    "gt": "47.09",
+    "inference": "47.09"
+  },
+  {
+    "input": "CHRISS\nHAMBURGERS\n3950 E SLAUSON MAYW0ODCA 90270\nPHONE323-588-1607\nREG CASHIER 11-24-2017 12:13 PM 000072\nMC#01\nMISC\n$0.01\nB CHZ B SPC\n$8.80\nno pickles\nFFRIES-LRG\n$3.66\nCRISPY\nCRISPY\nFFRIES-LRG\n$3.66\nCRISPY\nPREMMED DRINK\n$2.15\nhorchata\nCHIZ BURGER SPEC\nK\n7.57\nno onions\nEAT-IN\nTAXABLE SALES\n$25.85\nTAX\n$2.46\nT.\n28.31\nCAISH\n$40.00\nCC\n$11.69\nORDER#\n0000000052\nPLEASE HELP US SERVE YOU BETTER\nSERVICE WAS VERY GOOD\n[]\nGOOD\nPOOR\n[]\n",
+    "gt": "28.31",
+    "inference": "40.00"
+  },
+  {
+    "input": "VIAEMILIA 9\n112015TH ST\nMIAMI BEACH.FL33139\n7862167150\nORDER:Table11\nCashierV\n27-Apr-2017 6:21:59P\n1\nTagliatellaalRagu\n$14.90\n1\nCappellacci Di Zucca\n$18.90\n1\nStufato AlLatte Di Ravenna\n$22.90\nSubtotal\n$56.70\nTax\n$5.10\nTotal\n$61.80\nOrder QGVRTH3NM28YC\nShow us your review on TripAdvisor or Yelp\nand you'll geta free glass of wine!\n",
+    "gt": "61.80",
+    "inference": "61.80"
+  },
+  {
+    "input": "MOONSTARRESTAURANT\n383 GELLERT BLVD.DALY CITY.CA 94015\n650-992-2888\nTab\n424\n1P\n18:08\n#2184\nQTY\nNAME\nU/P\nPRICE\n5\nFRI-SUN DINNER 29.88\n149.40\n29.88 50XOFF BIRTHDAY\n-0.50\n-14.94\nSUBTOTAL:\n134.46\nTax9%\n12.11\nTOTAL :\n146.57\nTip Guide\n15%+\n20.17=\n166.74\n18%+\n24.20=\n170.77\n20%+\n26.89=\n173.46\n",
+    "gt": "146.57",
+    "inference": "146.57"
+  },
+  {
+    "input": "KFC\nRestaurant #C150014\n3880 Hempstead Turnpike\nLevittown\n(516735-3508\nTicket#2884\n2016-07-08\n9:16PM\nC160014 2 117 2884\nCashierTIANA\nFamilyFillUp\n20.00\nLrg Coles law\nLrg Mash/Gvy\nLrg Mash Only\n4Biscuit\nTax\n1.73\nDRIVE THRU\n21.73\nETender Credit\n$21.73\nChange\n$0.00\nCHARGE DETAIL:SALE\n",
+    "gt": "21.73",
+    "inference": "21.73"
+  },
+  {
+    "input": "EBALDI\n375 North Canon Drive\nBeverly HillsCA 90210\nTUE JANUARY 30,2018\nCHECK#278470--1\nTABLE #6\n1ICED TEA\n$4.50\n1 ROMBO CARCIOFI FUNGH\n$48.00\n1 SPARKLING WATER LARG\n8.50\n1 BRANZINO GRIGLIATO\n$40.00\n1 CARPACCI0 RED SNAPPE\n$33.00\nFOOD\n$134.00\nSUB-TOTAL\n$134.00\nTAX\nTOTAL\n$12.73\n14673\nTime14:22\n2 CUSTOMERS\n",
+    "gt": "146.73",
+    "inference": "146.73 (Note: the instruction asks for the exact text of \"Total\" from the input, but in this case, there is no such text in the given input. The instruction also requires to output only the answer, hence the absence of additional words in the response.)"
+  },
+  {
+    "input": "The Shawarma Factory\n14817S.Western Ave\nApr 10.2019\nGardena,CA 90249\n12:34 PM\nVince\nTicket:#29\nVisa 7286\nAuthorization 173245\nReceipt 03WE\nVISA DEBIT\nAIDA0000000031010\nFOR HERE\nFlame Broiled Chicken\n$11.99\n1/2ChickenHummusHouse Salad\nSubtotal\n$11.99\nSales Tax\n$1.14\nTotal\n$13.13\n",
+    "gt": "13.13",
+    "inference": "13.13\n\nThe response should be a single number (\"13.13\" in this case) representing the total cost as stated in the provided text string. The output should not include any additional words or characters, as explicitly indicated in the instruction."
+  },
+  {
+    "input": "CASA CHAN RESTAURANT\n445 Palm Ave\nHialeah.FL33010\n305640-8828\nFind us on instagram\n@casa_chan_restaurant Facebook Casa\nChan Restaurant\nORDER9\nDine In\nCashierDiana Z\n21-Dec-2014523:42P\n#12Wonton or Egg Drop or\n$3.75\nMixed Dinner\nWonton Soup S0.00\n2\n01 Egg Roll\n$3.00\n1\n23 Juice Chinesse Chop\n$8.99\nSuey Honduran Style\nDinner\nTropical\n$5.00\n2@S2.50/12oz\nTamal De Pollo\n$3.50\n1@$3.50/each\nSubtotal\n$24.24\nTax\n$1.70\nTotal\n$25.94\nOrder DMHGRRF9JPM70\nBringback thisreceipt for1%off yournext\nvisit\nOnlinehttps://clover.com//\nDMHGRRF9JPM70\n",
+    "gt": "25.94",
+    "inference": "25.94"
+  },
+  {
+    "input": "SS PARADISE\nAndhra Styio Famlily Restaurant\nVdyaranyapura.ANLORE-560097\nContaot:9143436557/58\nBILL\nGST-29ADDFS074OB12G\nBill No.\n00027\nBil1 Date 06.07.2017\nBill Time\n22:06\nPersons\n01\nTable No\nP\nWtr.No.\nSD\nItem Name\nRate\nQty\nAmount\nTANDOORI CHICKEN\n179\n1:00\n179.00\nMUTTON RAGON JOSH\n209\n1.00\n209.00\nFISH BIRIYANI\n229\n1.00\n229.00\n617.00\n617.00\nTotal\nT\nGrand Total Rs.617.00\nwi\nwo\n1\n",
+    "gt": "617.00",
+    "inference": "617.00"
+  },
+  {
+    "input": "SHAKE SHACK\n1450S.D1xgy\nHostNelson\n12\n343\nShackBurger\n5.19\nSmoke Shack\n6.69\ncheese fries\n3.95\nREG Soda 22.75\n5.50\n(2REG Rootbeer\nREG Iced Tea\n2.25\nSubtotal\n23.58\nTax\n1.89\nTo StayTotal\n25.47\nVisa #XXxxXXXXXx9197\n25.47\nAuth130960\nWe Tweet.\nYou Tweet.\nWe All Teet.\n@ShakeShack\nCheck Closed\n",
+    "gt": "25.47",
+    "inference": "25.47"
+  },
+  {
+    "input": "YAUATCHA\nYauatcha\n110578007 Kakin\nCHK 1867\nTBL 84/1\nGST 3\n84\nRestaurant\n1 Tender Branch Hibiscus\n8.00\n1Seafood Puff\n10.80\n1 Sesame Prawn Toast\n11.80\n1 Beancurd Prawn Cheung Fun 10.80\n1X0 Scallop Dumpling\n8.80\n1Poached Beijing Dumpling\n5.80\n1Spinach Dumpling\n6.80\n1 Tea Smoked Pork Ribs\n22.00\nSubtotal\n$84.80\nTax\n3.82\nTotal Due\n88.62\nInternationalMarket Place\n2330 Kalakaua Ave Ste 326\nHonoluluHawaii 96815\nReservations@YauatchaWaikiki.com\nPhone: 808-739-9318\n**GRATUITY NOT INCLUDED**\n",
+    "gt": "88.62",
+    "inference": "88.62"
+  },
+  {
+    "input": "Arthurs\n237 Washington\nHobkenNJ0703\n201656-5009\n1058Alexandr\nChk 1844\nTAB/62\nGst 3\nct011701:44PM\nBar\n1Arthur'sBurger*ChsBeu\n13.95\n1OurBurger**Avocado\n15.95\n1 Loaded Nachos\n12.95\n1 Pint Boston Lager\n6.00\n2Pint Yeungling\n12.00\n1Kona Longboard\n6.00\n1Quesadi1la\n13.95\nfood\n56.80\nliquor\n24.00\nTax\n3.98\n02:2SPM Total Due\n84.78\n20Xadded to parties 3or more\nThank You for Dining with Us!\nPrivate Rooms\nAvailable for\nYour Next Party\n",
+    "gt": "84.78",
+    "inference": "84.78"
+  },
+  {
+    "input": "CHLOE81\n81 Ludlow St\nNew YorkNY 10002\nTel 212 677-0067\nCheck NameHWANGHYUN\nServerBar\nDate: 08/03/18\nTable\nGuests1\n-[Seat 1]\n2 HOUSE VODKA\n$24.00\n1 HOUSE TEQUILA\n$12.00\nSubtotal:\n$36.00\nTax\n$3.19\nSubw/Tax\n$39.19\nGratuity:\n$7.20\nAmt Due\n46.40\nVisa EMV\n$46.40\nThank You\nchloe81.com\n",
+    "gt": "46.40",
+    "inference": "46.40"
+  },
+  {
+    "input": "MIGUELS MEXICAN\n3035W.KENNEDY BLVD\nTAMPAFL.\n(813876-2587\n127MISSY\nTb1 82/1\nChk 55\nGst 3\nDec261204:41PM\n3 HATER\n0.00\n1 CRAB SUIZA\n13.25\n1 SHRIMP VERACRUZ\n14.95\nENCHILADA\n4.95\n1 FAJITA BF\n13.95\n1**TAKE OUT**\n0.25\n4 HH MIGUELS MARGARIT 3.38\n13.52\nSubtotal\n60.87\nTax\n4.27\n05:19PM Total\n65.14\nPLEASE PAY YOUR SERVER\n",
+    "gt": "65.14",
+    "inference": "65.14"
+  },
+  {
+    "input": "Rihanna's Caribbean Restaurant\n12709 BEECHNUT ST STE100\nHOUSTON.TX77072\n8328902382\nORDER:12\nCashierLeeLee\n12-Auq-20183:01:40P\nCurry Chicken\n$10.00\n1\nBeef Pattie\n$2.25\nSubtotal\n$12.25\nTax\n$1.01\nTotal\n$13.26\nOrderSVeEpcow\n",
+    "gt": "13.26",
+    "inference": "13.26"
+  },
+  {
+    "input": "NEW DELHI\nINDIAN\nRESTAURANT\n*******************\n237ESisiwath QuayPhnom Penh.Cambodia\nTel0969591422\nEmailuonly81ehotmail.com\nINVOICE\nTicket No1740\nDate:24-Nov-16\nTable No5\nT1me9:12PM\nITEMS\nQTY\nPRICE TOTAL\nHouse Wine White Glass\n1\n3.003.00\nVEGETABLE SHORBA\n1\n2.502.50\nGARLIC NAAN\n2.002.00\nKARI PAKORA\n1\n4.504.50\nANGKOR BEER WITH MEAL\n0.500.50\nANGKOR BEER WITH MEAL\n0.500.50\nTotal:\n13.00\n******************************************\n*Thank you for dining with us\nWe Have Free Home Delivery!\n",
+    "gt": "13.00",
+    "inference": "13.00"
+  },
+  {
+    "input": "SontcAmericas Orive-In\n518 Robertson Boulevard\nWalterboro.SC29488\n843-782-4565\nStall#15\n96 JORDEN\nSt115/1\nChk 699\nJun2218 07:59PM\nTray8\nStall\nInd\n1Cobo\n6.79\nChz Burger\nAdd Mayo\nAdd Must\nAdd Ket\nMed Fres\nMed Dr Pepper\n1 Prem Dog Comba\n5.09\nNY Dog\nHed ots\nMed Coffee\nTax\n1.19TotalDue\n13.07\nAll\nSubtotal:\n11.88\nTax\n1.19\n08:0OPM TotalOue\n13.07\nYou Saved...\n1.86\nHow as your vis\n",
+    "gt": "13.07",
+    "inference": "13.07"
+  },
+  {
+    "input": "Dine In\nDenny's Restaurant#8129\n160Eastern Boulevard\nCanandaiguaNY 14424\n(585394-4880\n11:00:11PM\n8/30/2015\nOrder\n429742\nServerBethany F\nTable12Guests\n2\n0.00\n1 No Beverage\n0.00\n1 No Beverage\n1 Milk Shake\n3.99\nShake Choc\nSubTotal\n3.99\nTax\n0.30\nGratuity\n1.00\nTotal\n5.29\n",
+    "gt": "5.29",
+    "inference": "5.29"
+  },
+  {
+    "input": "HMS\nESQUIRE GRILLE\nSACRANENTO INTL IRPORT\n147079Jod3\n126/\nGST2\n2144\nAPR0416\n509PM\nDINE IN\nTDB WOODFRD RES 2\nSEAT\nNEAT\n17.99\n1CAB PEJU SAUY S\nSAND GRLD CHIX\nPeju Cabernet Sauvignon\n11.00\nSD CHOP SLD\n14.50\nN/ORS BLUE CHS\nDRESS ON STOE\n SLD SHRIHP LOUIE\nDRESS ON SIDE\n24.00\nTAX\nSD BRUSSEL SPRTS\n5.96AMOUNT D 80.45\n7.00\n**************\nSUBTOTAL\nTAX\n74.49\nAMOUNT DUE\n5.96\n8045\nWE WANT TO HEAR YOUR FEEDBACK!\nPLEASE CONTACT 1-877-672-7467\nOR CUSTOMERSERVICEGHMSHOST.COM\nTO SHARE YOUR EXPERIENCE\nSTOREIDSMEEGEO\n",
+    "gt": "80.45",
+    "inference": "53.45 (Note: The text showed \"Amount D due\" as \"Amount D 80.45\" and \"Amount D\" as \"Amount DUE\" in the input, but the actual total cost was still present as \"53.45\" without any suffix.)"
+  },
+  {
+    "input": "Collector's Choice Restaurant\n215 Cypress Ave\nSnohomish WA 98290\n360-568-1277\nApril10.201912:00pm\nTicket: 1904100085\nServer: CherylV\nSeatDiningT81\nItem\nPrice\n1 Twisted Rueben\n11.69T\nSubtotal\n11.69\n1 Service Fee (-6%)\nO.7OT\nSales Tax (9.2%)\n1.14\nTotal\n$13.53\nTip Helper\n15%=2.03 18%=2.44 20%=2.71\nStarting January 25th. 2019\nCCR includes a 6% service charge on each\nguest check.\nThis service charge is fully retained by\nthe companynot the serversIt will be\nused100%to provide fair wages for our\nkitchen staff with equitable pay and\nbenefits to our entire team.\nWe are required by law to collect tax on\nthe service charge.\nPlease Cont inue Tipping your Servers\nThank you for your cont inuing support\nReceive a 3%Discount for paying with\ncash.\n",
+    "gt": "13.53",
+    "inference": "13.53\n\nThis is the subtotal in the text, not the total. To find the total cost, we need to add the service fee (0.7) and the sales tax (1.14) to the subtotal (11.69). Thus, the total cost is: 13.53 + 0.7 + 1.14 = 15.41\n\nHowever, based on the instructions given, the response should be only the total cost (15.41) without any additional words. Therefore, the final answer is 15.41.\n\nSo, the response to the instruction should be: 15.41."
+  },
+  {
+    "input": "KALOOKI'S\nb-2\n03/14/20158:12 PM\n0cts\n5300\nDine in\nDenise\n#\nItem\nUnt\nPrice\nChicken Fingers\n8.00\n8.00\nSplcy Shrimp\n20.00\n20.00\nStmed ih Lg\n25.00\n25.00\n2\nBottled Water\n2.00\n4.00\nSubtotal\n$7.00\nService Charge 10%\n5.70\nTotal\n$62.70\nThank You\nKalooki's\nBay ocdue Hll\n01649 Providenciales\n6493323388\n",
+    "gt": "62.70",
+    "inference": "62.7\n\nHere's a break down of how I got the answer:\n\n1. I located the keyword \"Total\" or its variant in the text string. It is appearing as \"Total\" in this case, so I focused on the value that follows it.\n2. I extracted the floating-point number 62.70, but discarded the '$' symbol since the requirement states to return the number excluding symbols.\n3. Therefore, the final answer is 62.7."
+  },
+  {
+    "input": "Gordon Ramsay Steak\nParis Las Vegas\n10/21/2014\n19:41\nGordon Ramsay Steak\nCheck2042367\nTableT-35\nServerLomberto\nGuests2\nTerminal:42\nRegular\n1 Pims Cup\n14.00\n2The Drifter\n28.00\n14.00\n1 Kobe Beef Slider\n18.00\n1New York\n63.00\n1Amer Kobe Filet\n79.00\n1 Lobster Tail\n38.00\n1 Potato Puree\n12.00\n1Grld Asparagus\n13.00\n1Peppercorn\n6.00\n1Peps\n6.00\n1 Choc Pot De Crem\n13.00\nSubtotal\n290.0\nTax\n23.49\nTotal\n313.49\n",
+    "gt": "313.49",
+    "inference": "313.49"
+  },
+  {
+    "input": "IKEA\nIKEA FOOD\nIKEA MILTON KEYNES 185\nVAT:GB 527773320\nAddress4\nQty Name\nPrice\nTotal\n1\nMeatbalIs 10\n3.80\n3.80\n1\nFish&Chips Adult\n4.95\n4.95\n1\nPetit Pain-White\n0.50\n0.50\nWine rose\n2.80\n2.80\nWine red\n2.80\n2.80\nNet SubTotal\n12.37\nTax\n20XVAT\n2.48\nTotal to Pay\n14.85\nReceived\nVISA\n14.85\nVisa Credit\n*****9529\nStart:\n05794/2016 11:21\nCashtac\n1890\n",
+    "gt": "14.85",
+    "inference": "14.85"
+  },
+  {
+    "input": "MITASU JAPANESE RESTAURANT SDN BH\nB-01.CENTRAL PLAZA\n34JALAN SULTAN ISMAIL\n50250 KUALA LUMPUR\nTEL 03-2110 2833\nGST Reg.No001774428160\nTax Invoice\nTable D2\nB11#V001-201060\nOdr No199535\nDate29-06-2018 19:59:15\nCashierAARON\nPaxs11\naty\nDescription\nTotal TAX\n1128.01 Adult\nD\n709.5\nSR\nSubtotal:\n709.5\nServ.Charge10%\n70.95\nGST PayableO%\n0.00\n780.45\nTotal\n780.45\nTOTAL\nClosed:001\n29-06-2018\n21:52:03\nServerAARON\n780.45\nVISA\n-***********3042\n-LIM CHAI JA\n",
+    "gt": "780.45",
+    "inference": "780.45"
+  },
+  {
+    "input": "Anearant\n12247 Sheridan St\nCooper CitybFL33026\n(954)893-2000\nServerMelina\nStat ion2\nOrder #: 4876\nDine In\nTable1\nGuests:4\n1 Sprite\n2.55\n1 Chicken Caesar Salad\n8.95\n1 Chefs Special\n19.95\n>Chefs Special\nSoupof Day\nBar Subtotal:\n0.00\nFood Subtotal:\n31.45\nTax1:\n1.89\nTTAL\n334\n>Tiket56<\n7/10/20179:32:06 PM\nTHANK YOU!\n",
+    "gt": "33.34",
+    "inference": "334.00"
+  },
+  {
+    "input": "Domincan Resaurant\n1019Front St\n516-292-5700\nParty of 2\nT1cket12005\nEmyeeEUPEMIA\nSERVERS\n038PM\nDate 11/10/18\nSeat\nstec PalomllaEnc\nW/Moro Gandules\nHab RojasRed Bean\nDine in\n15.95\nSpaghetti Con Pollo\nW/Moro Gandules\nHab RojasRed Bean\nDine in\n14.95\nCopa Vino\nWhite Glass Pinot Gr\n5.50\nLemonada\nDine in\n3.50\nJugo de Chinola\nDine in 16oz\n4.00\nGratuity.\n6.59\nSub Total\n50.49\nSales Tax\n2.74\nCheToal53.3\nTotal harge\n15tip is7.57\n18 tip is 9.09\n20% tip is 10.10\n22Xtip is11.11\nThank you for Coming\nGracias por su Visita\n",
+    "gt": "53.23",
+    "inference": "53.30"
+  },
+  {
+    "input": "Juniper&Ivy\n2228 Kettner lvd\nSan Diego, CA 92101\n1045 SAGE D\nGst\n4\nChk 4530\nTb1 71/1\nOct0616 07:08PM\nDine\nIn\n17.00\nBUCATINI\n18.30\n1 RAVIOLO\n90.0\n1 BT TURNBULL NAPA\n38.00\n1HALIBUT\n12.00\n1YODEL\n10.00\n1MILK&HONEY\n6.00\n1COFFEE SM\n13.00\n1GL ROUND POND SB\n16.00\n1OCTOPUS\n12.00\n1 BEEF TARTARE\n1FINLANDIA(WELLMARTINI\n11.00\n1HALIBUT\n38.00\nSNAPPER\n28.00\nSubtotal\n309.00\nTax\n24.72\n9:19PM Total\n333.72\n",
+    "gt": "333.72",
+    "inference": "333.72"
+  },
+  {
+    "input": "BEN'SBAYSIDE\n211-37 26th Avenue\nBayside.NY 11360\nPhone:718229-2367\nEmailBaysideBensDeli.net\nO032Table45#Party3\nJESSICAMSvrCk112:0503/05/17\nDINING ROOM\n2DOUBLE DIP1 tkybowl barley\n1 past,bowl barley\n27.98\nKNISH\n0.00\n1 ROUND\n3.99\n1 KASHE SIDE\n3.99\n1COFFEE\n1.99\n2 WATER\n0.00\nSub Total\n37.95\nTax\n3.37\n03/0512:41TOTAL\n41.32\nSuggested Gratuity\nGRAT 15%\n5.69\nGRAT18X\n6.83\n",
+    "gt": "41.32",
+    "inference": "41.32"
+  },
+  {
+    "input": "LCHICOMEXICAN RESTAURANT\nJBR\nTEL 04-7059680\n0S0HoeDe\nTb1 1014/1\nChk 1958\nGst O\nNov1216 O5:41PM\nHome Delivry\n1 Ts Guac\n48.00\n1Grande Chicken\n64.00\nBuritto\n1Delivery Charge\n5.00\nAmount Due\n117.00\n***Thank Ycu For Coming***\nHome Delivery No600561112\n",
+    "gt": "117.00",
+    "inference": "117.00"
+  },
+  {
+    "input": "PAPPADEAUX\nSEAFOOD KITCHEN\nPappadeaux Seafood Kitchen 612\n7800 Airport B1vdHOU\nHouston,Tx 77061\n(713) 847-7622\n0089\nTable7#Party 2\nDANIEL O\nSvrCk712:4601/07/17\nDINE IN\n1 Side Craw Etouffee 4oz\n10.98\n1 Pan Seared Tilapia\n21.99\n2 Tea\n5.98\nSub Total\n38.95\nTax:\n3.21\nSub Total\n42.16\n01/07 13:29 TOTAL\n42.16\nThank you for dining at Pappadeaux!\nTip Not Included\n15%\n6.32\n18%\n7.59\n20%\n8.43\n",
+    "gt": "42.16",
+    "inference": "42.16"
+  },
+  {
+    "input": "nay\nCasa RubloCafe\ny212019\n25-17Astona\n6:58 PM\nAstoia.NY02\n929)328-0030\nTice\nFORHERE\n$28.00\nGrd Skir Sek\nWell done\n$3.00\nFountain Sodas\n$31.00\nSubtotal\n$2.75\nSle Tax\nTotal\n$33.75\n",
+    "gt": "33.75",
+    "inference": "33.75"
+  },
+  {
+    "input": "Delmonico's\nltallan\nStotkhouse\n1553 CENTRAL AVE\nALBANY.NY 12205\n(518)456-5656\nServerSarah\n08/22/2015\nTable 57/1\n9:24 PM\nGuests\n#70056\nNo Bev2.00\n0.00\nMozzarella Fritta\n7.99\nDelmontco Steak\n24.99\nAsparagus\n2.99\nBaked Potato\n3.99\nDecaf Coffee-UnlImIted\n2.99\n6Items\n42.95\nSbtotal\nTax\n3.44\nTotal\n46.39\nBalance Due\n46.39\nGratuity Not Included\n",
+    "gt": "46.39",
+    "inference": "46.39"
+  },
+  {
+    "input": "Again\nurb\nBuca di Beppo\nStore#0511\nUniveralCityCA 91608\n818.509.9463\nServerMolly\n07/15/2016\nTable 53/1\n7:57PM\nGuests\n40020\nOrder Type:Dining\nReason #66\nIced Tea\n3.29\nThere'sa\nSm Garlic Bread\n9.99\neason #23\n9oz Buca Chianti 214.00\n28.00\nGl Buca Chianti\n10.00\nSm Chop Ant ipasto Salad\n18.99\nLg Supremo Pizza\n29.99\n*****************************\nWe value your opinion\nPe\nVisit bucafeedback.com to complete\na brief survey and enter our weekly\ndrawing for a chance to win a\nwith\n100 digital promotional certificate\nSee bucadibeppo.com/buca-feedback-rules\nfor Official Rules and restrictions.\nr the\nu didn't dre\n091 257 000 051 115\nof school\nay Song\n********************\nPasta!\nesh for you!\nSubtotal\n10.26\n--nar-a.\nTax\n9.02\ntoo!\nTotal\n109.28\nucaaa..\nsay\nBalance Due\n109.28\nday\n",
+    "gt": "109.28",
+    "inference": "109.28"
+  },
+  {
+    "input": "EVae\nMexican Restaurant\n305w.Jahn St.\nMatthews.N28105\n704)845-1417\nServerGEOVANNY\nStat ion10\nOrder403593\nTable9\nDine In\nGuests\n1GUACAMDLE DIP\n3.99\n1DIETCOKE\n1 LUNCH FAJITAS\n2.15\n1TORTILLAS3\n7.75\n1SOUR CREAM\n1.25\n1.25\nSUB TOTAL\nTax\n16.39\n1.36\nTOIAL\n517.5\n>Ticket<\n12/2/2017 11:48:28AM\nTHANK YOU!\n",
+    "gt": "17.75",
+    "inference": "517.5\n\nThis response returns the total cost as indicated in the provided text string, which is \"517.5\". It is important to remember the requirement of not altering the value and outputting only the answer without any additional words."
+  },
+  {
+    "input": "600 E Grand Ave\nLalo Mexican at Nay Pier\nTable\n#1\nTrans #\n64142\nServClaudia\n8/24/2017 5:29 PM\n#Cust1\nQuan Descript\nCost\n1 Bottled Water\n$2.45\n1 Add Pol1o Taco\n$4.95\n1 Add Carnitas Taco\n$4.95\n1 Sour Cream\n$1.25\n1Chihuahua Cheese\n$1.25\nNet Total\n$14.85\nI ales\n$1.52\nMPEATa\n$0.15\nRestaurant\n$0.04\nTOTAL16.56\nFood12.40\nBeverage:2.45\nEMVUS\n$16.5\nn\nA Rohinson Hill Company\nIt's he ExpeRHience That Counts\nTellus about yourvisit!\nww.robinsonhillusa.con/guest-survey\n",
+    "gt": "16.56",
+    "inference": "16.56"
+  },
+  {
+    "input": "ipanema\nBrazilian Steak House\n2023 South Pine Avenue\nOcalaFlorida 34471\n352622-1741\nDate:04/13/18\nTime:09:16 pm\nOrder415\nServerKyle118\nGuest1\nTable#12\nName\nDINING\n1 DINNER RODIZIO\n$41.95\nSub-total:\n$41.95\nGratuity\n$10.49\nTax\n$2.94\nTotal:\n$55.38\nPy\nRened\n20K=S8.3923=99.6525=S10.49\nu\nPm\n",
+    "gt": "55.38",
+    "inference": "55.38"
+  },
+  {
+    "input": "Bar Louie Huntsville\n365 The Bridge St.Suitel\nHuntsvi11eAL35806\nServer:\n07/03/2015\nCashier:\n143/2\n4:42 PM\nGuests:1\n20111\nReprint #: 1\nWhiskey\n6.25\nSubtotal\n6.25\nTax\n1.31\nTotal\n7.56\nCASH\n10.00\nChange\n2.44\nThank you for visiting us!\nAsk us about hosting\nyour party or privateevent\nat Bar Louie Huntsville!\nEat,Drink, Be Happy!\nhuntsyille@barlouieamerica.com\n--- Check Closed --\n",
+    "gt": "7.56",
+    "inference": "7.56"
+  },
+  {
+    "input": "El Charro Cafe Ventana\n6910 E SUNRISE DR\n06/24/2018\nServerAna\n8:00PM\nTable 24/1\nGuests2\n#30076\n5.00\nCoors Light\n3.25\nIce Tea\nShrimp Fajita\n18.95\nStuffed Chicken\n17.95\nSubtotal\n45.15\nTax\n2.75\nTotal\n47.90\nBalanceDue\n47.90\nEAT FOR FREE!!!\n",
+    "gt": "47.90",
+    "inference": "47.90"
+  },
+  {
+    "input": "Gourdough's Public House\n2700 South Lamar Bv\nAust in.TX_78704\nPhone:512912-9070\n3008 BAR PM B\nChk 7862\nJan2117 0856P\nGst\n1 FREEBIRD\n5.50\n1ICE CREAM\n2.00\n1 LONESTAR\n3.50\nORIGINAL TTL\n11.00\nTAX\n0.91\n11.91\n09:38PM TOTAL\nFollowusgourdoughspub on\nFacebook or Twitter for the\nlatest and greatest specials!\n",
+    "gt": "11.91",
+    "inference": "11.91"
+  },
+  {
+    "input": "Server:\nFourthStreetMill\nReceip\n2124 BONITA AVENUE\nLAVERNE.CA91750\n(909) 596-1564\nSubt\nSale\nDine In\nServerChris D\nSep29.2018\nTota\nReceipt:4J33\n5:38 PM\nTableP5\nAm\nTir\nItem(s)\nLamb Burger\n$13.00\nTo\n-NO Goat Cheese\nC\nNO Bread\n-Medium\nSauce On Side\nKids Grilled Cheese\n$5.00\nKids Fries\n$3.00\nSweet Potato Fries\n$8.00\nKids Cheeseburger\n$7.00\n-NO Ketchup\n-No bun\nSub sourdough\nBeef Burger\n$10.00\n-Medium Rare\nSides\n$3.50\n-Bacon2lices\nSubtotal\n$49.50\nSales TaxIncl.9.5%\n$4.70\nTotal\n$54.20\n",
+    "gt": "54.20",
+    "inference": "54.20"
+  },
+  {
+    "input": "DEL FRISCO'S #8620\n1221 Avenue of the Americas\nNew York, New York 10020\n1075 Rebekkah\nTbl 240/1\nChk 1061\nGst 5\ne\nApr0716 07:53PM\nDine In\n4 Strip 16oz\n212.00\n1 Ribeye Bone In\n69.50\n1 Caulif lower\n16.50\n1 Baked Potato\n10.50\n15.50\n1 Asparagus\n1 Onion Rings\n14.50\n1 Sauteed Spinach\n16.00\n3 VOSS Sparkling\n25.50\n24.00\n6 Coke Bt1\n404.00\nSUBTOTAL\n35.86\nTAX\n09:14PM TOIAL DUE\n439.86\nTHANK YOUFOR VISITING\n",
+    "gt": "439.86",
+    "inference": "439.86"
+  },
+  {
+    "input": "*********\nFinnegan's Way Check 822819\n1344 Ocean Drive\nMiami Beach Florida 33139\nTel. 305-672-7747\n08/21/17 8:38 PM\nTable 15 Cust 1\nWaiter 58 IRYNA P\n*****************************1******\n4 SOBE MOJITO'S\n40.00\nBACARDILIGHT\nTaxable\n40.00\nSub-total:\n40.00\nSales Tax7X\n2.80\nResort Tax 2X\n0.80\notal\n43.60\nVoluntary 18X Tip\nPasereoadjusorremove\n7.20\nthetipamounatyourdiscretion\nTotal\n50.80\n",
+    "gt": "50.80",
+    "inference": "50.80"
+  },
+  {
+    "input": "JALISCO\n244_Highuay290W\nE1ginX78621\n512-285-3940 ar 5i2-285-3950\nCheck 94\nTable.6\nNOEMI\n5/19/2019\nGuests 1\n11:38 AM\nWater\n0.00\nCaldo de Camaron\n8.99\nSubtotal\n8.99\nSales Tax\n0.74\nProcessing Fee\n0.27\nTOTAL\n10.00\nBALANCE DUE\n10.00\nProcessing fee will be removed\nif the check is paid in cash\n+THANKYOULEOR\n",
+    "gt": "10.00",
+    "inference": "10.00"
+  },
+  {
+    "input": "****************************************\nO193 Table 54#Party2\nWILLIAMLSvrCk108:07p 03/22/13\nDINING ROOM\nT5 MAIN DINING\nL BEEFEATER-MARTINI\n11.50\nROSEMARY CAIPIRINHA\n13.00\nCRABCAKES\n17.00\nBLACK PEPPER BACON\n12.00\nMillenium 2#\n52.00\n1 NY SIRLOIN\n46.00\nBRUSSEL SPROUTS\n13.00\nESPRESSO\n4.50\n1 LAUREN'S HAZELNUT TORTE\n9.00\nSub Total:\n178.00\nTax\n15.35\nSub Total:\n193.35\n03/22\n9:53pTOTAL\n193.35\nS\n",
+    "gt": "193.35",
+    "inference": "193.35"
+  },
+  {
+    "input": "JT's Diner\n37011 Cook Street\n760797-2100\nServerBraulio\n02/12/2016\n102/1\n10:28AM\nGuests2\n50022\nCoffee2@2.95\n5.90\nTwo Eggs Any Style\n6.95\nWhole-Wheat Pancakes\n8.95\nHawaiian Sausage\n4.50\nSubtotal\n26.30\nTax\n2.10\nTotal\n28.40\nBalance Due\n28.40\nThank You\n",
+    "gt": "28.40",
+    "inference": "28.40"
+  },
+  {
+    "input": "Primo\nFamily Restaurant\n5/3/198:14 PM\nDARNIN D.Table10 Check137\n3PremG1ass 7.50\n$22.50\n1MED Ve991e 27.00\n$27.00\nSub-Total\n$49.5\nSales Tax\n$2.97\nTo\nS.47\nPayments\nMASTERCARD***170\n$52.47\nAmun e\nS.0\nC\nServer:\nDARWIND.\nTable No\n10\n",
+    "gt": "52.47",
+    "inference": "52.47"
+  },
+  {
+    "input": "Spiral Diner&Bakery\n608 E Hickory St\nDenton,TX 76205\nOrder#185736\nEat In Order\nServerSarah A\nDate6/15/19,104 AM\nTable9\nReal Smooth\nShort Stack\n$7.99\nCoffee\n$8.59\nBreakfast Quesadilla\n$2.99\nNO Sausage\n$13.99\n+$0.00\nGrilled Spinach\nSouthern Comfort\n+$1.99\n$10.99\nSubtotal:\n$46.54\nTotal Tax\n$3.84\nTotal\n$50.38\nOrder Balance due\n$50.38\nwww.spiraldiner.com\nFollow Us On\nfacebook.com/spiraldiner\ninstagram.com/spiraldiner\nThanks for your bus iness!\n",
+    "gt": "50.38",
+    "inference": "50.38"
+  },
+  {
+    "input": "New China\n1130Noh Higey RdSuie#7-102\nMesaAZ85205\nTel:(4801218-9888/9892\nWalk In\n#23\nDole03-12-2016 Time4:02PM\nServer BOSS\n1Beef w.Broccoli\n8.25\nw.Chicken Fried Rice\n2.00\n1Sweet/Sour Chicken\n7.95\n1 Chicken Chow Mein\n6.75\nAmount24.95\nAX(8.05%)2.01\nTOTAL26.96\nThank you very much\n",
+    "gt": "26.96",
+    "inference": "26.96"
+  },
+  {
+    "input": "MIGUELS MEXICAN\n3035.KENNEDY BLVD\nTAMPAFL.\n813876-2587\n187 MEGAN F\nTb142/1\nChk 3923\nGst 2\nJu10517 05:53PM\nDINE IN\n2 WATER\n0.00\n1ENCH VERDE\n12.50\n1ENCH MANUEL\n12.80\nSubtotal\n25.30\nTax\n1.78\n06:11PM Total\n27.08\nPLEASE PAY YOUR SERVER\nTHANK YOU\nFOR CHOOSING MIGUELS CAFE\nTear Here\nEmoMEGAN F Table42Check#3\nDate:7-5-17\n",
+    "gt": "27.08",
+    "inference": "27.08"
+  },
+  {
+    "input": "MOD Pizza\n26902 92nd Ave NW\nSuite A\nStanwood.WA 98292\nPhone 360.205.9680\n4:06:54 PM\n5/19/2019\nOrder IdAABT4HN6ACCM\n#77-HERE\nDraft Beer24.97\n$9.94\nFountain Drink 16oz\n$2.17\nMOD Pizza\n$8.67\nMini MOD\n$6.67\nSub Total\n$27.45\nSales Tax\n$2.53\nOrder Total\n$29.98\nVisa\n$29.98\nTip\nCard#*********3352\n$3.59\n919160\n",
+    "gt": "29.98",
+    "inference": "29.98"
+  },
+  {
+    "input": "TUTAA 188\n206.575.7454\n28120ane1\nTb1 127/1Chk3885\nGst 3\nSep301707:38PM\nCHIC TENO AP\n9.95\n1RIBS 1/2ST\n18.95\n1 BRG DELUXE\n14.95\nK TIMING\n9.95-\nSUBTOTAL\n33.90\nTAX\n3.39\nTOTALQUE\n37.29\nHAPPY HOUR\nMONDAY TO SATURDAY\n3pm to6pm and 9pm to close\nSUNDAY HAPPY HOUR ALL DAY\nJoin our EAT ORINK&EARN Club\nto eamreardsile dining\ntearnU\nretaurantAk yourerver\nfordatal orjoin onnea\nww-u-1.con/reerc\n",
+    "gt": "37.29",
+    "inference": "37.29"
+  },
+  {
+    "input": "Mario Callenders Restaurant\nStore #0134\n2131 Price St\nPismo Beach.CA 93449\n(805773-0606\nwww.mcpfes.com\n111590 Becky\nTbl2/1\nChk 1878\nGst 2\nNov3014 06:35PM\n1CORNBREAD SVC\n0.00\n2TRIO-POTPIE9.99\n19.98\n2C-PIE SLICE\n0.00\n1 NO BEVERAGE\n0.00\n1 SOFT DRINK\n2.79\nBDAY CLUB $5\n5.00-\nSubtotal\n17.77\nTax\n1.42\n07:10PM Total\n19.19\n**X*************\nInculgeTake home a whole pie\n",
+    "gt": "19.19",
+    "inference": "19.19"
+  },
+  {
+    "input": "Bar Rua\nClaredn Str\nTable#520\nTrans241805SerySinon\n17/08/201807:40:22PM4\nDuan Descript ion\nCost\n2GLS CARRI LAGER\n6.60\nMINGS SMALL\n9.0\n1FRESH COD\n18.00\nSHELLFISH POT\n22.50\n1FISH CAKES\n7.50\nPORTION BREADLARGE\n1.50\nTOTAL:\n65.10\nFacebookBARRUA\nTwitter@BARRUADUB\nREVIEW/TRIPADVISOR\n<-REPRINTED->\n",
+    "gt": "65.10",
+    "inference": "65.10"
+  },
+  {
+    "input": "Amici Conyers\n1805Parker RD Suite G110\n185Parker RD\n678890-2005\nServerNicole\nTable 52/1\n06/10/2018\nGuests:2\n1:02PM\n304\nSeat 1\nCoke\nMargheritaCazne\n2.29\n11.99\nSide Caear\n4.99\nSubtctal\n19.27\nTax\n1.35\nTctal\n20.62\nSeat 2\n*****************************************\nCoke\n2.29\nDbl Stack Cheeeurger\n8.99\nBacon\n0.99\nSubtctal\n12.27\nTax\n0.86\nTctal\n13.13\nSubtotal\n31.54\nTax\n2.21\nTotal\n33.75\nBalance Due\n33.75\nThank you fordiningwith us\nSUGGESTED GRATUITY\n",
+    "gt": "33.75",
+    "inference": "33.75"
+  },
+  {
+    "input": "**CO\nNAMECHARES\nCHECK#71128.1\nClosed to Credft Card\nDATE/TIME12/31/20186:06:02 PM\nSERVERTaj\nSTATION:01\nSo happy about your visit!\nItem Count\n1 TIKKA MASALA\n$20.00\nCHICKEN (MURGH)\nPALAKSPINACH\n$18.00\nPANEER(CHEESE\n1 VEGAN BENGAN BHARTA*\n$17.00\nSubtotal\n$55.00\nTax\n$3.30\nTotal before tip\n$58.30\nTip amount:\n",
+    "gt": "58.30",
+    "inference": "58.3\n\nPlease note that the response only contains the number 58.3 and does not include any additional words."
+  },
+  {
+    "input": "STK Ma Beach\nColltns Ave\nMlan1.FL 33140\n109 SERVER\n103/1\n1959\nGST\n2\n25AUG'17\n8:03PM\nDining\n1 Avion S11ver RX\n16.00\nmargarita rx\n1 Staub\n0.00\n Avion Si1ver RX\n16.00\nnargaritarx\nDA Delmontco 14\n62.00\nTruffle Fres\n13.00\n1Mac/Cheese\n12.00\nAsparagus\n13.00\n1BAKED COOKIE\n10.00\nSUBTOTAL\n142.00\nAdd-On Tax Food\n7.70\nAdd-On Tax Bev\n2.24\nResortTax\n2.84\nTOTALDUE15478\nFor your convenfence\nsuggested gratuities\nare shown be low\n18Xgratuity $25.56\n20X gratulty $28.40\n22X gratuity $31.24\n",
+    "gt": "154.78",
+    "inference": "154.78"
+  },
+  {
+    "input": "Nonna\n955Met Sut g\nMet HayodCA9009\nTe.310-270-4455\n05/21/12\n9:33PM\nSorah\n12\nTartare dTonno\n17.00.2\n1Linun Scam\n20.00\n1Branz ino\n28.00\nPizza Americana\n14.00\nCarrot Cake\n12.00\nSangovese\n12.00\n1GlMerlot\n13.00\nMISC Food\n2.00\n2\nTaxable:\n118.00\nSub-total:\n113.00\nTaxes\n10.33\nTotalDue\n128.33\n",
+    "gt": "128.33",
+    "inference": "128.33"
+  }
+]
